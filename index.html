@@ -11,71 +11,39 @@
 </head>
 <body>
 <script type="text/javascript" src="swiper.min.js"></script>
-    <!-- <header class="fixed">
-        <ul>
-            <li id="font">
-                <a href="#">home</a>
-                <a href="#">gang</a>
-                <a href="#">music</a>
-                <a href="#">contact</a>
-            </li>
-        </ul>
-    </header> -->
+    
     <header class="fixed">
         <ul>
             <li id="font">
                 <a class="wow fadeInDown" data-wow-duration=".5s" data-wow-delay="1s" href="#home">Home</a>
-                <a class="wow fadeInDown" data-wow-duration=".5s" data-wow-delay="1.1s" href="#about">gang</a>
-                <a class="wow fadeInDown" data-wow-duration=".5s" data-wow-delay="1.2s" href="#service">music</a>
+                <a class="wow fadeInDown" data-wow-duration=".5s" data-wow-delay="1.1s" href="#gang">gang</a>
+                <a class="wow fadeInDown" data-wow-duration=".5s" data-wow-delay="1.2s" href="#music">music</a>
                 <a class="wow fadeInDown" data-wow-duration=".5s" data-wow-delay="1.3s" href="#contact">contact</a>
             </li>
         </ul>
     </header>
 
     <section>
-      <img src="img/1.jpg" alt="fotobg">
-        <div class="slider">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <div class="imgBx">
-                      <img src="img/2.jpg">
-                    </div> 
-                    <div class="details">
-                    <h3> Mercedes<br> <span> C300 </span></h3>
-                  </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="imgBx">
-                      <img src="img/3.jpg">
-                    </div> 
-                    <div class="details">
-                    <h3> Mercedes<br> <span> C300 </span></h3>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="imgBx">
-                    <img src="img/2.jpg">
-                  </div> 
-                  <div class="details">
-                  <h3> Mercedes<br> <span> C300 </span></h3>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="imgBx">
-                  <img src="img/3.jpg">
-                </div> 
-                <div class="details">
-                <h3> Mercedes<br> <span> C300 </span></h3>
-              </div>
-            </div>
-          </div>
-              </div>
-                <!-- Add Pagination -->
-                <div class="swiper-pagination"></div>
-              </div>
-        </div>
-    </section>
+      <img class="imgBg" src="img/1.jpg" alt="fotobg">
+    <div class="swiper-container">
+      <div class="swiper-wrapper slider">
+        <div class="swiper-slide"> <img src="img/3.jpg"></div>
+        <div class="swiper-slide"><img src="img/2.jpg"></div>
+        <div class="swiper-slide"><img src="img/1.jpg"></div>
+        <div class="swiper-slide"> <img src="img/3.jpg"></div>
+        <div class="swiper-slide"><img src="img/2.jpg"></div>
+        <div class="swiper-slide"><img src="img/1.jpg"></div>
+        <div class="swiper-slide"> <img src="img/3.jpg"></div>
+        <div class="swiper-slide"><img src="img/2.jpg"></div>
+        <div class="swiper-slide"><img src="img/1.jpg"></div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </section>
 
     <section></section>
     <section></section>
@@ -87,14 +55,23 @@
     <!-- Swiper JS -->
     <link type="text/javascript" src="swiper.min.js">
      <!-- Initialize Swiper -->
-    <script>
+     <script>
       var swiper = new Swiper('.swiper-container', {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false,
+        },
         pagination: {
           el: '.swiper-pagination',
-          dynamicBullets: true,
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
         },
       });
     </script>
-    
 </body>
 </html>

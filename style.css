@@ -22,29 +22,26 @@
 }
 
 html, body {
-    font-family: Legendaria;
     position: relative;
     height: 100%;
+    font-family: Legendaria;
   }
-
+  
   body {
-    background: #262626;
-    font-size: 24px;
+    background: #eee;
+    font-size: 14px;
     color:#000;
-    margin: 0;
-    padding: 0;
   }
 
   .swiper-container {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
+
   }
   .swiper-slide {
-    width: 300px;
-    height: 300px;
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    background: rgb(66, 60, 60);
 
     /* Center slide text vertically */
     display: -webkit-box;
@@ -59,8 +56,9 @@ html, body {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-    background-color: #fff;
   }
+
+
 
 header{
     width: 100%;
@@ -68,7 +66,7 @@ header{
     padding: 15px 0;
 }
 
-img{
+.imgBg {
     width: 100%;
     height: 30%;
 }
