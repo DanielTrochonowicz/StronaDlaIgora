@@ -4,11 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="fonts.css" type="text/css">
-    <link rel="stylesheet" type="text/css" href="swiper.min.css">
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="style.css">
     <title>Page Game</title>
-</head>
 <body>
 
     <header class="fixed">
@@ -21,20 +19,64 @@
             </li>
         </ul>
     </header>
-    
-    <!-- <div id="slider" class="slides">
+
+    <div id="slider" class="slides">
       <div class="slide">
         <figure>
-          <img class="hidden" src="img/slider/img9.jpg" alt="Pierwszy slide">
+          <img class="" src="img/slider/forestia.jpg" alt="Pierwszy slide">
         </figure>
         <div class="slide-description">
           <h3 class="slide-header">Nie wczytuj wszystkich zdjęć na raz!</h3>
           <p>Dzięki właściwości "load" slieder nie wczytuje wszystkich zdjęć podczas ładowania strony, co skutkuje brakiem blokowania innych zasobów i szybszym ukończeniem procesu renderowania strony.</p>
         </div>
-      </div> -->
-      
+      </div>
+      <div class="slide">
+        <figure>
+          <img class="" src="img/slider/Thumbnail.jpg" alt="Pierwszy slide">
+        </figure>
+        <div class="slide-description">
+          <h3 class="slide-header">Animacje CSS3</h3>
+          <p>Dzięki zastosowaniu animacji CSS3 nawet początkujący programista stron internetowych, może bez trudu pisać własne animacje dla pojedynczych slidów.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <figure>
+          <img class="" src="img/slider/forestia.jpg" alt="Pierwszy slide">
+        </figure>
+        <div class="slide-description">
+          <h3 class="slide-header">Zatrzymaj po najechaniu</h3>
+          <p>Dzięki opcji "pause" po najechaniu kursorem slide zatrzyma się, co pozwoli podziwiać zdjęcia bądź przeczytać tekst w nim zawarty.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <figure>
+          <img class="" src="img/slider/Thumbnail.jpg" alt="Pierwszy slide">
+        </figure>
+        <div class="slide-description">
+          <h3 class="slide-header">Wywołaj slider w dowolnym momencie</h3>
+          <p>Konstrukcja slidera umożliwia uruchomienie rotacji zdjęć w dowolnym momencie, po wykonaniu akcji czy po wczytaniu się strony.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <figure>
+          <img class="" src="img/slider/forestia.jpg" alt="Pierwszy slide">
+        </figure>
+        <div class="slide-description">
+          <h3 class="slide-header">Mam już bibliotekę jQuery, nie chcę Comp!</h3>
+          <p>Jeżeli posiadasz już zainstalowaną bibliotekę jQuery, nie musisz pobierać i instalować biblioteki Comp. Slider został dostosowany do popularnej biblioteki jQuery.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <figure>
+          <img class="" src="img/slider/Thumbnail.jpg" alt="Pierwszy slide">
+        </figure>
+        <div class="slide-description">
+          <h3 class="slide-header">Slider RWD</h3>
+          <p>Slider został dostosowany do urządzeń mobilnych.</p>
+        </div>
+      </div>
     
-      <!-- <nav role="pagination" class="dots">
+      <nav role="pagination" class="dots">
         <span class="dot"></span>
         <span class="dot"></span>
         <span class="dot"></span>
@@ -48,66 +90,27 @@
       <nav role="pagination" class="arrows">
         <button class="arrow-next">❯</button>
       </nav>
-    </div> -->
- 
+    </div>
 
-    <section>
-      <div id="slider" class="swiper-container">
-        <div class="swiper-wrapper slides">
-          <div class="swiper-slide slide">
-            <figure>
-              <img class="hidden" src="img/slider/img9.jpg" alt="Pierwszy slide">
-            </figure>
-            <div class="slide-description">
-              <h3 class="slide-header">Nie wczytuj wszystkich zdjęć na raz!</h3>
-              <p>Dzięki właściwości "load" slieder nie wczytuje wszystkich zdjęć podczas ładowania strony, co skutkuje brakiem blokowania innych zasobów i szybszym ukończeniem procesu renderowania strony.</p>
-            </div>
-          </div>
-          <div class="swiper-slide">Slide 5</div>
-          <div class="swiper-slide">Slide 6</div>
-          <div class="swiper-slide">Slide 7</div>
-          <div class="swiper-slide">Slide 8</div>
-          <div class="swiper-slide">Slide 9</div>
-          <div class="swiper-slide">Slide 10</div>
-        </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
-        <!-- Add Arrows -->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-      </div>
-      
 
-    </section>
-    <section></section>
-    <section></section>    
+    <section></section>  
+    <section></section>  
+    <section></section>     
 
     <footer>Copyright © 2020 Nazwa Gry.  All rights reserved.</footer>
 
-
     
-
-
-<script type="text/javascript" src="swiper.min.js"></script>
-
-<script>
-  var swiper = new Swiper('.swiper-container', {
-    spaceBetween: 30,
-    centeredSlides: true,
-    autoplay: {
-      delay: 2500,
-      disableOnInteraction: false,
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  });
-</script>
-
+    <script src="comp.js"></script>
+    <script src="slider.js"></script>
+    <script>
+      (function () {
+        new Slider("#slider2 .slide").options({
+            prev: "#slider2 nav button.arrow-prev",
+            next: "#slider2 nav button.arrow-next",
+            nav: "#slider2 nav.dots span",
+            animation: "zip"
+        }).init();
+      })();
+      </script>
 </body>
 </html>
