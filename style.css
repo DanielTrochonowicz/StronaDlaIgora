@@ -68,12 +68,15 @@
 .sectionFoto{
  background-image: url(img/slider/ksiadz.jpg);
  height: 880px;
- background-size: 100%;
+ background-size: 100% 100%;
  background-repeat: no-repeat;
  background-position: top center;
   
 }
-
+.sectionFoto .bg{
+  background-color:rgba(252, 141, 246, 0.5);
+  height: 880px;
+}
 .secionMovie{
   height: 500px;
   background-color: pink;
@@ -117,7 +120,7 @@ footer{
 .swiper-container {
   width: 45%;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
 }
 .swiper-slide {
   background-position: center;
@@ -125,6 +128,7 @@ footer{
   background-repeat: no-repeat;
   width: 300px;
   height: 450px;
+  margin-top: 180px;
 }
 
 .swiper-slide .imgBx{
@@ -142,13 +146,17 @@ footer{
 .swiper-slide .details h3{
   margin: 0;
   padding: 0;
-  font-size: 20px;
+  font-size: 36px;
   text-align: center;
   line-height: 20px;
+  color: rgb(0, 0, 0);
 }
 .swiper-slide .details h3 span{
-  font-size: 16px;
-  color: #1a1818;
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+}
+div.swiper-wrapper{
+  height: 50%;
 }
 .img1{
   height: 300px;
@@ -181,6 +189,7 @@ button{
   position: absolute;
   top:45%;
   cursor: pointer;
+  outline: 0;
 }
 
 .next{
