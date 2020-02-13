@@ -1,29 +1,35 @@
-*{
+*
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Legendaria;
 }
 
-.fixed{
+.fixed
+{
     position: fixed;
     top: 0;
     left: 0;
     /* background-color: rgb(162, 206, 235); */
-    z-index: 999;
+    z-index: 1;
     margin-top: 70px;
 }
 
-@font-face{
+@font-face
+{
     font-family: Legendaria;
     src: url(fonts/Legendaria.ttf);
 }
 
-#font{
+#font
+{
     font-family: Legendaria;
     font-size: 24px;
 }
-.main{
+
+.main
+{
   /* height: 660px; */
   width: 100%;
   background-image: url(img/forestia.jpg);
@@ -33,61 +39,119 @@
   height: 115vh;
 }
 
-.logo{
+.logo
+{
   font-size: 40px;
 }
 
 
-.infoGame{
+.infoGame
+{
   /* background-color: rgb(0, 0, 0); */
   background-color: rgba(162, 182, 211, 0.6);
-  font-size: 20px;
-  color: white;
-  height: 540px;
 }
-.text {
-  float: left;
-  padding: 25px 25px;
-  text-align: center;
+
+.infoGame .text 
+{
+  float: right;
+  padding: 25px 60px;
+  width: auto;
 }
-.wideo{
+
+
+
+.infoGame .text1
+{
+  float: right;
+  padding-top: 100px;
+  padding-right: 60px;
+  width: auto;
+}
+
+.wideo
+{
   width: 390px;
   height: 390px;
+  float: left;
 }
-iframe{
+
+iframe
+{
   width: 490px;
   height: 390px;
-  margin-top: 25px;
-  margin-left: 80px;
+  margin-top: 40px;
+  margin-left: 100px;
   box-shadow: 0px 0px 8px 3px rgb(114, 122, 122);
 }
-.headingName{
+
+.headingName
+{
   font-size: 40px;
   text-align: center;
   color: rgb(160, 64, 64);
 }
 
-.infoGame h3{
+.infoGame h3
+{
   text-align: center;
-  font-size: 38px;
+  font-size: 50px;
   padding-top: 25px;
+  /* margin-left: 12%; */
+  color: rgb(67, 138, 138);
 }
 
-.infoGame img{
+.infoGame img
+{
   height: 350px;
   width: 350px;
   padding-left: 5%;
   padding-top: 25px;
 }
-.textInfoGame p{
+
+
+h3
+{
+  text-transform: uppercase;
+}
+.textInfoGame1
+{
+  width: 80%;
   padding-top: 25px;
-  width: 70%;
-  margin-left: 27%;
-  padding-right: 240px;
-  text-align: center;
+  padding-bottom: 70px;
+  margin-left: 5%;
+  padding-right: 140px;
+  color: rgb(67, 138, 138);
+  font-size: 22px;
+  text-align: left;
 }
 
-.sectionFoto{
+.textInfoGame2
+{
+  width: 80%;
+  padding-top: 10px;
+  padding-bottom: 70px;
+  width: 75%;
+  margin-left: 30%;
+  padding-right: 170px;
+  text-align: center;
+  color: rgb(67, 138, 138);
+  font-size: 22px;
+}
+
+.textInfoGame3
+{
+  width: 80%;
+  padding-top: 25px;
+  padding-bottom: 70px;
+  margin-left: 5%;
+  padding-right: 140px;
+  color: rgb(67, 138, 138);
+  font-size: 22px;
+  text-align: left;
+}
+
+.sectionFoto
+{
  background-image: url(img/slider/ksiadz.jpg);
  height: 880px;
  background-size: 100% 100%;
@@ -95,36 +159,43 @@ iframe{
  background-position: top center;
   
 }
-.sectionFoto .bg{
-  background-color:rgba(252, 141, 246, 0.5);
-  height: 880px;
-}
-.sectionFoto .bg h3{
+
+/* .sectionFoto .bg
+{
+  background-color:rgba(81, 186, 218, 0.5);
+   height: 880px; 
+} */
+
+.sectionFoto .bg h3
+{
   text-align: center;
   font-size: 50px;
-  color: rgb(138, 51, 80);
+  color: black;
   padding-top: 120px;
 }
 
-.secionMovie{
+.secionMovie
+{
   height: 500px;
   background-color: pink;
 }
 
 
-body {
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+body 
+{
   font-size: 14px;
   color:#000;
 }
 
-header{
+header
+{
   width: 100%;
   text-align: center;
   padding: 15px 0;
 }
 
-header ul li a{
+header ul li a
+{
   margin: 0 10px;
   color: rgb(214, 74, 74);
   font-size: 40px;
@@ -134,11 +205,13 @@ header ul li a{
   font-family: Legendaria;
 }
 
-header ul li a:hover{
+header ul li a:hover
+{
   color: rgb(87, 13, 13);
 }
 
-footer{
+footer
+{
   color: white;
   width: 100%;
   padding: 30px 0;
@@ -146,12 +219,16 @@ footer{
   text-align: center;
 }
 
-.swiper-container {
+/* Swiper */ 
+.swiper-container 
+{
   width: 45%;
   padding-top: 50px;
   padding-bottom: 80px;
 }
-.swiper-slide {
+
+.swiper-slide 
+{
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -160,21 +237,24 @@ footer{
   margin-top: 30px;
 }
 
-.swiper-slide .imgBx{
+.swiper-slide .imgBx
+{
   width: 100%;
   height: 300px;
   overflow: hidden;
   box-shadow: 0px 0px 10px 5px rgb(240, 247, 247);
 }
 
-.swiper-slide .details{
+.swiper-slide .details
+{
   box-sizing: border-box;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   box-shadow: 0px 0px 8px 3px rgb(114, 122, 122);
 }
 
-.swiper-slide .details h3{
+.swiper-slide .details h3
+{
   margin: 0;
   padding: 0;
   font-size: 36px;
@@ -182,30 +262,45 @@ footer{
   line-height: 20px;
   color: rgb(0, 0, 0);
 }
-.swiper-slide .details h3 span{
+
+.swiper-slide .details h3 span
+{
   font-size: 24px;
-  color: rgb(0, 0, 0);
+  color: black;
+  text-transform: none;
 }
-div.swiper-wrapper{
+
+div.swiper-wrapper
+{
   height: 50%;
   
 }
-.img1{
+
+.img1
+{
   height: 300px;
   width: 300px;
 }
-.swiper-pagination{
-  bottom: 0px;
-}
+
 /* Slider */
 
-img{
-  /* width: 100%;
-  height: 480px; */
+img
+{
   width: 680px;
   height: 280px;
+  /* box-shadow: 0px 0px 8px 3px rgb(114, 122, 122);
+  padding: 0px; */
 }
-#slider{
+/* 
+img
+{
+  box-shadow: 0px 0px 8px 3px rgb(114, 122, 122);
+  padding: 0px;
+} */
+
+
+#slider
+{
   width: 700px;
   height: 300px;
   margin: 0 auto;
@@ -213,9 +308,11 @@ img{
   border: 10px solid white;
   box-shadow: 0px 0px 8px 3px rgb(225, 231, 231);
   top: 600px;
+  z-index: 2;
 }
 
-button{
+button
+{
   padding: 20px;
   border: none;
   background: rgb(176, 191, 228);
@@ -227,30 +324,41 @@ button{
   outline: 0;
 }
 
-.next{
+.next
+{
   border-radius: 10px 0px 0px 5px;
   margin-left: 632px;
 }
 
-.prew{
+.prew
+{
   border-radius: 0px 10px 10px 0px;
 }
-header div a{
+
+header div a
+{
   height: 34px;
   width: 34px;
 }
 
-.socials{
+.socials
+{
   margin-left: 60%;
 }
-.social{
+
+.social
+{
   left: 100%;
   text-decoration: none;
   color: rgb(114, 107, 117);
 }
-.social:hover{
+
+.social:hover
+{
   color: rgb(131, 61, 61);
 }
-a{
+
+a
+{
   text-decoration: none;
 }
