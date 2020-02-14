@@ -108,11 +108,11 @@ iframe
   padding-top: 25px;
 }
 
-
 h3
 {
   text-transform: uppercase;
 }
+
 .textInfoGame1
 {
   width: 80%;
@@ -179,7 +179,6 @@ h3
   height: 500px;
   background-color: pink;
 }
-
 
 body 
 {
@@ -283,7 +282,6 @@ div.swiper-wrapper
 }
 
 /* Slider */
-
 img
 {
   width: 680px;
@@ -297,7 +295,6 @@ img
   box-shadow: 0px 0px 8px 3px rgb(114, 122, 122);
   padding: 0px;
 } */
-
 
 #slider
 {
