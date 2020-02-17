@@ -9,12 +9,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/fe6dfdc968.js" crossorigin="anonymous"></script>
-    <title>Page Game</title>
+    <title>Oddventure</title>
 <body>
 
-
 <section class="main">
-    <header class="fixed">
+    <header>
       <div class="socials">
         <a class="social" href="https://www.facebook.com/OddventureGame" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
         <a class="social" href="https://twitter.com/erutnevddO?fbclid=IwAR2ZmFDzyhyQ1RfgVNzAWzjEyWiJihvr37xZ3rTV1x_7JyH1ImSPj3i1iUY" target="_blank"><i class="fab fa-twitter fa-3x"></i></a>
@@ -49,7 +48,7 @@
     </section>
   
   </section>
-</div>
+  
   <section class="infoGame">
     <h3>THE GAME </h3>
         <img class="text" src="img/Thumbnail.jpg" alt="">   
@@ -193,19 +192,13 @@
             </div>
           </div>
         </div>
-        
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
       </div>  
     </div>
-    </section> 
+    </section>
 
-    <section class="secionMovie">
-
-    </section>  
-    <section></section>     
-
-    <footer>Copyright © 2020 Nazwa Gry.  All rights reserved.</footer>
+    <footer>Copyright © 2020 Oddventure.  All rights reserved.</footer>
 
 
     <script type="text/javascript">
@@ -256,5 +249,23 @@
          },
        });
      </script>
+
+       <!-- Jquery cdn Link-->
+       <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha256-z6FznuNG1jo9PP3/jBjL6P3tvLMtSwiVAowZPOgo56U=" crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js" integrity="sha256-+u54FaX9J+k40eAcg5K2YzICSQjrEYBI9gju5nE3HfY=" crossorigin="anonymous"></script>
+       <script src="js/particles-script.js"></script>
+       <script type="text/javascript">
+       new WOW().init();
+
+       $(window).scroll(function(){
+           var sticky = $("header");
+           if($(window).scrollTop() >= 730){
+               sticky.addClass("fixed");
+           }else{
+               sticky.removeClass("fixed");
+           }
+       });
+       </script>
 </body>
 </html>

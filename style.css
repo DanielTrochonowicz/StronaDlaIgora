@@ -6,14 +6,60 @@
     font-family: Legendaria;
 }
 
-.fixed
+body 
 {
-    /* position: fixed; */
-    top: 0;
-    left: 0;
-    /* background-color: rgb(162, 206, 235); */
-    /* z-index: 1; */
-    /* margin-top: 70px; */
+  font-size: 14px;
+  color:#000;
+}
+
+header
+{
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+}
+
+header ul li a
+{
+  margin: 0 10px;
+  color: rgb(95, 105, 238);
+  font-size: 70px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Legendaria;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+header ul li a:nth-child(odd)
+{
+  color: rgb(184, 144, 16);
+}
+header ul li a:nth-child(even){
+  color: #8467e4;
+}
+
+header ul li a:nth-child(odd):hover
+{
+  color: #d87777;
+}
+header ul li a:nth-child(even):hover
+{
+  color: #d87777;
+}
+
+
+footer
+{
+  font-size: 40px;
+  width: 100%;
+  height: 10vh;
+  padding: 30px;
+  color: rgb(67, 138, 138);
+  background-color: rgba(188, 199, 216, 0.6);
+  text-align: center;
+  border-top: 1.5px solid rgb(189, 12, 12);
 }
 
 @font-face
@@ -30,28 +76,38 @@
 
 .main
 {
-  /* height: 660px; */
   width: 100%;
   background-image: url(img/forestia.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 115vh;
+  height: 105vh;
 }
 
+/*HEAD SECTION STYLE*/
+.fixed { 
+  position: fixed;
+  padding: 0;
+  width: 100%;
+  height: 300px;
+	top: 0;
+  left: 0;
+  background-color: rgba(188, 199, 216, 0.6);
+	z-index: 3;
+}
 
 .logo1
 {
   height: 150px;
   width: 150px;
-  margin-right: 350px;
+  margin-right: 450px;
 }
 
 .logo2
 {
   height: 150px;
   width: 650px;
-  margin-right:550px;
+  margin-right: 600px;
 }
 
 /* span:nth-child(odd)
@@ -73,8 +129,7 @@ span:nth-child(even):hover
 
 .infoGame
 {
-  /* background-color: rgb(0, 0, 0); */
-  background-color: rgba(162, 182, 211, 0.6);
+  background-color: rgba(188, 199, 216, 0.6);
 }
 
 .infoGame .text 
@@ -83,8 +138,6 @@ span:nth-child(even):hover
   padding: 25px 60px;
   width: auto;
 }
-
-
 
 .infoGame .text1
 {
@@ -122,7 +175,6 @@ iframe
   text-align: center;
   font-size: 50px;
   padding-top: 25px;
-  /* margin-left: 12%; */
   color: rgb(67, 138, 138);
 }
 
@@ -141,11 +193,11 @@ h3
 
 .textInfoGame1
 {
-  width: 80%;
+  width: 100%;
   padding-top: 25px;
   padding-bottom: 70px;
-  margin-left: 5%;
-  padding-right: 140px;
+  padding-left: 100px;
+  padding-right: 650px;
   color: rgb(67, 138, 138);
   font-size: 22px;
   text-align: left;
@@ -153,12 +205,12 @@ h3
 
 .textInfoGame2
 {
-  width: 80%;
+  
   padding-top: 10px;
   padding-bottom: 70px;
-  width: 75%;
-  margin-left: 30%;
-  padding-right: 170px;
+  width: 100%;
+  padding-right: 100px;
+  padding-left: 550px;
   text-align: center;
   color: rgb(67, 138, 138);
   font-size: 22px;
@@ -166,31 +218,25 @@ h3
 
 .textInfoGame3
 {
-  width: 80%;
+  width: 100%;
   padding-top: 25px;
   padding-bottom: 70px;
-  margin-left: 5%;
-  padding-right: 140px;
-  color: rgb(67, 138, 138);
+  padding-left: 100px;
+  padding-right: 400px;
+  color: rgb(67, 138,0138);
   font-size: 22px;
   text-align: left;
-}
+} 
 
 .sectionFoto
 {
- background-image: url(img/slider/ksiadz.jpg);
+ background-image: url(img/Oddventure.jpg);
  height: 880px;
  background-size: 100% 100%;
  background-repeat: no-repeat;
  background-position: top center;
   
 }
-
-/* .sectionFoto .bg
-{
-  background-color:rgba(81, 186, 218, 0.5);
-   height: 880px; 
-} */
 
 .sectionFoto .bg h3
 {
@@ -204,46 +250,6 @@ h3
 {
   height: 500px;
   background-color: pink;
-}
-
-body 
-{
-  width: 100%;
-  font-size: 14px;
-  color:#000;
-  background-color: #000;
-}
-
-header
-{
-  width: 100%;
-  text-align: center;
-  padding: 15px 0;
-}
-
-header ul li a
-{
-  margin: 0 10px;
-  color: rgb(74, 83, 214);
-  font-size: 55px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: Legendaria;
-}
-
-header ul li a:hover
-{
-  color: rgb(184, 144, 16);
-}
-
-footer
-{
-  color: white;
-  width: 100%;
-  padding: 30px 0;
-  background-color: black;
-  text-align: center;
 }
 
 /* Swiper */ 
@@ -314,15 +320,7 @@ img
 {
   width: 680px;
   height: 280px;
-  /* box-shadow: 0px 0px 8px 3px rgb(114, 122, 122);
-  padding: 0px; */
 }
-/* 
-img
-{
-  box-shadow: 0px 0px 8px 3px rgb(114, 122, 122);
-  padding: 0px;
-} */
 
 #slider
 {
@@ -333,7 +331,6 @@ img
   border: 10px solid white;
   box-shadow: 0px 0px 8px 3px rgb(225, 231, 231);
   top: 280px;
-  /* z-index: 2; */
 }
 
 button
@@ -368,13 +365,14 @@ header div a
 
 .socials
 {
-  margin-left: 60%;
-  margin-top: 50px;
+  padding-left: 75%;
+  padding-top: 20px;
   
 }
 
 .social
 {
+  padding-left: 20px;
   left: 100%;
   text-decoration: none;
   color: rgb(114, 107, 117);
