@@ -34,7 +34,7 @@ header ul li a
 
 header ul li a:nth-child(odd)
 {
-  color: rgb(184, 144, 16);
+  color: #f1d45f;
 }
 header ul li a:nth-child(even){
   color: #8467e4;
@@ -42,11 +42,11 @@ header ul li a:nth-child(even){
 
 header ul li a:nth-child(odd):hover
 {
-  color: #d87777;
+  color: rgb(131, 61, 61);
 }
 header ul li a:nth-child(even):hover
 {
-  color: #d87777;
+  color:rgb(131, 61, 61);
 }
 
 
@@ -77,7 +77,7 @@ footer
 .main
 {
   width: 100%;
-  background-image: url(img/forestia.jpg);
+  background-image: url(img/Thumbnail.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -189,6 +189,7 @@ iframe
 h3
 {
   text-transform: uppercase;
+  margin: 0;
 }
 
 .textInfoGame1
@@ -329,7 +330,7 @@ img
   margin: 0 auto;
   position: relative;
   border: 10px solid white;
-  box-shadow: 0px 0px 8px 3px rgb(225, 231, 231);
+  box-shadow: 0px 0px 8px 3px rgba(225, 231, 231, 0.6);
   top: 280px;
 }
 
@@ -386,4 +387,36 @@ header div a
 a
 {
   text-decoration: none;
+}
+
+
+.carousel
+{
+  background-color: rgba(188, 199, 216, 0.6);
+  height: 900px;
+  width: 100%;
+  perspective: 600px;
+}
+
+.carousel .carousel-item
+{
+  width: 400px;
+}
+
+
+.carousel .carousel-item img
+{
+  width: 300px;
+  height: 300px;
+}
+
+.carousel .carousel-item h2
+{
+  background: #FFF;
+  color: #000;
+  padding: 10px 5px;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+
 }
