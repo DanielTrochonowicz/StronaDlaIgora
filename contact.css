@@ -1,0 +1,72 @@
+header
+{
+    background-color: black;
+    height: 450px;
+    border-bottom: 1.5px solid rgb(189, 12, 12);
+}
+
+.mainContact
+{
+  width: 100%;
+  background-color: #363636;
+  height: 72.5vh;
+}
+header p
+{
+    color: wheat;
+    font-size: 80px;
+    height: 200px;
+}
+
+div.follows
+{
+    margin-left: 35%;
+    font-size: 80px;
+    text-align: left;
+    color: wheat;
+    padding-top: 50px;
+    height: 50vh;
+    width: 60%;
+}
+
+div.follow
+{
+    padding-left: 20px;
+    size: 30px;
+    text-decoration: none;
+    color: rgb(114, 107, 117);
+    text-align: left;
+}
+div.follow .follow1
+{
+   font-size: 20px;
+   color: rgb(114, 107, 117);
+}
+
+div.follow .follow1:hover
+{
+  color: rgb(131, 61, 61);
+}
+
+.press
+{
+    font-size: 80px;
+    text-align: left;
+    color: wheat;
+}
+
+.press p
+{
+    font-size: 50px;
+    text-align: left;
+    color: red;
+}
+
+footer
+{
+    background-color: black;
+    height: 400px;
+    color: wheat;
+    padding-top: 300px;
+    border-top: 1.5px solid rgb(189, 12, 12);
+}
