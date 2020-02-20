@@ -131,7 +131,8 @@ span:nth-child(even):hover
 
 .infoGame
 {
-  background-color: rgba(188, 199, 216, 0.6);
+  background-color: #000
+  /* background-color: rgba(188, 199, 216, 0.6); */
 }
 
 .infoGame .text 
@@ -178,7 +179,8 @@ iframe
   font-size: 50px;
   padding-top: 25px;
   margin: 0;
-  color: rgb(67, 138, 138);
+  /* color: rgb(67, 138, 138); */
+  color: white;
 }
 
 .infoGame img
@@ -202,7 +204,8 @@ h3
   padding-bottom: 70px;
   padding-left: 100px;
   padding-right: 650px;
-  color: rgb(67, 138, 138);
+  /* color: rgb(67, 138, 138); */
+  color: white;
   font-size: 22px;
   text-align: left;
 }
@@ -216,7 +219,8 @@ h3
   padding-right: 100px;
   padding-left: 550px;
   text-align: center;
-  color: rgb(67, 138, 138);
+  /* color: rgb(67, 138, 138); */
+  color: white;
   font-size: 22px;
 }
 
@@ -227,7 +231,8 @@ h3
   padding-bottom: 70px;
   padding-left: 100px;
   padding-right: 400px;
-  color: rgb(67, 138,0138);
+  /* color: rgb(67, 138,0138); */
+  color: white;
   font-size: 22px;
   text-align: left;
 } 
@@ -246,14 +251,16 @@ h3
 {
   text-align: center;
   font-size: 50px;
-  color: black;
+  /* color: black; */
+  color: white;
   padding-top: 120px;
 }
 
 .secionMovie
 {
   height: 500px;
-  background-color: pink;
+  /* background-color: pink; */
+  background-color: black;
 }
 
 /* Swiper */ 
@@ -379,7 +386,8 @@ header div a
   padding-left: 20px;
   left: 100%;
   text-decoration: none;
-  color: rgb(114, 107, 117);
+  /* color: rgb(114, 107, 117); */
+  color: white;
 }
 
 .social:hover
@@ -396,7 +404,8 @@ a
 .carousels
 {
   height: 850px;
-  background-color: rgba(188, 199, 216, 0.6);
+  /* background-color: rgba(188, 199, 216, 0.6); */
+  background-color: black;
 }
 
 div.carousel
@@ -431,7 +440,14 @@ img.imgcarusel
 .carousel .carousel-item h2
 {
   background-color: rgba(194, 204, 219, 0.6);
-  color: #000;
+  color: #000;````````````````
+
+  ]
+  ]
+  
+  
+  
+  
   padding: 10px 5px;
   font-weight: bold;
   font-size: 2em;
