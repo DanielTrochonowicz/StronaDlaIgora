@@ -87,7 +87,7 @@ header p
 {
 	width: 330px;
 	min-height: 300px;
-	background:rgba(212, 131, 131, 0.6);
+	background:rgba(41, 39, 39, 0.6);
 	overflow: auto;
 	margin: 48px;
 	-moz-border-radius: 10px;
@@ -241,7 +241,7 @@ button#next
 	top: 0;
 	right: 4px;
 	padding: 4px 8px;
-	background: rgba(224, 176, 176, 0.6);
+	background: rgba(116, 109, 109, 0.6);
 	border-radius: 5px;
 }
 
