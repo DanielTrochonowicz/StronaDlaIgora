@@ -1,7 +1,7 @@
 *{
-    margin: 0;
-    padding: 0;
-    border: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 	outline: none;
 	box-sizing: border-box;
 	font-family: Legendaria;
@@ -71,12 +71,12 @@ header ul li a:nth-child(even):hover
   color: rgb(131, 61, 61);
 }
 
-header p
+/* header p
 {
-    color: wheat;
+    color: white;
     font-size: 80px;
     height: 200px;
-}
+} */
 
 .clearfix
 {
@@ -92,8 +92,9 @@ header p
 	margin: 48px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
-	border-radius: 10px;
-	border: #666 solid 2px;
+	border-radius: 40px;
+  border: rgb(14, 13, 13)solid 3px;
+  box-shadow: 0px 0px 18px 7px rgb(14, 13, 13);
 }
 
 #audio-image
@@ -116,7 +117,10 @@ header p
 
 .cover
 {
-	width: 100%;
+  padding-top: 40px;
+  padding-left: 90px;
+  width: 230px;
+  height: 180px;
 	z-index: 1;
 }
 
@@ -124,9 +128,9 @@ input#volume
 {
 	width: 95%;
 	margin-left: 2%;
-    -webkit-appearance: none !important;
-    background: #ccc;
-    height: 1px;
+  -webkit-appearance: none !important;
+  background: #ccc;
+  height: 1px;
 	margin-bottom: 20px;
 }
 
@@ -142,7 +146,7 @@ input#volume::-webkit-slider-thumb
 {
 	width: 90%;
 	display: block;
-    margin: 15px auto;
+  margin: 15px auto;
 	margin-left: 23px;
 	overflow: auto;
 }
@@ -296,7 +300,7 @@ footer
   width: 100%;
   height: 90px;
   padding-top: 25px;
-  color: wheat;
+  color: white;
   background-color: black;
   text-align: center;
   border-top: 1.5px solid rgb(189, 12, 12);
