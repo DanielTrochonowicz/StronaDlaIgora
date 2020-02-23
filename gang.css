@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    background-color: black;
+    height: 450px;
+    border-bottom: 1.5px solid rgb(189, 12, 12);
+}
+
+section .mainContact
+{
+  width: 100%;
+  background-color: #363636;
+  height: 72.5vh;
+  padding: 5px;
+}
+
+/* .gangContainer{
+    width: 900px;
+    height: 600px;
+} */
+
+.container
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    height: 474px;
+    width: 90%;
+    margin-left: 750px;
+    margin-right: 0;
+}
+.containerGang{
+    width: 100%;
+
+}
+
+div .gangContainer:after 
+{
+    content:'';
+    display:block;
+    clear:both;
+  }
+
+
+section .gangContainer img
+{
+    padding: 3px 3px 0px 3px;
+    width: 120px;
+    height: 120px;
+}
+
+.gangContainer .gang
+{
+    float: left;
+}
+.infoGang
+{
+ background-color: rgb(75, 54, 54);
+ height: 700px;
+}
+
+footer
+{
+    background-color: black;
+    height: 100px;
+    color: white;
+    padding-top: 30px;
+    border-top: 1.5px solid rgb(189, 12, 12);
+}
