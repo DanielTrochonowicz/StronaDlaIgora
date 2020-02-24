@@ -1,7 +1,7 @@
 header
 {
     background-color: black;
-    height: 450px;
+    height: 350px;
     border-bottom: 1.5px solid rgb(189, 12, 12);
 }
 
@@ -9,7 +9,7 @@ header
 {
   width: 100%;
   background-color: #363636;
-  height: 72.5vh;
+  height: 90.8vh;
 }
 header p
 {
@@ -21,10 +21,10 @@ header p
 div.follows
 {
     margin-left: 35%;
-    font-size: 80px;
+    font-size: 70px;
     text-align: left;
     color: white;
-    padding-top: 50px;
+    padding-top: 10px;
     height: 50vh;
     width: 60%;
 }
@@ -62,11 +62,23 @@ div.follow .follow1:hover
     color: red;
 }
 
-footer
+/* footer
 {
     background-color: black;
     height: 400px;
     color: white;
     padding-top: 300px;
     border-top: 1.5px solid rgb(189, 12, 12);
+} */
+
+footer
+{
+  font-size: 40px;
+  width: 100%;
+  height: 90px;
+  padding-top: 25px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  border-top: 1.5px solid rgb(189, 12, 12);
 }
