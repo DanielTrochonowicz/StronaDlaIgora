@@ -112,7 +112,7 @@ a.nontext /* used to override default properties of 'a' tag */
 	font-style: normal;
 	font-weight: normal;
 }
-section header
+header
 {
     background-color: black;
     height: 450px;
