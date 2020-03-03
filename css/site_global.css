@@ -83,25 +83,25 @@ body
 
 a:link
 {
-	color: #FF0000;
+	color: rgb(114, 107, 117);
 	text-decoration: none;
 }
 
 a:visited
 {
-	color: #FF0000;
+	color: rgb(114, 107, 117);
 	text-decoration: none;
 }
 
 a:hover
 {
-	color: #FFFFFF;
+	color: rgb(131, 61, 61);
 	text-decoration: none;
 }
 
 a:active
 {
-	color: #FF0000;
+	color: rgb(114, 107, 117);
 	text-decoration: none;
 }
 
@@ -111,6 +111,13 @@ a.nontext /* used to override default properties of 'a' tag */
 	text-decoration: none;
 	font-style: normal;
 	font-weight: normal;
+}
+section header
+{
+    background-color: black;
+    height: 450px;
+    width: 100%;
+    border-bottom: 1.5px solid rgb(189, 12, 12);
 }
 
 .footer-link a:link

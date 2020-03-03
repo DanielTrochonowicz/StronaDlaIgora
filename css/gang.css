@@ -13,10 +13,102 @@
 	background-color: #000000;
 }
 
+.fixed 
+{ 
+	position: fixed;
+	padding: 0;
+	width: 100%;
+	height: 323px;
+	top: 0;
+	left: 0;
+	background-color: rgba(32, 34, 36, 0.4);
+	z-index: 3;
+}
+  
+.logo1
+{
+	height: 150px;
+	width: 150px;
+	margin-right: 450px;
+}
+  
+.logo2
+{
+	height: 150px;
+	width: 650px;
+	margin-right: 600px;
+}
+
+#font
+{
+	padding-top: 50px;
+}
+.socials
+{
+  padding-left: 81%;
+  padding-top: 30px;
+}
+
+.social
+{
+  padding-left: 20px;
+  left: 100%;
+  text-decoration: none;
+  /* color: rgb(114, 107, 117); */
+  color: rgb(114, 107, 117);
+}
+
+.social:hover
+{
+  color: rgb(131, 61, 61);
+}
+
+a
+{
+  text-decoration: none;
+}
+
+header
+{
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+}
+
+header ul li a
+{
+  margin: 0 10px;
+  color: rgb(95, 105, 238);
+  font-size: 70px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Legendaria;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+header ul li a:nth-child(odd)
+{
+  color: #f1d45f;
+}
+header ul li a:nth-child(even){
+  color: #8467e4;
+}
+
+header ul li a:nth-child(odd):hover
+{
+  color: rgb(131, 61, 61);
+}
+header ul li a:nth-child(even):hover
+{
+  color:rgb(131, 61, 61);
+}
+
 #page
 {
 	z-index: 1;
-	width: 960px;
+	width: 100%;
 	min-height: 576.5499999999997px;
 	background-image: none;
 	border-style: none;
