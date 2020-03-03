@@ -1,3 +1,6 @@
+/*
+
+*/
 
 .version.gang /* version checker */
 {
@@ -8,107 +11,26 @@
 .html
 {
 	background-color: #000000;
-	height: 100%;
 }
 
 #page
 {
 	z-index: 1;
 	width: 960px;
-	height: 100%;
-	/* min-height: 576.5499999999997px; */
+	min-height: 576.5499999999997px;
 	background-image: none;
 	border-style: none;
-	/* border-color: #000000; */
+	border-color: #000000;
 	background-color: transparent;
 	padding-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-@font-face
-{
-    font-family: Legendaria;
-    src: url(fonts/Legendaria.ttf);
-}
-
-#font
-{
-    font-family: Legendaria;
-	font-size: 24px;
-	padding-top: 40px;
-}
-
-.mainContact
-{
-  width: 100%;
-  background-color: black;
-  height: 350px;
-  border-bottom: 1.5px solid rgb(189, 12, 12);
-}
-
-header ul li a
-{
-  margin: 0 10px;
-  color: rgb(95, 105, 238);
-  font-size: 70px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: Legendaria;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.logo1
-{
-  height: 150px;
-  width: 150px;
-  margin-right: 450px;
-}
-
-.logo2
-{
-  height: 150px;
-  width: 650px;
-  margin-right: 600px;
-}
-
-
-
-.socials
-{
-  padding-left: 75%;
-  padding-top: 20px;
-}
-
-.social
-{
-  padding-left: 20px;
-  left: 100%;
-  text-decoration: none;
-  /* color: rgb(114, 107, 117); */
-  color: rgb(114, 107, 117);
-}
-
-.social:hover
-{
-  color: rgb(131, 61, 61);
-}
-
-footer
-{
-    background-color: black;
-    height: 400px;
-    color: white;
-    padding-top: 300px;
-    border-top: 1.5px solid rgb(189, 12, 12);
-}
-
 #page_position_content
 {
 	margin-bottom: -8px;
-	/* padding-top: 20px; */
+	padding-top: 20px;
 }
 
 #pu209
@@ -609,7 +531,7 @@ footer
 {
 	width: 0.01px;
 	margin-left: -100px;
-	/* margin-top: 12px; */
+	margin-top: 12px;
 }
 
 #u5427
@@ -622,7 +544,7 @@ footer
 	left: 130px;
 }
 
-div#u3641
+#u3641
 {
 	z-index: 9;
 	height: 847px;
@@ -637,17 +559,17 @@ div#u3641
 	height: 847px;
 }
 
-/* #u3648
+#u3648
 {
 	z-index: 10;
 	height: 847px;
 	border-style: none;
 	border-color: transparent;
-	background-color: rgb(110, 92, 92);
+	background-color: #FF0000;
 	opacity: 0.55;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=55.00000000000001)";
 	filter: alpha(opacity=55.00000000000001);
-} */
+}
 
 #u3648-bw
 {
@@ -658,7 +580,7 @@ div#u3641
 #u3899
 {
 	z-index: 11;
-	/* height: 565px; */
+	height: 565px;
 	border-style: none;
 	border-color: transparent;
 	background-color: #000000;
@@ -679,8 +601,6 @@ div#u3641
 	z-index: 18;
 	width: 0.01px;
 	height: 229px;
-	padding-top: 100px;
-	padding-left: 500px;
 	padding-bottom: 639px;
 	position: relative;
 	margin-right: -10000px;
