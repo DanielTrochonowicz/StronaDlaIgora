@@ -82,6 +82,7 @@ section .gangContainer img
 footer
 {
     background-color: black;
+    font-family: Legendaria;
     font-size: 40px;
     height: 100px;
     color: white;

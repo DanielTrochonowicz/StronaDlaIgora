@@ -8,7 +8,7 @@ header
 .mainContact
 {
   width: 100%;
-  background-color: #363636;
+  background-color: rgb(121, 121, 192);
   height: 66.8vh;
 }
 header p
@@ -40,12 +40,12 @@ div.follow
 div.follow .follow1
 {
    font-size: 20px;
-   color: rgb(114, 107, 117);
+   color: black;
 }
 
 div.follow .follow1:hover
 {
-  color: rgb(131, 61, 61);
+  color: red;
 }
 
 .press
@@ -57,9 +57,10 @@ div.follow .follow1:hover
 
 .press p
 {
-    font-size: 50px;
+    font-size: 60px;
     text-align: left;
-    color: red;
+    font-weight: 800;
+    color: black;
 }
 
 /* footer

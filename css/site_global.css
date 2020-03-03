@@ -120,6 +120,8 @@ header
     border-bottom: 1.5px solid rgb(189, 12, 12);
 }
 
+
+
 .footer-link a:link
 {
 	color: #FF0000;
@@ -143,6 +145,8 @@ header
 	color: #FF0000;
 	text-decoration: none;
 }
+
+
 
 .normal_text
 {
@@ -315,6 +319,7 @@ header
 .clip_frame /* used to clip the contents as in the case of an image frame */
 {
 	overflow: hidden;
+	padding-top: 0px;
 }
 
 .inclusion_context /* context for positioning a group of elements that share the same height */
@@ -475,6 +480,10 @@ textarea
 .MenuBar .SubMenuVisible,.MenuBarVertical .SubMenuVisible,.MenuBar .SubMenu .SubMenuVisible,.popup_element.Active,span.actAsPara,.actAsDiv,a.nonblock.nontext,img.block
 {
 	display: block;
+	height: 350px;
+	width: 350px;
+	/* background-size: contain; */
+
 }
 
 .ose_ei
