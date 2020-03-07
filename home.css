@@ -49,7 +49,6 @@ header ul li a:nth-child(even):hover
   color:rgb(131, 61, 61);
 }
 
-
 footer
 {
   font-size: 40px;
@@ -131,8 +130,7 @@ span:nth-child(even):hover
 
 .infoGame
 {
-  background-color: #000
-  /* background-color: rgba(188, 199, 216, 0.6); */
+  background-color: #000;
 }
 
 .infoGame .text 
