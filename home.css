@@ -210,7 +210,6 @@ h3
 
 .textInfoGame2
 {
-  
   padding-top: 10px;
   padding-bottom: 70px;
   width: 100%;
@@ -447,7 +446,8 @@ img.imgcarusel
   width: 300px;
 }
 
-.carousel .carousel-item p{
+.carousel .carousel-item p
+{
   font-size: 2em;
   line-height: normal;
   color: white;
