@@ -241,7 +241,6 @@ h3
  background-size: 100% 100%;
  background-repeat: no-repeat;
  background-position: top center;
-  
 }
 
 .sectionFoto .bg h3
@@ -314,7 +313,6 @@ h3
 div.swiper-wrapper
 {
   height: 50%;
-  
 }
 
 .img1
@@ -415,8 +413,6 @@ div.carousel
   width: 400px;
   padding-bottom: 600px;
 }
-
-
 
 img.imgcarusel
 {
