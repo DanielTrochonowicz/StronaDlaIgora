@@ -36,6 +36,7 @@ header ul li a:nth-child(odd)
 {
   color: #f1d45f;
 }
+
 header ul li a:nth-child(even){
   color: #8467e4;
 }
@@ -43,7 +44,9 @@ header ul li a:nth-child(even){
 header ul li a:nth-child(odd):hover
 {
   color: rgb(131, 61, 61);
+  color: black;
 }
+
 header ul li a:nth-child(even):hover
 {
   color:rgb(131, 61, 61);
