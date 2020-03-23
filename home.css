@@ -457,3 +457,37 @@ img.imgcarusel
   text-align: center;
   background-color: rgba(194, 204, 219, 0.6);
 }
+
+@media (orientation: portrait) {
+
+  @media (min-width: 320px) {
+    .socials {
+      padding-top: 5px;
+      padding-bottom: 20px;
+      padding-left: 0px;
+      font-size: 7px;
+    }
+    .logo1 
+    {
+      height: 50px;
+      width: 50px;
+      margin-right: 10px;
+    }
+   .logo2 
+    {
+     height: 50px;
+     width: 150px;
+     margin-right: 10px;
+    }
+    header ul li a 
+    {
+      font-size: 28px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .main 
+    {
+      height: 100vh;
+    }
+  }
+}
