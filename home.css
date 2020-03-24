@@ -489,5 +489,10 @@ img.imgcarusel
     {
       height: 100vh;
     }
+    .infoGame h3 
+    {
+      font-size: 30px;
+    }
+    
   }
 }
