@@ -37,7 +37,8 @@ header ul li a:nth-child(odd)
   color: #f1d45f;
 }
 
-header ul li a:nth-child(even){
+header ul li a:nth-child(even)
+{
   color: #8467e4;
 }
 
@@ -423,7 +424,8 @@ img.imgcarusel
   height: 300px;
 }
 
-.carousels h3{
+.carousels h3
+{
   text-align: center;
   font-size: 70px;
   color: black;
@@ -493,6 +495,5 @@ img.imgcarusel
     {
       font-size: 30px;
     }
-    
   }
 }
