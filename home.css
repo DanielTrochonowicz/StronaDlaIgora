@@ -495,5 +495,15 @@ img.imgcarusel
     {
       font-size: 30px;
     }
+    .textInfoGame1
+    {
+      padding-left: 5px;
+      padding-right: 5px;
+      text-align: center;
+    }
+    .infoGame img 
+    {
+      height: 150px;
+    }
   }
 }
