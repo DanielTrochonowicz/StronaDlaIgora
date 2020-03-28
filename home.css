@@ -460,21 +460,24 @@ img.imgcarusel
   background-color: rgba(194, 204, 219, 0.6);
 }
 
-@media (orientation: portrait) {
-
-  @media (min-width: 320px) {
-    
+@media (min-width: 320px) 
+  {
     .fixed
     {
-      height: 140px;
+      height: 115px;
     }
 
     .socials 
     {
-      padding-top: 5px;
-      padding-bottom: 20px;
-      padding-left: 0px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      padding-left: 56%;
       font-size: 7px;
+    }
+
+    .social
+    {
+      padding-left: 0px;
     }
 
     .logo1 
@@ -535,6 +538,360 @@ img.imgcarusel
     .infoGame img 
     {
       height: 150px;
+    }
+
+    .infoGame .text 
+    {
+      padding: 25px 70px;
+    }
+
+    .infoGame .text1 
+    {
+      padding-right: 20px;
+      width: auto;
+      padding-top: 0px;
+    }
+    
+    .wideo 
+    {
+      width: 190px;
+      height: 190px;
+      float: none;
+      display: block;
+      margin: 0 auto;
+      border: 0px;
+    }
+
+    iframe 
+    {
+      margin-left: 65px;
+    }
+
+    img.imgcarusel 
+    {
+      width: 150px;
+      height: 150px;
+      margin-left: 25px;
+    }
+  
+    .carousel .carousel-item 
+    {
+      padding-top: -150px;
+      padding-bottom: 0px;
+    }
+
+    .carousel .carousel-item p 
+    {
+      width: 150px;
+      height: 150px;
+      font-size: 16px;
+      margin-left: 25px;
+    }
+
+    .carousel .carousel-item h2 
+    {
+      font-size: 25px;
+      width: 150px;
+      margin-bottom: 7px;
+      margin-left: 25px;
+    }
+
+    .carousels h3 
+    {
+      font-size: 30px;
+      color: white;
+    }
+    
+    div.carousel 
+    {
+      height: 600px;
+      margin-top: -170px;
+    }
+
+    .carousels
+    {
+      height: auto;
+      padding-top: 20px;
+    }
+
+    footer
+    {
+      font-size: 13px;
+      padding-top: 5px;
+    }
+  }
+
+  @media (min-width: 360px)
+  {  
+    .socials 
+    {
+      padding-left: 215px;
+    }
+
+    .infoGame .text 
+    {
+      padding: 20px;
+    }
+
+    iframe 
+    {
+    margin-left: 90px;
+    }
+  }
+
+  @media (min-width: 375px)
+  {
+    .socials 
+    {
+      padding-left: 225px;
+    }
+
+    iframe 
+    {
+    margin-left: 95px;
+    }
+  }
+
+  @media (min-width: 410px)
+  {
+    .socials 
+    {
+      padding-left: 74%;
+      font-size: 8px;
+    }
+
+    iframe 
+    {
+     margin-left: 38%;
+    }
+  }
+
+  @media (min-width: 760px)
+  {
+    .socials
+    {
+      font-size: 10px;
+      padding-left: 70%;
+    } 
+
+    .logo1 
+    {
+      height: 100px;
+      width: 100px;
+      margin-right: 5px;
+      margin-left: 30px;
+    }
+
+    .logo2 
+    {
+      height: 100px;
+      width: 270px;
+    }
+
+    header ul li a 
+    {
+      font-size: 48px;
+    }
+    
+    .fixed 
+    {
+      height: 210px;
+    }
+  
+    .infoGame h3 
+    {
+      font-size: 45px;
+    }
+
+    .textInfoGame1 
+    {
+      font-size: 20px;
+    }
+
+    .wideo 
+    {
+      width: auto;
+    }
+
+    iframe 
+    {
+      margin-left: 235px;
+    }
+
+
+    .textInfoGame2 
+    {
+      font-size: 20px;
+    }
+
+    .textInfoGame3 
+    {
+      font-size: 20px;
+    }
+
+    .infoGame .text 
+    {
+      height: 200px;
+    }
+
+    footer 
+    {
+      font-size: 20px; 
+    }
+  }
+
+  @media (min-width: 1024px)
+  {
+
+    .socials 
+    {
+      font-size: 12px;
+      padding-left: 732px;
+    }
+    
+    .logo1 
+    {
+      height: 150px;
+      width: 140px;
+    }
+
+    .logo2 
+    {
+      height: 150px;
+      width: 450px;
+    }
+
+    .fixed
+    {
+      height: 255px;
+    }
+
+    iframe 
+    {
+      margin-left: 290px;
+    }
+
+    .infoGame img 
+    {
+      height: 300px;
+    }
+
+    .wideo 
+    {
+      width: 450px;
+      height: 300px;
+    }
+
+    div.carousel 
+    {
+      height: 750px;
+   }
+
+    img.imgcarusel 
+    {
+      width: 250px;
+      height: 250px;
+    }
+
+    .carousel .carousel-item h2 
+    {
+      width: 250px;
+    }
+
+    .carousel .carousel-item p 
+    {
+      width: 250px;
+      height: 150px;
+    }
+
+  }
+
+@media (orientation: portrait) 
+{
+
+  @media (min-width: 320px) 
+  {
+    .fixed
+    {
+      height: 115px;
+    }
+
+    .socials 
+    {
+      padding-top: 0px;
+      padding-bottom: 0px;
+      padding-left: 165px;
+      font-size: 7px;
+    }
+
+    .social
+    {
+      padding-left: 0px;
+    }
+
+    .logo1 
+    {
+      height: 50px;
+      width: 50px;
+      margin-right: 10px;
+    }
+
+   .logo2 
+    {
+     height: 50px;
+     width: 150px;
+     margin-right: 10px;
+    }
+
+    header ul li a 
+    {
+      font-size: 28px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+    .main 
+    {
+      height: 100vh;
+    }
+
+    .infoGame h3 
+    {
+      font-size: 30px;
+    }
+    .textInfoGame1
+    {
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-bottom: 20px;
+      text-align: center;
+      font-size: 16px;
+    }
+
+    .textInfoGame2 
+    {
+      padding-right: 5px;
+      padding-left: 5px;
+      font-size: 16px;
+    }
+
+    .textInfoGame3
+    {
+      padding-right: 5px;
+      padding-left: 5px;
+      padding-bottom: 25px;
+      font-size: 16px;
+      text-align: center;
+    }
+    
+    .infoGame img 
+    {
+      height: 150px;
+    }
+
+    .infoGame .text 
+    {
+      padding: 25px 70px;
     }
 
     .infoGame .text1 
@@ -608,5 +965,190 @@ img.imgcarusel
       font-size: 13px;
       padding-top: 5px;
     }
+  }
+
+  @media (min-width: 360px)
+  {  
+    .socials 
+    {
+      padding-left: 215px;
+    }
+
+    .infoGame .text 
+    {
+      padding: 20px;
+    }
+
+    iframe 
+    {
+    margin-left: 90px;
+    }
+  }
+
+  @media (min-width: 375px)
+  {
+    .socials 
+    {
+      padding-left: 225px;
+    }
+
+    iframe 
+    {
+    margin-left: 95px;
+    }
+  }
+
+  @media (min-width: 410px)
+  {
+    .socials 
+    {
+      padding-left: 260px;
+    }
+
+    iframe 
+    {
+      margin-left: 28%;
+     /* margin-left: 115px; */
+    }
+  }
+
+  @media (min-width: 768px)
+  {
+    .socials 
+    {
+      font-size: 10px;
+      padding-left: 72%;
+    }
+
+    .logo1 
+    {
+      height: 100px;
+      width: 100px;
+      margin-right: 5px;
+      margin-left: 30px;
+    }
+
+    .logo2 
+    {
+      height: 100px;
+      width: 270px;
+    }
+
+    header ul li a 
+    {
+      font-size: 48px;
+    }
+    
+    .fixed 
+    {
+      height: 210px;
+    }
+  
+    .infoGame h3 
+    {
+      font-size: 45px;
+    }
+
+    .textInfoGame1 
+    {
+      font-size: 20px;
+    }
+
+    .wideo 
+    {
+      width: auto;
+    }
+
+    iframe 
+    {
+      margin-left: 235px;
+    }
+
+
+    .textInfoGame2 
+    {
+      font-size: 20px;
+    }
+
+    .textInfoGame3 
+    {
+      font-size: 20px;
+    }
+
+    .infoGame .text 
+    {
+      height: 200px;
+    }
+
+    footer 
+    {
+      font-size: 20px; 
+    }
+  }
+
+  @media (min-width: 1024px)
+  {
+
+    .socials 
+    {
+      font-size: 12px;
+      padding-left: 732px;
+    }
+    
+    .logo1 
+    {
+      height: 150px;
+      width: 140px;
+    }
+
+    .logo2 
+    {
+      height: 150px;
+      width: 450px;
+    }
+
+    .fixed
+    {
+      height: 255px;
+    }
+
+    iframe 
+    {
+      margin-left: 290px;
+    }
+
+    .infoGame img 
+    {
+      height: 300px;
+    }
+
+    .wideo 
+    {
+      width: 450px;
+      height: 300px;
+    }
+
+    div.carousel 
+    {
+      height: 750px;
+   }
+
+    img.imgcarusel 
+    {
+      width: 250px;
+      height: 250px;
+    }
+
+    .carousel .carousel-item h2 
+    {
+      width: 250px;
+    }
+
+    .carousel .carousel-item p 
+    {
+      width: 250px;
+      height: 150px;
+    }
+
   }
 }
