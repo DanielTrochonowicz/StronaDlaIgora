@@ -83,3 +83,364 @@ footer
   text-align: center;
   border-top: 1.5px solid rgb(189, 12, 12);
 }
+
+@media (orientation: portrait) 
+{
+    @media (min-width: 320px) 
+    {
+        header 
+        {
+            height: 160px;
+        }
+
+        .mainContact 
+        {
+            height: auto;
+        }
+
+        div.follows 
+        {
+            font-size: 24px;
+            margin-left: 20%;
+            padding-top: 35px;
+        }
+
+        div.follow .follow1 
+        {
+            font-size: 8px;
+            margin-right: 10px;
+        }
+
+        .press {
+            font-size: 24px;
+        }
+
+        .press p 
+        {
+            font-size: 20px;
+        }
+
+        footer {
+            font-size: 12px;
+            height: 124px;
+            padding-top: 105px;
+        }
+    }
+
+    @media (min-width: 360px)
+    {
+        footer {
+            font-size: 14px;
+            height: 160px;
+            padding-top: 140px;
+        }
+    }
+
+    @media (min-width: 375px)
+    {
+        footer 
+        {
+            font-size: 14px;
+            height: 246px;
+            padding-top: 225px;
+        }
+    }
+  
+    @media (min-width: 410px)
+    {
+        div.follow .follow1 
+        {
+            font-size: 10px;
+            margin-right: 19px;
+        }
+
+        .press p 
+        {
+            font-size: 22px;
+        }
+
+        footer 
+        {
+            font-size: 14px;
+            height: 250px;
+            padding-top: 225px;
+        }
+    }
+  
+    @media (min-width: 768px)
+    {
+        header 
+        {
+            height: 245px;
+        }
+        .socials 
+        {
+            font-size: 9px;
+        }
+
+        .logo1 
+        {
+            height: 70px;
+            width: 70px;
+        }
+
+        .logo2 
+        {
+            height: 70px;
+            width: 230px;
+        }
+
+        header ul li a 
+        {
+            font-size: 48px;
+        }
+
+        div.follows 
+        {
+            font-size: 35px;
+            margin-left: 20%;
+            padding-top: 64px;
+        }
+
+        div.follow .follow1 
+        {
+            font-size: 16px;
+            margin-right: 34px;
+        }
+
+        .press 
+        {
+            font-size: 35px;
+        }
+
+        .press p 
+        {
+            font-size: 35px;
+        }
+
+        footer 
+        {
+            font-size: 20px;
+            height: 265px;
+            padding-top: 235px;
+        }
+    }
+
+    @media (min-width: 1024px)
+    {
+        div.follows 
+        {
+            padding-top: 100px;
+        }
+
+        header 
+        {
+            height: 300px;
+        }
+
+        header ul li a 
+        {
+          font-size: 50px;
+        }
+
+        footer 
+        {
+            font-size: 28px;
+            height: 383px;
+            padding-top: 343px;
+        }
+    }
+}
+
+
+
+@media (orientation: landscape)
+{
+    @media(min-width: 320px)
+    {
+        header 
+        {
+            height: 145px;
+        }
+
+        .mainContact 
+        {
+            height: 355px;
+        }
+
+        div.follows 
+        {
+            font-size: 24px;
+        }
+
+        div.follow .follow1 
+        {
+            font-size: 9px;
+        }
+
+        .press 
+        {
+            font-size: 24px;
+        }
+
+        .press p 
+        {
+            font-size: 25px;
+        }
+
+
+        footer
+        {
+            font-size: 14px;
+            padding-top: 30px;
+            height: 50px;   
+        }
+    }
+
+    @media (min-width: 731px)
+    {
+        footer
+        {
+            height: 56px;   
+        }
+    }
+
+    @media (min-width: 823px)
+    {
+        .logo1 
+        {
+            height: 50px;
+            width: 50px;
+        }
+
+        .logo2 
+        {
+            height: 50px;
+            width: 170px;
+        }
+
+        header ul li a 
+        {
+            font-size: 28px;
+        }
+
+        header 
+        {
+            height: 145px;
+        }
+
+        div.follow .follow1 
+        {
+            padding-right: 14px;
+        }
+
+        .socials 
+        {
+            font-size: 7px;
+        }
+    }
+
+    @media (min-width: 1024px)
+    {
+        .mainContact 
+        {
+            height: 77vh;
+        }
+
+        header 
+        {
+            height: 270px;
+        }
+
+        header ul li a 
+        {
+          font-size: 35px;
+        }
+
+        div.follows 
+        {
+            font-size: 35px;
+            padding-top: 20px;
+        }
+
+        div.follow .follow1 
+        {
+            font-size: 10px;
+        }
+
+        .press 
+        {
+            font-size: 35px;
+        }
+
+        .press p 
+        {
+            font-size: 30px;
+        }
+
+        .socials 
+        {
+            font-size: 9px;
+        }
+
+        footer 
+        {
+            font-size: 20px;
+            height: 176px;
+            padding-top: 139px;
+        }
+    }
+  
+    @media (min-width: 1366px)
+    {
+        header 
+        {
+            height: 280px;
+        }
+
+        div.follows 
+        {
+            font-size: 40px;
+        }
+
+        div.follow .follow1 
+        {
+            font-size: 15px;
+        }
+
+        .press 
+        {
+            font-size: 40px;
+        }
+
+        .press p 
+        {
+            font-size: 40px;
+        }
+        .logo1 
+        {
+            height: 100px;
+            width: 100px;
+        }
+
+        .logo2 
+        {
+            height: 100px;
+            width: 270px;
+        }
+
+        header ul li a 
+        {
+            font-size: 40px;
+        }
+        .socials
+        {
+            font-size: 11px;
+        }
+
+        footer {
+            padding-top: 285px;
+            height: 340px
+        }
+    }
+}

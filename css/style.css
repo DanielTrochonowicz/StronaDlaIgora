@@ -305,3 +305,394 @@ footer
   text-align: center;
   border-top: 1.5px solid rgb(189, 12, 12);
 }
+
+@media (min-width: 960px)
+{
+  .logo1 
+  {
+    height: 100px;
+    width: 100px;
+    margin-right: 0px;
+  }
+  
+  .logo2 
+  {
+    height: 100px;
+    width: 250px;
+    margin-right: 0px;
+  }
+
+  .socials 
+  {
+    font-size: 9px;
+    padding-left: 0px;
+    padding-right: 5px;
+    padding-top: 5px;
+    text-align: end;
+  }
+  .social
+  {
+    padding-left: 5px;
+  }
+
+  header ul li a 
+  {
+    font-size: 45px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #font {
+    padding-top: 0px;
+}
+
+  header 
+  {
+    height: 195px;
+  }
+
+  #container 
+  {
+    margin: 20px 20px;
+  }
+}
+
+
+
+@media (min-width: 1024px)
+{
+  header 
+  {
+    height: 195px;
+  }
+
+  #container 
+  {
+    margin: 20px 30px;
+    height: 1100px;
+  }
+
+  .logo1 
+  {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .logo2 
+  {
+    height: 100px;
+    width: 250px;
+  }
+
+  .socials 
+  {
+    font-size: 9px;
+    /* padding-right: 170px; */
+  }
+
+  .social
+  {
+    padding-left: 5px;
+  }
+
+  header ul li a 
+  {
+    font-size: 45px;
+  }
+  
+  footer 
+  {
+    font-size: 20px;
+    height: 30px;
+    padding-top: 0px;
+  }
+}
+
+@media (orientation: portrait) 
+{
+    @media (min-width: 320px) 
+    {
+      header 
+      {
+        height: 130px;
+      }
+
+      #font 
+      {
+        padding-top: 0px;
+      }
+
+      .socials 
+      {
+        font-size: 7px;
+        text-align: end;
+        padding-right: 5px;
+        padding-left: 0px;
+        padding-top: 5px;
+      }
+
+      .social
+      {
+        padding-left: 0px;
+      }
+
+      .logo1 
+      {
+        height: 50px;
+        width: 50px;
+        margin-right: 0px;
+      }
+      .logo2 
+      {
+        height: 50px;
+        width: 170px;
+        margin-right: 0px;
+      }
+
+      header ul li a {
+        font-size: 25px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #container 
+    {
+      margin: 10px 47px;
+      width: 230px;
+    }
+
+    #audio-image 
+    {
+      height: 100px;
+      margin-bottom: 10px;
+    }
+
+    .cover 
+    {
+      padding-top: 15px;
+      padding-bottom: 65px;
+      padding-left: 65px;
+      padding-right: 65px;
+      height: 150px;
+    }
+
+    #audio-info 
+    {
+      font-size: 21px;
+    }
+
+    #playlist 
+    {
+      font-size: 21px;
+    }
+
+    #buttons
+    {
+        margin-left: 11px;
+    }
+
+    button#play 
+    {
+      background: url(../images/play1.png) no-repeat;
+      width: 40px;
+      margin-top: 15px;
+      outline: 0;
+    }
+
+    button#pause 
+    {
+      outline: 0;
+      width: 40px;
+      margin-top: 15px;
+      background: url(../images/pause1.png) no-repeat;
+    }
+
+    button#stop 
+    {
+      outline: 0;
+      width: 40px;
+      margin-top: 15px;
+      background: url(../images/stop1.png) no-repeat;
+    }
+
+    button#prev 
+    {
+      width: 63px;
+      background: url(../images/prev.png) no-repeat;
+    }
+    button#next 
+    {
+      width: 55px;
+      background: url(../images/next.png) no-repeat;
+    }  
+  
+    footer
+    {
+      font-size: 12px;
+      height: 30px;
+      padding-top: 0px;
+    }
+  }
+
+    @media (min-width: 360px)
+    {
+      #container 
+      {
+        margin: 10px 70px;
+      }
+
+      .cover 
+      {
+        padding-top: 15px;
+        padding-bottom: 50px;
+        padding-left: 60px;
+        padding-right: 75px;
+        height: 160px;
+      }
+    }
+
+    @media (min-width: 375px)
+    {
+      #container 
+      {
+        margin: 10px 75px;
+      }
+    }
+  
+    @media (min-width: 410px)
+    {
+      #container 
+      {
+        margin: 10px 92px;
+      }   
+    }
+  
+    @media (min-width: 768px)
+    {
+      .logo1 
+      {
+        height: 70px;
+        width: 70px;
+      }
+
+      .logo2 
+      {
+        height: 70px;
+        width: 220px;
+      }
+
+      .socials
+      {
+        font-size: 9px;
+      }
+
+      header ul li a 
+      {
+        font-size: 48px;
+      }
+
+      header 
+      {
+        height: 165px;
+      }
+
+      #container 
+      {
+        margin: 20px 280px;
+      }
+    }
+
+    @media (min-width: 960px) 
+    {
+      .logo1 
+      {
+        height: 100px;
+        width: 100px;
+      }
+      
+      .logo2 
+      {
+        height: 100px;
+        width: 250px;
+      }
+
+      .socials 
+      {
+        font-size: 9px;
+      }
+
+      header ul li a 
+      {
+        font-size: 45px;
+      }
+
+      header 
+      {
+        height: 195px;
+      }
+
+      #container 
+      {
+        margin: 20px 20px;
+      }
+      .cover {
+        padding-top: 15px;
+        padding-bottom: 50px;
+        padding-left: 60px;
+        padding-right: 75px;
+        height: 160px;
+    }
+    #container {
+      width: 230px;
+  }
+    }
+
+
+    @media (min-width: 1024px)
+    {
+      header 
+      {
+        height: 195px;
+      }
+
+      #container 
+      {
+        margin: 20px 30px;
+        height: 1100px;
+      }
+
+      .logo1 
+      {
+        height: 100px;
+        width: 100px;
+      }
+      
+      .logo2 
+      {
+        height: 100px;
+        width: 250px;
+      }
+
+      .socials 
+      {
+        font-size: 9px;
+        /* padding-right: 170px; */
+      }
+
+      .social
+      {
+        padding-left: 5px;
+      }
+
+      header ul li a 
+      {
+        font-size: 50px;
+      }
+      
+      footer 
+      {
+        font-size: 20px;
+        height: 30px;
+        padding-top: 0px;
+      }
+    }
+} 

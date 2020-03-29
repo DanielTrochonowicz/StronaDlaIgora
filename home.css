@@ -374,7 +374,8 @@ header div a
 
 .socials
 {
-  padding-left: 75%;
+  text-align: end;
+  padding-right: 5px;
   padding-top: 20px;
 }
 
@@ -471,7 +472,6 @@ img.imgcarusel
     {
       padding-top: 0px;
       padding-bottom: 0px;
-      padding-left: 56%;
       font-size: 7px;
     }
 
@@ -623,11 +623,6 @@ img.imgcarusel
 
   @media (min-width: 360px)
   {  
-    .socials 
-    {
-      padding-left: 215px;
-    }
-
     .infoGame .text 
     {
       padding: 20px;
@@ -641,11 +636,6 @@ img.imgcarusel
 
   @media (min-width: 375px)
   {
-    .socials 
-    {
-      padding-left: 225px;
-    }
-
     iframe 
     {
     margin-left: 95px;
@@ -654,12 +644,6 @@ img.imgcarusel
 
   @media (min-width: 410px)
   {
-    .socials 
-    {
-      padding-left: 74%;
-      font-size: 8px;
-    }
-
     iframe 
     {
      margin-left: 38%;
@@ -671,7 +655,6 @@ img.imgcarusel
     .socials
     {
       font-size: 10px;
-      padding-left: 70%;
     } 
 
     .logo1 
@@ -746,7 +729,6 @@ img.imgcarusel
     .socials 
     {
       font-size: 12px;
-      padding-left: 732px;
     }
     
     .logo1 
@@ -820,7 +802,6 @@ img.imgcarusel
     {
       padding-top: 0px;
       padding-bottom: 0px;
-      padding-left: 165px;
       font-size: 7px;
     }
 
@@ -969,11 +950,6 @@ img.imgcarusel
 
   @media (min-width: 360px)
   {  
-    .socials 
-    {
-      padding-left: 215px;
-    }
-
     .infoGame .text 
     {
       padding: 20px;
@@ -987,11 +963,6 @@ img.imgcarusel
 
   @media (min-width: 375px)
   {
-    .socials 
-    {
-      padding-left: 225px;
-    }
-
     iframe 
     {
     margin-left: 95px;
@@ -1000,15 +971,9 @@ img.imgcarusel
 
   @media (min-width: 410px)
   {
-    .socials 
-    {
-      padding-left: 260px;
-    }
-
     iframe 
     {
       margin-left: 28%;
-     /* margin-left: 115px; */
     }
   }
 
@@ -1017,7 +982,6 @@ img.imgcarusel
     .socials 
     {
       font-size: 10px;
-      padding-left: 72%;
     }
 
     .logo1 
@@ -1064,7 +1028,6 @@ img.imgcarusel
       margin-left: 235px;
     }
 
-
     .textInfoGame2 
     {
       font-size: 20px;
@@ -1088,11 +1051,9 @@ img.imgcarusel
 
   @media (min-width: 1024px)
   {
-
     .socials 
     {
       font-size: 12px;
-      padding-left: 732px;
     }
     
     .logo1 
@@ -1107,6 +1068,11 @@ img.imgcarusel
       width: 450px;
     }
 
+    header ul li a 
+    {
+      font-size: 50px;
+    }
+    
     .fixed
     {
       height: 255px;
@@ -1149,6 +1115,158 @@ img.imgcarusel
       width: 250px;
       height: 150px;
     }
+  }
+}
 
+@media (orientation: landscape)
+{
+  @media (min-width: 812px)
+  {
+      .logo1 
+      {
+          height: 50px;
+          width: 50px;
+      }
+
+      .logo2 
+      {
+          height: 50px;
+          width: 170px;
+      }
+
+      .fixed 
+      {
+         height: 115px; 
+      }
+
+      header ul li a 
+      {
+          font-size: 28px;
+      }
+
+      header 
+      {
+          height: 145px;
+      }
+
+      div.follow .follow1 
+      {
+          padding-right: 14px;
+      }
+
+      .socials 
+      {
+          font-size: 7px;
+      }
+  }
+
+  @media (min-width: 1024px)
+  {
+    .logo1 
+      {
+          height: 100px;
+          width: 100px;
+      }
+
+      .logo2 
+      {
+          height: 100px;
+          width: 270px;
+      }
+
+      .fixed 
+      {
+         height: 200px; 
+      }
+
+      header ul li a 
+      {
+          font-size: 45px;
+      }
+
+      header 
+      {
+          height: 145px;
+      }
+
+      div.follow .follow1 
+      {
+          padding-right: 14px;
+      }
+
+      .socials 
+      {
+          font-size: 9px;
+      }
+
+    img.imgcarusel 
+    {
+      margin-left: -20px;
+    }
+    
+    .carousel .carousel-item h2 
+    {
+      margin-left: -20px;
+    }
+
+    .carousel .carousel-item p 
+    {
+      margin-left: -20px;
+    }
+}
+
+  @media (min-width: 1366px)
+  {
+    .logo1 
+      {
+          height: 100px;
+          width: 100px;
+      }
+
+      .logo2 
+      {
+          height: 100px;
+          width: 270px;
+      }
+
+      .fixed 
+      {
+         height: 200px; 
+      }
+
+      header ul li a 
+      {
+          font-size: 45px;
+      }
+
+      header 
+      {
+          height: 145px;
+      }
+
+      div.follow .follow1 
+      {
+          padding-right: 14px;
+      }
+
+      .socials 
+      {
+          font-size: 12px;
+      }
+
+    img.imgcarusel 
+    {
+      margin-left: -25px;
+    }
+    
+    .carousel .carousel-item h2 
+    {
+      margin-left: -25px;
+    }
+
+    .carousel .carousel-item p 
+    {
+      margin-left: -25px;
+    }
   }
 }
