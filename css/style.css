@@ -306,6 +306,131 @@ footer
   border-top: 1.5px solid rgb(189, 12, 12);
 }
 
+@media(min-width: 698px)
+{
+  .logo1 
+  {
+    height: 70px;
+    width: 70px;
+    margin-right: 0px;
+  }
+
+  .logo2 
+  {
+    height: 70px;
+    width: 350px;
+    margin-right: 0px;
+  }
+
+  .socials 
+  {
+    padding-top: 10px;
+    font-size: 7px;
+  }
+
+  .social
+  {
+    padding-left: 2px;
+  }
+
+  header ul li a 
+  {
+    font-size: 45px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  header 
+  {
+    height: 165px;
+  }
+
+  #font 
+  {
+    padding-top: 0px;
+  }
+
+  #container 
+  {
+    width: 230px;
+  }
+
+  #buttons 
+  {
+    margin-left: 11px;
+  }
+
+  button#prev 
+  {
+    width: 63px;
+    height: 70px;
+    margin-top: 15px;
+    background: url(../images/prev.png) no-repeat;
+  }
+
+  button#next 
+  {
+    width: 55px;
+    height: 70px;
+    margin-top: 15px;
+    background: url(../images/next.png) no-repeat;
+  }
+
+  button#play 
+  {
+    background: url(../images/play1.png) no-repeat;
+    width: 40px;
+    margin-top: 15px;
+  }
+
+  button#pause 
+  {
+    outline: 0;
+    width: 40px;
+    margin-top: 15px;
+    background: url(../images/pause1.png) no-repeat;
+  }
+
+  button#stop 
+  {
+    width: 40px;
+    margin-top: 15px;
+    background: url(../images/stop1.png) no-repeat;
+  }
+
+  #audio-info 
+  {
+    font-size: 21px;
+  }
+
+  #audio-image 
+  {
+    height: 100px;
+    margin-bottom: 10px;
+  }
+
+  .cover 
+  {
+    padding-top: 15px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+    padding-right: 75px;
+    height: 160px;
+  }
+
+  #playlist 
+  {
+    font-size: 21px;
+  }
+
+  footer 
+  {
+    font-size: 24px;
+    height: 30px;
+    padding-top: 0px;
+  }
+}
+
 @media (min-width: 960px)
 {
   .logo1 
