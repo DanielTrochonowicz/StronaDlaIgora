@@ -510,6 +510,7 @@ img.imgcarusel
     {
       font-size: 30px;
     }
+
     .textInfoGame1
     {
       padding-left: 5px;
@@ -701,7 +702,6 @@ img.imgcarusel
       margin-left: 235px;
     }
 
-
     .textInfoGame2 
     {
       font-size: 20px;
@@ -725,7 +725,6 @@ img.imgcarusel
 
   @media (min-width: 1024px)
   {
-
     .socials 
     {
       font-size: 12px;
@@ -766,8 +765,8 @@ img.imgcarusel
 
     div.carousel 
     {
-      height: 750px;
-   }
+      height: 750px; 
+    }
 
     img.imgcarusel 
     {
@@ -840,6 +839,7 @@ img.imgcarusel
     {
       font-size: 30px;
     }
+    
     .textInfoGame1
     {
       padding-left: 5px;
