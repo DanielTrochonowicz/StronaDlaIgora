@@ -48,9 +48,10 @@ section .mainContact
     margin-left: 750px;
     margin-right: 0;
 }
-.containerGang{
-    width: 100%;
 
+.containerGang
+{
+    width: 100%;
 }
 
 div .gangContainer:after 
