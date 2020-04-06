@@ -33,6 +33,11 @@ section .mainContact
   padding: 5px;
 }
 
+/* .gangContainer{
+    width: 900px;
+    height: 600px;
+} */
+
 .container
 {
     padding-top: 50px;
