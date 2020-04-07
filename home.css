@@ -10,6 +10,8 @@ body
 {
   font-size: 14px;
   color:#000;
+  line-height: 1.2em;
+  font-size: 28px;
 }
 
 header
@@ -465,7 +467,7 @@ img.imgcarusel
   {
     .fixed
     {
-      height: 115px;
+      height: 130px;
     }
 
     .socials 
@@ -689,7 +691,7 @@ img.imgcarusel
 
     .textInfoGame1 
     {
-      font-size: 20px;
+      font-size: 30px;
     }
 
     .wideo 
@@ -704,7 +706,7 @@ img.imgcarusel
 
     .textInfoGame2 
     {
-      font-size: 20px;
+      font-size: 25px;
     }
 
     .textInfoGame3 
@@ -794,12 +796,12 @@ img.imgcarusel
   {
     .fixed
     {
-      height: 115px;
+      height: 130px;
     }
 
     .socials 
     {
-      padding-top: 0px;
+      padding-top: 5px;
       padding-bottom: 0px;
       font-size: 7px;
     }
@@ -981,21 +983,21 @@ img.imgcarusel
   {
     .socials 
     {
-      font-size: 10px;
+      font-size: 9px;
     }
 
     .logo1 
     {
-      height: 100px;
-      width: 100px;
+      height: 70px;
+      width: 70px;
       margin-right: 5px;
       margin-left: 30px;
     }
 
     .logo2 
     {
-      height: 100px;
-      width: 270px;
+      height: 70px;
+      width: 250px;
     }
 
     header ul li a 
@@ -1005,7 +1007,7 @@ img.imgcarusel
     
     .fixed 
     {
-      height: 210px;
+      height: 170px;
     }
   
     .infoGame h3 
@@ -1054,18 +1056,22 @@ img.imgcarusel
     .socials 
     {
       font-size: 12px;
+      padding-right: 5px;
+      padding-left: 0px;
     }
     
     .logo1 
     {
-      height: 150px;
-      width: 140px;
+      height: 100px;
+      width: 100px;
+      margin-right: 5px;
+      margin-left: 30px;
     }
 
     .logo2 
     {
-      height: 150px;
-      width: 450px;
+      height: 100px;
+      width: 250px;
     }
 
     header ul li a 
@@ -1139,7 +1145,7 @@ img.imgcarusel
 
       .fixed 
       {
-         height: 115px; 
+         height: 130px; 
       }
 
       header ul li a 

@@ -102,7 +102,7 @@ footer
         {
             font-size: 24px;
             margin-left: 20%;
-            padding-top: 85px;
+            padding-top: 35px;
         }
 
         div.follow .follow1 
@@ -123,7 +123,7 @@ footer
         footer {
             font-size: 12px;
             height: 124px;
-            padding-top: 105px;
+            padding-top: 95px;
         }
     }
 
@@ -132,7 +132,7 @@ footer
         footer {
             font-size: 14px;
             height: 160px;
-            padding-top: 140px;
+            padding-top: 130px;
         }
     }
 
@@ -142,7 +142,7 @@ footer
         {
             font-size: 14px;
             height: 246px;
-            padding-top: 225px;
+            padding-top: 215px;
         }
     }
   
@@ -232,10 +232,31 @@ footer
         {
             padding-top: 150px;
         }
+        
+        .socials 
+        {
+          font-size: 12px;
+          padding-right: 5px;
+          padding-left: 0px;
+        }
+        
+        .logo1 
+        {
+          height: 100px;
+          width: 100px;
+          margin-right: 5px;
+          margin-left: 30px;
+        }
+    
+        .logo2 
+        {
+          height: 100px;
+          width: 250px;
+        }
 
         header 
         {
-            height: 300px;
+            height: 245px;
         }
 
         header ul li a 
@@ -246,8 +267,8 @@ footer
         footer 
         {
             font-size: 28px;
-            height: 383px;
-            padding-top: 343px;
+            height: 450px;
+            padding-top: 400px;
         }
     }
 }
@@ -292,8 +313,8 @@ footer
         footer
         {
             font-size: 14px;
-            padding-top: 30px;
-            height: 50px;   
+            padding-top: 0px;
+            height: 25px;   
         }
     }
 
@@ -301,7 +322,8 @@ footer
     {
         footer
         {
-            height: 56px;   
+            height: 60px; 
+            padding-top: 30px;  
         }
     }
 
@@ -344,17 +366,38 @@ footer
     {
         .mainContact 
         {
-            height: 77vh;
+            height: 85vh;
         }
 
         header 
         {
-            height: 200px;
+            height: 245px;
+        }
+
+        .socials 
+        {
+          font-size: 12px;
+          padding-right: 5px;
+          padding-left: 0px;
+        }
+        
+        .logo1 
+        {
+          height: 70px;
+          width: 70px;
+          margin-right: 5px;
+          margin-left: 30px;
+        }
+    
+        .logo2 
+        {
+          height: 70px;
+          width: 250px;
         }
 
         header ul li a 
         {
-          font-size: 35px;
+          font-size: 45px;
         }
 
         div.follows 
@@ -431,11 +474,11 @@ footer
 
         header ul li a 
         {
-            font-size: 40px;
+            font-size: 50px;
         }
         .socials
         {
-            font-size: 11px;
+            font-size: 12px;
         }
 
         footer {

@@ -45,7 +45,7 @@ header
 {
   width: 100%;
   text-align: center;
-  /* padding: 15px 0; */
+  padding: 15px 0;
   height: 350px;
   border-bottom: 1.5px solid rgb(189, 12, 12);
 }
@@ -443,6 +443,7 @@ footer
     font-size: 24px;
     height: 30px;
     padding-top: 0px;
+    position: unset;
   }
 }
 
@@ -487,7 +488,7 @@ footer
 
   header 
   {
-    height: 195px;
+    height: 245px;
   }
 
   #container 
@@ -502,7 +503,7 @@ footer
 {
   header 
   {
-    height: 195px;
+    height: 245px;
   }
 
   #container 
@@ -579,13 +580,13 @@ footer
       {
         height: 50px;
         width: 50px;
-        margin-right: 0px;
+        margin-right: 10px;
       }
       .logo2 
       {
         height: 50px;
-        width: 170px;
-        margin-right: 0px;
+        width: 150px;
+        margin-right: 10px;
       }
 
       header ul li a {
@@ -670,6 +671,7 @@ footer
       font-size: 12px;
       height: 30px;
       padding-top: 0px;
+      position: unset;
     }
   }
 
@@ -712,12 +714,14 @@ footer
       {
         height: 70px;
         width: 70px;
+        margin-right: 5px;
+        margin-left: 30px;
       }
 
       .logo2 
       {
         height: 70px;
-        width: 220px;
+        width: 230px;
       }
 
       .socials
@@ -732,7 +736,7 @@ footer
 
       header 
       {
-        height: 165px;
+        height: 190px;
       }
 
       #container 
@@ -745,14 +749,14 @@ footer
     {
       .logo1 
       {
-        height: 100px;
-        width: 100px;
+        height: 70px;
+        width: 70px;
       }
       
       .logo2 
       {
-        height: 100px;
-        width: 250px;
+        height: 70px;
+        width: 230px;
       }
 
       .socials 
@@ -762,12 +766,12 @@ footer
 
       header ul li a 
       {
-        font-size: 45px;
+        font-size: 48px;
       }
 
       header 
       {
-        height: 195px;
+        height: 245px;
       }
 
       #container 
@@ -791,7 +795,7 @@ footer
     {
       header 
       {
-        height: 195px;
+        height: 245px;
       }
 
       #container 
@@ -804,6 +808,8 @@ footer
       {
         height: 100px;
         width: 100px;
+        margin-right: 5px;
+        margin-left: 30px;
       }
       
       .logo2 
@@ -814,8 +820,9 @@ footer
 
       .socials 
       {
-        font-size: 9px;
-        /* padding-right: 170px; */
+        font-size: 12px;
+        padding-right: 5px;
+        padding-left: 0px;
       }
 
       .social
@@ -833,6 +840,312 @@ footer
         font-size: 20px;
         height: 30px;
         padding-top: 0px;
+        position: absolute;
       }
     }
 } 
+
+@media (orientation: landscape) 
+{
+  @media (min-width: 320px)
+  {
+    
+    header 
+    {
+      height: 145px;
+    }
+
+    .socials 
+    {
+      padding-top: 0px;
+      padding-bottom: 0px;
+      font-size: 6px;
+      text-align: end;
+      padding-right: 5px;
+    }
+
+    .social 
+    {
+      padding-left: 0px;
+    }
+
+    #font 
+    {
+      padding-top: 0px;
+   }
+   #container {
+    margin: auto;
+}
+
+    .logo1 
+    {
+      height: 50px;
+      width: 50px;
+      margin-right: 10px;
+    }
+
+    .logo2 
+    {
+      height: 50px;
+      width: 150px;
+      margin-right: 10px;
+    }
+
+    header ul li a 
+    {
+      font-size: 28px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+    footer 
+    {
+      height: 20px;
+      font-size: 14px;
+      position: unset;
+      padding-top: 0px;
+    }
+  }
+
+  @media (min-width: 768px)
+  {
+    .logo1 
+    {
+      height: 70px;
+      width: 70px;
+      margin-right: 5px;
+      margin-left: 30px;
+    }
+
+    .logo2 
+    {
+      height: 70px;
+      width: 230px;
+    }
+
+    .socials
+    {
+      font-size: 9px;
+    }
+
+    header ul li a 
+    {
+      font-size: 48px;
+    }
+
+    header 
+    {
+      height: 190px;
+    }
+
+    #container 
+    {
+      margin: 20px 280px;
+    }
+  }
+
+  @media (min-width: 800px)
+  {
+    
+    header 
+    {
+      height: 145px;
+    }
+
+    .socials 
+    {
+      padding-top: 0px;
+      padding-bottom: 0px;
+      font-size: 7px;
+      text-align: end;
+      padding-right: 5px;
+    }
+
+    .social 
+    {
+      padding-left: 0px;
+    }
+
+    .logo1 
+    {
+      height: 50px;
+      width: 50px;
+      margin-right: 5px;
+        margin-left: 30px;
+    }
+
+    .logo2 
+    {
+      height: 50px;
+      width: 170px;
+      margin-right: 10px;
+    }
+
+    header ul li a 
+    {
+      font-size: 28px;
+    }
+
+    footer 
+    {
+      font-size: 14px;
+      position: unset;
+    }
+  }
+
+  @media (min-width: 960px) 
+  {
+    .logo1 
+    {
+      height: 70px;
+      width: 70px;
+    }
+    
+    .logo2 
+    {
+      height: 70px;
+      width: 230px;
+    }
+
+    .socials 
+    {
+      font-size: 9px;
+    }
+
+    header ul li a 
+    {
+      font-size: 48px;
+    }
+
+    header 
+    {
+      height: 245px;
+    }
+
+    #container 
+    {
+      margin: 20px 20px;
+    }
+    .cover {
+      padding-top: 15px;
+      padding-bottom: 50px;
+      padding-left: 60px;
+      padding-right: 75px;
+      height: 160px;
+  }
+  footer{
+    position: unset;
+  }
+  #container {
+    width: 230px;
+}
+  }
+
+
+  @media (min-width: 1024px)
+  {
+    header 
+    {
+      height: 245px;
+    }
+
+    #container 
+    {
+      margin: 20px 30px;
+      height: auto;
+    }
+
+    .logo1 
+    {
+      height: 70px;
+      width: 70px;
+      margin-right: 5px;
+      margin-left: 30px;
+    }
+    
+    .logo2 
+    {
+      height: 70px;
+      width: 250px;
+    }
+
+    .socials 
+    {
+      font-size: 9px;
+      padding-right: 5px;
+      padding-left: 0px;
+    }
+
+    .social
+    {
+      padding-left: 5px;
+    }
+
+    header ul li a 
+    {
+      font-size: 45px;
+    }
+    
+    footer 
+    {
+      font-size: 20px;
+      height: 30px;
+      padding-top: 0px;
+      position: unset;
+    }
+  }
+
+  @media (min-width: 1366px)
+  {
+    header 
+    {
+      height: 280px;
+    }
+
+    #container 
+    {
+      margin: 20px 30px;
+      height: auto;
+    }
+
+    .logo1 
+    {
+      height: 100px;
+      width: 100px;
+      margin-right: 5px;
+      margin-left: 30px;
+    }
+    
+    .logo2 
+    {
+      height: 100px;
+      width: 270px;
+    }
+
+    .socials 
+    {
+      font-size: 12px;
+      padding-right: 5px;
+      padding-left: 0px;
+    }
+
+    .social
+    {
+      padding-left: 5px;
+    }
+
+    header ul li a 
+    {
+      font-size: 50px;
+    }
+    
+    footer 
+    {
+      font-size: 20px;
+      height: 30px;
+      padding-top: 0px;
+      position: unset;
+    }
+  }
+
+}
