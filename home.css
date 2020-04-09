@@ -23,7 +23,7 @@ header
 
 header ul li a
 {
-  margin: 0 10px;
+  margin: 0 5px;
   color: rgb(95, 105, 238);
   font-size: 70px;
   text-align: center;
@@ -827,7 +827,7 @@ img.imgcarusel
 
     header ul li a 
     {
-      font-size: 18px;
+      font-size: 24px;
       padding-left: 0px;
       padding-right: 0px;
     }
@@ -848,14 +848,14 @@ img.imgcarusel
       padding-right: 5px;
       padding-bottom: 20px;
       text-align: center;
-      font-size: 16px;
+      font-size: 19px;
     }
 
     .textInfoGame2 
     {
       padding-right: 5px;
       padding-left: 5px;
-      font-size: 16px;
+      font-size: 19px;
     }
 
     .textInfoGame3
@@ -1003,6 +1003,7 @@ img.imgcarusel
     header ul li a 
     {
       font-size: 48px;
+      margin: 0 10px;
     }
     
     .fixed 
@@ -1077,6 +1078,7 @@ img.imgcarusel
     header ul li a 
     {
       font-size: 50px;
+      margin: 0 10px;
     }
     
     .fixed
@@ -1173,14 +1175,14 @@ img.imgcarusel
   {
     .logo1 
       {
-          height: 100px;
-          width: 100px;
+          height: 70px;
+          width: 70px;
       }
 
       .logo2 
       {
-          height: 100px;
-          width: 270px;
+          height: 70px;
+          width: 250px;
       }
 
       .fixed 
@@ -1246,6 +1248,7 @@ img.imgcarusel
       header ul li a 
       {
           font-size: 45px;
+          margin: 0 10px;
       }
 
       header 

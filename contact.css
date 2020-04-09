@@ -193,6 +193,7 @@ footer
         header ul li a 
         {
             font-size: 48px;
+            margin: 0 10px;
         }
 
         div.follows 
@@ -262,6 +263,7 @@ footer
         header ul li a 
         {
           font-size: 50px;
+          margin: 0 10px;
         }
 
         footer 
@@ -344,6 +346,7 @@ footer
         header ul li a 
         {
             font-size: 28px;
+            margin: 0 10px;
         }
 
         header 
@@ -398,6 +401,7 @@ footer
         header ul li a 
         {
           font-size: 45px;
+          margin: 0 10px;
         }
 
         div.follows 
@@ -474,7 +478,8 @@ footer
 
         header ul li a 
         {
-            font-size: 50px;
+            font-size: 45px;
+            margin: 0 10px;
         }
         .socials
         {

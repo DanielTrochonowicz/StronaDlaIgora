@@ -52,7 +52,7 @@ header
 
 header ul li a
 {
-  margin: 0 10px;
+  margin: 0 5px;
   color: rgb(95, 105, 238);
   font-size: 70px;
   text-align: center;
@@ -590,7 +590,7 @@ footer
       }
 
       header ul li a {
-        font-size: 18px;
+        font-size: 24px;
         padding-left: 0px;
         padding-right: 0px;
     }
@@ -668,7 +668,7 @@ footer
   
     footer
     {
-      font-size: 12px;
+      font-size: 13px;
       height: 30px;
       padding-top: 0px;
       position: unset;
@@ -931,6 +931,7 @@ footer
     header ul li a 
     {
       font-size: 48px;
+      margin: 0 10px;
     }
 
     header 
@@ -984,6 +985,7 @@ footer
     header ul li a 
     {
       font-size: 28px;
+      margin: 0 10px;
     }
 
     footer 
@@ -1015,6 +1017,7 @@ footer
     header ul li a 
     {
       font-size: 48px;
+      margin: 0 10px;
     }
 
     header 
@@ -1084,6 +1087,7 @@ footer
     header ul li a 
     {
       font-size: 45px;
+      margin: 0 10px;
     }
     
     footer 
@@ -1131,12 +1135,13 @@ footer
 
     .social
     {
-      padding-left: 5px;
+      padding-left: 0px;
     }
 
     header ul li a 
     {
-      font-size: 50px;
+      font-size: 45px;
+      margin: 0 10px;
     }
     
     footer 
