@@ -489,7 +489,8 @@ footer
             font-size: 12px;
         }
 
-        footer {
+        footer
+        {
             padding-top: 285px;
             height: 340px
         }
