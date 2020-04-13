@@ -721,7 +721,7 @@ footer
       .logo2 
       {
         height: 70px;
-        width: 230px;
+        width: 250px;
       }
 
       .socials
@@ -732,6 +732,7 @@ footer
       header ul li a 
       {
         font-size: 48px;
+        margin: 0 10px
       }
 
       header 
