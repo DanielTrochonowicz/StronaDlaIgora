@@ -36,12 +36,13 @@ header ul li a
 
 header ul li a:nth-child(odd)
 {
-  color: #f1d45f;
+  /* color: #f1d45f; */
+  color: #8467e4;
 }
 
 header ul li a:nth-child(even)
 {
-  color: #8467e4;
+  color: #f1d45f;
 }
 
 header ul li a:nth-child(odd):hover
@@ -78,28 +79,38 @@ footer
 {
     font-family: Legendaria;
     font-size: 24px;
+    margin-top: 340px;
 }
 
 .main
 {
   width: 100%;
-  background-image: url(img/Thumbnail.jpg);
+  background-image: url(img/recyc.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 105vh;
+  height: auto;
 }
 
 /*HEAD SECTION STYLE*/
 .fixed { 
   position: fixed;
+  background: url(img/logo.jpg);
+  background-size: 400px 150px;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 0;
   width: 100%;
-  height: 323px;
+  height: auto;
+  /* padding-bottom: 500px; */
 	top: 0;
   left: 0;
-  background-color: rgba(91, 120, 148, 0.4);
+  background-color: rgba(5, 5, 5, 0.4);
 	z-index: 3;
+}
+
+.fixed #font{
+  margin-top: 150px;
 }
 
 .logo1
@@ -477,9 +488,9 @@ img.imgcarusel
       font-size: 7px;
     }
 
-    .social
-    {
-      padding-left: 0px;
+    .social{
+        padding-left: 3px;
+        padding-right: 2px;
     }
 
     .logo1 
@@ -503,10 +514,10 @@ img.imgcarusel
       padding-right: 0px;
     }
 
-    .main 
+    /* .main 
     {
       height: 100vh;
-    }
+    } */
 
     .infoGame h3 
     {
@@ -725,8 +736,19 @@ img.imgcarusel
     }
   }
 
+  @media (min-width: 970px){
+    .main
+{
+  height: 250px;
+}
+  }
+
   @media (min-width: 1024px)
   {
+    .main
+{
+  height: 300px;
+}
     .socials 
     {
       font-size: 12px;
@@ -788,6 +810,18 @@ img.imgcarusel
     }
 
   }
+  
+  /* @media (min-width: 1324px){
+    .main{
+      height: 400px;
+    }
+  }
+  @media (min-width: 1366px)
+  {
+    .main{
+      height: 500px;
+    }
+  } */
 
 @media (orientation: portrait) 
 {
@@ -796,14 +830,26 @@ img.imgcarusel
   {
     .fixed
     {
-      height: 130px;
+      height: 110px;
+      background-size: 200px 70px;
+      padding-bottom: 95px;
+
     }
+
+    .fixed #font {
+      margin-top: 45px;
+  }
+
+  .fixed .socials{
+    margin-top: 0px;
+  }
 
     .socials 
     {
-      padding-top: 5px;
-      padding-bottom: 0px;
-      font-size: 7px;
+      /* margin-top: 82px; */
+      padding-top: 3px;
+      /* padding-bottom: 0px; */
+      font-size: 5px;
     }
 
     .social
@@ -834,12 +880,16 @@ img.imgcarusel
 
     .main 
     {
-      height: 100vh;
+      height: 130px;
+    }
+    #font{
+      margin-top: -58px;
     }
 
     .infoGame h3 
     {
       font-size: 30px;
+      /* padding-top: 60px; */
     }
     
     .textInfoGame1
@@ -952,6 +1002,19 @@ img.imgcarusel
 
   @media (min-width: 360px)
   {  
+    /* .main{
+      height: 90px;
+    } */
+    /* .socials{
+      margin-top: 90px;
+    } */
+    #font{
+      margin-top: -57px;
+    }
+    /* .infoGame h3 {
+      padding-top: 35px;
+   } */
+
     .infoGame .text 
     {
       padding: 20px;
@@ -965,6 +1028,12 @@ img.imgcarusel
 
   @media (min-width: 375px)
   {
+    /* .main{
+      height: 94px;
+    } */
+    /* .socials{
+      margin-top: 95px;
+    } */
     iframe 
     {
     margin-left: 95px;
@@ -973,18 +1042,52 @@ img.imgcarusel
 
   @media (min-width: 410px)
   {
+    /* .main{
+      height: 103px;
+    } */
+    /* .socials{
+      margin-top: 105px;
+    } */
+
     iframe 
     {
       margin-left: 28%;
     }
   }
 
+  @media (min-width: 660px)
+  {
+    .main{
+      height: 190px;
+    }
+    .socials {
+      font-size: 7px;
+  }
+  header ul li a {
+    font-size: 30px;
+}
+  }
   @media (min-width: 768px)
   {
-    .socials 
-    {
-      font-size: 9px;
+    .main{
+      height: 192px;
     }
+    .socials{
+      margin-top: 25px;
+      font-size: 8px;
+    }
+    #font{
+      margin-top: -80px;
+    }
+    /* .infoGame h3 {
+      padding-top: 80px;
+   } */
+   .fixed #font{
+     margin-top: 90px;
+   }
+   .fixed{
+     background-size: 350px 100px;
+   }
 
     .logo1 
     {
@@ -1002,7 +1105,7 @@ img.imgcarusel
 
     header ul li a 
     {
-      font-size: 48px;
+      font-size: 40px;
       margin: 0 10px;
     }
     
@@ -1051,14 +1154,39 @@ img.imgcarusel
       font-size: 20px; 
     }
   }
+  @media (min-width: 970px){
+    /* .main{
+      height: 220px;
+    } */
+    header ul li a {
+      font-size: 45px;
+  }
+  .socials {
+    font-size: 9px;
+}
+
+  }
 
   @media (min-width: 1024px)
   {
+    .main{
+      height: 256px;
+    }
+    #font{
+      margin-top: -88px;
+    }
+    .fixed {
+      background-size: 400px 150px;
+  }
+   .fixed #font{
+     margin-top: 155px;
+   }
     .socials 
     {
       font-size: 12px;
       padding-right: 5px;
       padding-left: 0px;
+      margin-top: 25px;
     }
     
     .logo1 
@@ -1131,8 +1259,37 @@ img.imgcarusel
 
 @media (orientation: landscape)
 {
+  @media (min-width: 530px){
+    
+    .main{
+      height: 150px;
+    }
+    .socials {
+      padding-top: 15px;
+      font-size: 6px;
+  }
+  #font {
+    margin-top: -65px;
+}
+    /* .infoGame h3 {
+      padding-top: 56px;
+  } */
+  .fixed {
+    height: 123px;
+    background-size: 250px 80px;
+}
+.fixed .socials{
+  padding-top: 0px;
+}
+.fixed #font {
+  margin-top: 60px;
+}
+  }
   @media (min-width: 812px)
   {
+    .main{
+      height: 190px;
+    }
       .logo1 
       {
           height: 50px;
@@ -1155,10 +1312,7 @@ img.imgcarusel
           font-size: 28px;
       }
 
-      header 
-      {
-          height: 145px;
-      }
+    
 
       div.follow .follow1 
       {
@@ -1171,6 +1325,18 @@ img.imgcarusel
       }
   }
 
+
+  @media (min-width: 900px){
+      .main{
+        height:220px;
+      }
+      header ul li a {
+        font-size: 45px;
+    }
+    .socials {
+      font-size: 9px;
+  }
+  }
   @media (min-width: 1024px)
   {
     .logo1 
@@ -1187,7 +1353,7 @@ img.imgcarusel
 
       .fixed 
       {
-         height: 200px; 
+         height: 225px; 
       }
 
       header ul li a 
@@ -1195,10 +1361,19 @@ img.imgcarusel
           font-size: 45px;
       }
 
-      header 
+      .main{
+        height: 300px;
+      }
+      /* header 
       {
           height: 145px;
+      } */
+      .fixed{
+        background-size: 430px 150px;
       }
+      .fixed #font {
+        margin-top: 150px;
+    }
 
       div.follow .follow1 
       {
@@ -1236,13 +1411,13 @@ img.imgcarusel
 
       .logo2 
       {
-          height: 100px;
-          width: 270px;
+          height: 150px;
+          width: 470px;
       }
 
       .fixed 
       {
-         height: 200px; 
+         height: 240px; 
       }
 
       header ul li a 
@@ -1251,10 +1426,9 @@ img.imgcarusel
           margin: 0 10px;
       }
 
-      header 
-      {
-          height: 145px;
-      }
+    .main{
+      height: 350px;
+    }
 
       div.follow .follow1 
       {
@@ -1279,6 +1453,12 @@ img.imgcarusel
     .carousel .carousel-item p 
     {
       margin-left: -25px;
+    }
+  }
+  @media (min-width: 1600px)
+  {
+    .main{
+      height: 450px;
     }
   }
 }
