@@ -73,7 +73,7 @@
         <ul>
             <li id="font">
                   <a  href="index.html">Home</a>
-                  <a  href="#">About</a>
+                  <a  href="about.html">About</a>
                   <!-- <a  href="gang.html">Gang</a> -->
                   <a  href="music.html">Music</a>
                   <a  href="contact.html">Contact</a>
@@ -82,16 +82,16 @@
         </ul>
     </header>
 
-    <h3>THE GAME </h3>
+    <h3>THE Oddventure </h3>
         <img class="text" src="img/krasnale na steam.jpg" alt="">   
          <p class="textInfoGame1">
           Oddventure is a jRPG about the missadventures of Charlie - the nihilistic and rebelious teenage girl with anger issues and social awkwardness who searches for her troublesome brother Bonzo and ultimately for a way back home. <br>
           You end up in Kingdom of Luxia, a land straight from original Grimm Brothers’ fairy tales with some dark, nietzschean twist. Throughout the game you will meet characters who will either want to help or do you a harm. Player is on bizzare journey full of cursed-image-like enemies, good guys, bad guys, talking frogs, perverts and the versions of fairytalish creatures which are more of god’s abomination. <br>
           Fight your inner demons and choose between either starring into the abyss or reaching for the spark of hope. The cozyness and light-hearted stuff meets the dark humor, oddness and crazyness. And… Perverts. Who are not perverts, but they kinda are. <br>
-           
+           <img src="" alt="">
             </p><br>
             <br> <iframe class="wideo" src="https://www.youtube.com/embed/5Jp47-xvVmM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <h3 class="info"> tytuł podajcie nazwe tego </h3>
+            <h3 class="info">  </h3>
             
             <p class="textInfoGame2">
               
@@ -135,7 +135,7 @@
   </section>
   
   <section class="carousels">
-    <h3>GANG</h3>
+    <!-- <h3>GANG</h3> -->
   <div class="carousel">
     <div class="carousel-item">
       <div class="imgcarusel">
@@ -289,9 +289,13 @@
 
        $(window).scroll(function(){
            var sticky = $("header");
-           if($(window).scrollTop() >= 230){
+           if($(window).scrollTop() >= 490){
                sticky.addClass("fixed");
-           }else{
+           }else if ($(window).scrollTop() >= 590){
+            sticky.addClass("fixed");
+           }
+
+           else{
                sticky.removeClass("fixed");
            }
        });

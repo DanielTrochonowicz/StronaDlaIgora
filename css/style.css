@@ -34,7 +34,7 @@ body
 	font-size: 28px;
 	line-height:1.2em;
 	color:#fff;
-  background-image: url(../img/Thumbnail.jpg);
+  background-image: url(../img/recyc.jpg);
   background-size: 1400px 1600px;
 	background-position: center;
 	background-size: cover;
@@ -319,6 +319,50 @@ footer
   background-color: black;
   text-align: center;
   border-top: 1.5px solid rgb(189, 12, 12);
+}
+
+.about{
+  margin-top: 20px;
+  /* background-image: url(../img/about.jpg); */
+  background-size: cover;
+  height: 80px;
+  z-index: 1;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 29px;
+  color: white;
+}
+.about.igm{
+  height: 80px;
+  width: 600px;
+  /* background-size: contain;
+  
+  background-repeat: no-repeat; */
+}
+.abouth3{
+  text-align: center;
+}
+
+.gameplay{
+  margin-top: 20px;
+  /* background-image: url(../img/gameplay.jpg); */
+  background-size: cover;
+  /* height: 250px;
+  width: 500px; */
+  z-index: 1;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 24px;
+}
+.gameplayh3{
+text-align: center;
+}
+.gameplay.igm{
+  height: 800px;
+  width: 500px;
+  background-size: contain;
+  
+  background-repeat: no-repeat;
 }
 
 @media(min-width: 698px)
@@ -1104,7 +1148,8 @@ footer
   {
     header 
     {
-      height: 280px;
+      height: auto;
+      padding: 5px 0;
     }
 
     #container 
@@ -1123,13 +1168,13 @@ footer
     
     .logo2 
     {
-      height: 100px;
-      width: 270px;
+      height: 115px;
+      width: 400px;
     }
 
     .socials 
     {
-      font-size: 12px;
+      font-size: 10px;
       padding-right: 5px;
       padding-left: 0px;
     }
@@ -1141,8 +1186,15 @@ footer
 
     header ul li a 
     {
-      font-size: 45px;
+      font-size: 50px;
       margin: 0 10px;
+    }
+    #container{
+      /* background: none ; */
+    }
+
+    body{
+      font-size: 19.8px;
     }
     
     footer 

@@ -830,19 +830,23 @@ img.imgcarusel
   {
     .fixed
     {
-      height: 110px;
-      background-size: 200px 70px;
-      padding-bottom: 95px;
+      height: 0px;
+      background-size: 0px 0px;
+      padding-bottom: 0px;
 
     }
 
     .fixed #font {
-      margin-top: 45px;
+      margin-top: 0px;
   }
 
   .fixed .socials{
     margin-top: 0px;
+    font-size: 0px;
   }
+  .fixed a {
+    font-size: 0px;
+}
 
     .socials 
     {
@@ -1111,7 +1115,7 @@ img.imgcarusel
     
     .fixed 
     {
-      height: 170px;
+      height: 0px;
     }
   
     .infoGame h3 
@@ -1179,8 +1183,20 @@ img.imgcarusel
       background-size: 400px 150px;
   }
    .fixed #font{
-     margin-top: 155px;
+     margin-top: -45px;
    }
+   header.fixed .socials a.social{
+    font-size: 9px;
+  }
+  header.fixed .socials{
+    padding-top: 220px;
+  }
+  header.fixed li#font a{
+    font-size: 50px;
+  }
+  header.fixed li#font {
+    padding-top: 0px;
+  }
     .socials 
     {
       font-size: 12px;
@@ -1275,14 +1291,18 @@ img.imgcarusel
       padding-top: 56px;
   } */
   .fixed {
-    height: 123px;
-    background-size: 250px 80px;
+    height: 0px;
+    background-size: 0px 0px;
 }
 .fixed .socials{
   padding-top: 0px;
+  font-size: 0px;
+}
+.fixed a{
+  font-size: 0px;
 }
 .fixed #font {
-  margin-top: 60px;
+  margin-top: 0px;
 }
   }
   @media (min-width: 812px)
@@ -1304,7 +1324,7 @@ img.imgcarusel
 
       .fixed 
       {
-         height: 130px; 
+         height: 0px; 
       }
 
       header ul li a 
@@ -1372,9 +1392,21 @@ img.imgcarusel
         background-size: 430px 150px;
       }
       .fixed #font {
-        margin-top: 150px;
+        margin-top: -45px;
     }
-
+    header.fixed .socials a.social{
+      font-size: 9px;
+    }
+    header.fixed .socials{
+      padding-top: 190px;
+    }
+    header.fixed li#font a{
+      font-size: 50px;
+    }
+    header.fixed li#font {
+      padding-top: 0px;
+    }
+    
       div.follow .follow1 
       {
           padding-right: 14px;
@@ -1454,6 +1486,15 @@ img.imgcarusel
     {
       margin-left: -25px;
     }
+   .fixed #font{
+     margin-top: -45px;
+   }
+   header.fixed .socials{
+    padding-top: 200px;
+  }
+header.fixed .socials a.social {
+    font-size: 12px;
+}
   }
   @media (min-width: 1600px)
   {
