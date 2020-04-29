@@ -42,6 +42,91 @@
       background-size: cover;
       background-repeat: no-repeat;
   }
+  .mainContact
+{
+  width: 100%;
+  background-color: black;
+  height: 66.8vh;
+}
+header p
+{
+    color: white;
+    font-size: 80px;
+    height: 200px;
+}
+
+div.follows
+{
+    margin-left: 35%;
+    font-size: 70px;
+    text-align: left;
+    /* color: white; */
+    color: rgb(95, 105, 238);
+    padding-top: 20px;
+    height: 50vh;
+    width: 60%;
+}
+
+div.follow
+{
+    padding-left: 0px;
+    padding-top: 25px;
+    size: 30px;
+    text-decoration: none;
+    color: rgb(114, 107, 117);
+    text-align: left;
+}
+/* div.follow .follow1
+{
+   font-size: 15px;
+   color: rgba(165, 155, 155, 0.644);
+} */
+
+div.follow .follow1:nth-child(odd)
+{
+   font-size: 15px;
+   color: #f1d45f;
+}
+div.follow .follow1:nth-child(even)
+{
+   font-size: 15px;
+   color: #8467e4;
+}
+div.follow .follow1:nth-child(odd):hover
+{
+  color: rgb(131, 61, 61);
+}
+div.follow .follow1:nth-child(even):hover
+{
+  color: rgb(131, 61, 61);
+}
+
+div.follow .follow1:hover
+{
+  color: rgba(195, 164, 164, 0.589);
+}
+
+.press
+{
+    font-size: 80px;
+    padding-top: 20px;
+    text-align: left;
+    color: #f1d45f;
+}
+
+.press p
+{
+    font-size: 40px;
+    text-align: left;
+    font-weight: 800;
+    padding-top: 20px;
+    color: #8467e4;
+}header
+{
+    background-color: black;
+    height: 450px;
+    border-bottom: 1.5px solid rgb(189, 12, 12);
+}
   
   header
   {
@@ -631,7 +716,8 @@
         {
           height: 50px;
           width: 150px;
-          margin-right: 10px;
+          margin-right: auto;
+          margin-left: auto;
         }
   
         header ul li a {
@@ -709,8 +795,48 @@
       {
         width: 55px;
         background: url(../images/next.png) no-repeat;
-      }  
-    
+      } 
+      
+      div.follows {
+        margin-left: 0px;
+        font-size: 37px;
+        text-align: center;
+        width: 100%;
+    }
+
+    div.follow {
+      text-align: center;
+  }
+  .press {
+    font-size: 42px;
+    text-align: center;
+}
+.press p {
+  font-size: 37px;
+  text-align: center;
+}
+      .about.igm{
+        width: auto;
+        text-align: center;
+      }
+      .gameplay.igm {
+        width: auto;
+        text-align: center;
+     }
+     .story.igm {
+      width: auto;
+      text-align: center;
+  }
+
+  .imgLast{
+    width: 80%;
+  }
+  .abouth3 {
+    margin-left: 44px;
+}
+.storyh3 {
+  margin-right: 64px;
+}
       footer
       {
         font-size: 13px;
@@ -735,6 +861,9 @@
           padding-right: 75px;
           height: 160px;
         }
+        .abouth3 {
+          margin-left: 30px;
+      }
       }
   
       @media (min-width: 375px)
@@ -943,6 +1072,51 @@
         padding-left: 0px;
         padding-right: 0px;
       }
+      .about.igm{
+        width: auto;
+        text-align: center;
+      }
+      .gameplay.igm {
+        width: auto;
+        text-align: center;
+     }
+     .story.igm {
+      width: auto;
+      text-align: center;
+  }
+
+  .imgLast{
+    width: 80%;
+  }
+  .abouth3 {
+    margin-left: 44px;
+}
+.storyh3 {
+  margin-right: 64px;
+}
+.mainContact {
+  height: 100%;
+}
+div.follows {
+  margin-left: 0px;
+  font-size: 37px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+div.follow {
+text-align: center;
+}
+.press {
+font-size: 42px;
+text-align: center;
+padding-bottom: 100px;
+}
+.press p {
+font-size: 29px;
+text-align: center;
+}
   
       footer 
       {
@@ -989,6 +1163,9 @@
       {
         margin: 20px 280px;
       }
+      .imgLast {
+        width: 30%;
+    }
     }
   
     @media (min-width: 800px)
@@ -1051,8 +1228,8 @@
       
       .logo2 
       {
-        height: 70px;
-        width: 230px;
+        height: 115px;
+        width: 400px;
       }
   
       .socials 
@@ -1068,8 +1245,21 @@
   
       header 
       {
-        height: 245px;
+        height: auto;
       }
+
+      .about.igm {
+        height: auto;
+        width: 600px;
+    }
+    .gameplay.igm {
+      height: auto;
+      width: 600px;
+  }
+  .story.igm {
+    height: auto;
+    width: 600px;
+}
   
       #container 
       {
@@ -1114,8 +1304,8 @@
       
       .logo2 
       {
-        height: 70px;
-        width: 250px;
+        height: 115px;
+        width: 400px;
       }
   
       .socials 
@@ -1169,8 +1359,8 @@
       
       .logo2 
       {
-        height: 115px;
-        width: 400px;
+        height: 120px;
+        width: 405px;
       }
   
       .socials 
@@ -1197,7 +1387,38 @@
       body{
         font-size: 19.8px;
       }
-      
+
+       
+      div.follows {
+        margin-left: 0px;
+        font-size: 65px;
+        padding-top: 90px;
+        text-align: center;
+        width: 100%;
+    }
+
+    div.follow {
+      text-align: center;
+  }
+  .press {
+    padding-top: 90px;
+    font-size: 65px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.press p {
+  font-size: 45px;
+  text-align: center;
+}
+      .about.igm {
+        font-size: 35px;
+    }
+    .gameplay.igm {
+      font-size: 35px;
+  }
+  .story.igm {
+    font-size: 35px;
+}
       footer 
       {
         font-size: 20px;

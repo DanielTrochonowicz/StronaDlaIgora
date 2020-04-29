@@ -995,7 +995,7 @@ text-align: center;
     
     header 
     {
-      height: 145px;
+      height: auto;
     }
 
     .socials 
@@ -1022,8 +1022,8 @@ text-align: center;
 
     .logo2 
     {
-      height: 50px;
-      width: 170px;
+      height: 110px;
+      width: 380px;
       margin-right: 10px;
     }
 
@@ -1050,8 +1050,8 @@ text-align: center;
     
     .logo2 
     {
-      height: 70px;
-      width: 230px;
+      height: 115px;
+      width: 400px;
     }
 
     .socials 
@@ -1067,7 +1067,7 @@ text-align: center;
 
     header 
     {
-      height: 245px;
+      height: auto;
     }
 
     #container 
@@ -1094,7 +1094,7 @@ text-align: center;
   {
     header 
     {
-      height: 245px;
+      height: auto;
     }
 
     #container 
@@ -1113,8 +1113,8 @@ text-align: center;
     
     .logo2 
     {
-      height: 70px;
-      width: 250px;
+      height: 115px;
+      width: 400px;
     }
 
     .socials 
