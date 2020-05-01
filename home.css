@@ -397,13 +397,33 @@ header div a
   left: 100%;
   text-decoration: none;
   /* color: rgb(114, 107, 117); */
-  color: rgb(114, 107, 117);
+  /* color: rgb(114, 107, 117); */
+}
+
+.social:nth-child(odd)
+{
+   color: #f1d45f;
+}
+.social:nth-child(even)
+{
+   color: #8467e4;
+}
+.social:nth-child(odd):hover
+{
+  color: rgb(131, 61, 61);
+}
+.social:nth-child(even):hover
+{
+  color: rgb(131, 61, 61);
 }
 
 .social:hover
 {
   color: rgb(131, 61, 61);
 }
+
+
+
 
 a
 {
@@ -850,7 +870,7 @@ img.imgcarusel
     .socials 
     {
       /* margin-top: 82px; */
-      padding-top: 3px;
+      padding-top: 9px;
       /* padding-bottom: 0px; */
       font-size: 5px;
     }
@@ -886,7 +906,7 @@ img.imgcarusel
       height: 130px;
     }
     #font{
-      margin-top: -58px;
+      margin-top: -64px;
     }
 
     .infoGame h3 
@@ -1280,11 +1300,11 @@ img.imgcarusel
       height: 150px;
     }
     .socials {
-      padding-top: 15px;
-      font-size: 6px;
+      padding-top: 30px;
+      font-size: 24px;
   }
   #font {
-    margin-top: -65px;
+    margin-top: -75px;
 }
     /* .infoGame h3 {
       padding-top: 56px;

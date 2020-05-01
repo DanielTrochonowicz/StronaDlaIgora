@@ -34,7 +34,7 @@ body
 	font-size: 28px;
 	line-height:1.2em;
 	color:#fff;
-  background-image: url(../img/recyc.jpg);
+  /* background-image: url(../img/charlie.jpg); */
   background-size: 1400px 1600px;
 	background-position: center;
 	background-size: cover;
@@ -278,15 +278,32 @@ button#next
   color: rgb(114, 107, 117);
 }
 
-.social:hover
+.social:nth-child(odd)
+{
+   color: #f1d45f;
+}
+.social:nth-child(even)
+{
+   color: #8467e4;
+}
+.social:nth-child(odd):hover
 {
   color: rgb(131, 61, 61);
 }
+.social:nth-child(even):hover
+{
+  color: rgb(131, 61, 61);
+}
+  .social:hover
+  {
+    color: rgb(131, 61, 61);
+  }
 
 .main
 {
   width: 100%;
-  background-color: black;
+  background-image: url(../img/charlie.jpg);
+  /* background-color: black; */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1050,7 +1067,7 @@ text-align: center;
     
     .logo2 
     {
-      height: 115px;
+      height: 140px;
       width: 400px;
     }
 

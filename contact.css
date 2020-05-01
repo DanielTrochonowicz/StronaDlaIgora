@@ -1,6 +1,7 @@
 header
 {
-    background-color: black;
+    background-image: url(../img/charlie.jpg);
+    /* background-color: black; */
     height: 450px;
     border-bottom: 1.5px solid rgb(189, 12, 12);
 }

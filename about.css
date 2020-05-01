@@ -128,14 +128,20 @@ div.follow .follow1:hover
     border-bottom: 1.5px solid rgb(189, 12, 12);
 }
   
-  header
-  {
-    width: 100%;
-    text-align: center;
-    padding: 15px 0;
-    height: 350px;
-    border-bottom: 1.5px solid rgb(189, 12, 12);
-  }
+header {
+  width: 100%;
+  background-image: url(img/charlie.jpg);
+  /* background-color: black; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+  height: 350px;
+  border-bottom: 1.5px solid rgb(189, 12, 12);
+}
   
   header ul li a
   {
@@ -362,9 +368,25 @@ div.follow .follow1:hover
     padding-left: 20px;
     left: 100%;
     text-decoration: none;
-    color: rgb(114, 107, 117);
+    /* color: rgb(114, 107, 117); */
   }
-  
+
+.social:nth-child(odd)
+{
+   color: #f1d45f;
+}
+.social:nth-child(even)
+{
+   color: #8467e4;
+}
+.social:nth-child(odd):hover
+{
+  color: rgb(131, 61, 61);
+}
+.social:nth-child(even):hover
+{
+  color: rgb(131, 61, 61);
+}
   .social:hover
   {
     color: rgb(131, 61, 61);
@@ -812,7 +834,7 @@ div.follow .follow1:hover
     text-align: center;
 }
 .press p {
-  font-size: 37px;
+  font-size: 24px;
   text-align: center;
 }
       .about.igm{
@@ -1088,13 +1110,13 @@ div.follow .follow1:hover
   .imgLast{
     width: 80%;
   }
-  .abouth3 {
+  /* .abouth3 {
     margin-left: 44px;
-}
-.storyh3 {
+} */
+/* .storyh3 {
   margin-right: 64px;
 }
-.mainContact {
+.mainContact { */
   height: 100%;
 }
 div.follows {
@@ -1228,7 +1250,7 @@ text-align: center;
       
       .logo2 
       {
-        height: 115px;
+        height: 140px;
         width: 400px;
       }
   
