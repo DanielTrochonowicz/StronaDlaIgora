@@ -4,13 +4,17 @@
   border: none;
 	outline: none;
 	box-sizing: border-box;
-	font-family: Legendaria;
+	font-family: '8-bit_operatorregular';
 }
 
-@font-face
-{
-    font-family: Legendaria;
-    src: url(../fonts/Legendaria.ttf);
+
+@font-face {
+  font-family: '8-bit_operatorregular';
+  src: url('../fonts/8bitoperatorplus-regular-webfont.woff2') format('woff2'),
+       url('../fonts/8bitoperatorplus-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
 }
 
 #font
@@ -18,6 +22,8 @@
 	font-size: 24px;
 	padding-top: 40px;
 }
+
+
 /* html body 
 {
   margin:0;
@@ -27,16 +33,16 @@
 
 body
 {
-  background-color: black;
+  /* background-color: black; */
   margin:0;
   padding:0;
   height:100%;
 	font-size: 28px;
 	line-height:1.2em;
 	color:#fff;
-  /* background-image: url(../img/charlie.jpg); */
+  background-image: url(../img/mc.jpg);
   background-size: 1400px 1600px;
-	background-position: center;
+	background-position: top;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -45,9 +51,9 @@ header
 {
   width: 100%;
   text-align: center;
-  padding: 15px 0;
+  padding: 0px 0;
   height: 350px;
-  border-bottom: 1.5px solid rgb(189, 12, 12);
+  border-bottom: 1.5px solid gold;
 }
 
 header ul li a
@@ -58,7 +64,7 @@ header ul li a
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: Legendaria;
+  font-family: '8-bit_operatorregular';
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -102,12 +108,15 @@ header ul li a:nth-child(even):hover
 	/* min-height: 300px; */
 	background:rgba(41, 39, 39, 0.6);
 	overflow: auto;
-	margin: 48px;
+  margin: 48px;
+  margin-left: auto;
+  margin-right: auto;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 40px;
   border: rgb(14, 13, 13)solid 3px;
-  box-shadow: 0px 0px 18px 7px rgb(14, 13, 13);
+    box-shadow: 0px 0px 18px 7px rgb(14, 13, 13)
+
 }
 
 #audio-image
@@ -159,7 +168,7 @@ input#volume::-webkit-slider-thumb
 {
 	width: 90%;
 	display: block;
-  margin: 15px auto;
+  margin: -13px auto;
 	margin-left: 23px;
 	overflow: auto;
 }
@@ -209,7 +218,7 @@ button#next
 
 #playlist 
 {
-	text-align: center;
+	text-align: justify;
     list-style-type: none;
 	padding: 10px;
 }
@@ -235,7 +244,7 @@ button#next
 
 #progressBar 
 { 
-   width: 80%;
+   width: 98%;
    margin-left: 2%;
    margin-bottom: 20px;
    margin-top: 9px;
@@ -252,14 +261,14 @@ button#next
 
 }
 
-#duration
-{
-	position: absolute;
-	top: 0;
-	right: 4px;
-	padding: 4px 8px;
-	background: rgba(116, 109, 109, 0.6);
-	border-radius: 5px;
+#duration {
+  position: absolute;
+  top: 0;
+  right: 121px;
+  padding: 0px 8px;
+  background: rgba(116, 109, 109, 0.6);
+  border-radius: 10px;
+  font-size: 10px;
 }
 
 .socials
@@ -324,6 +333,9 @@ button#next
   margin-right: 600px;
 }
 
+
+
+
 footer
 {
   position:absolute;
@@ -335,7 +347,7 @@ footer
   color: white;
   background-color: black;
   text-align: center;
-  border-top: 1.5px solid rgb(189, 12, 12);
+  border-top: 1.5px solid gold;
 }
 
 .about{
@@ -382,6 +394,18 @@ text-align: center;
   background-repeat: no-repeat;
 }
 
+@media(min-width: 320px){
+  #duration {
+    right: 4px;
+  }
+  #playlist {
+    font-size: 12px;
+}
+#progressBar {
+  width: 77%;
+}
+}
+
 @media(min-width: 698px)
 {
   .logo1 
@@ -398,7 +422,7 @@ text-align: center;
     margin-right: 0px;
   }
 
-  .socials 
+  /* .socials 
   {
     padding-top: 10px;
     font-size: 7px;
@@ -407,6 +431,22 @@ text-align: center;
   .social
   {
     padding-left: 2px;
+  } */
+
+  .socials
+  {
+    padding-left: 75%;
+    padding-top: 30px;
+    font-size: 14px;
+    
+  }
+  
+  .social
+  {
+    padding-left: 20px;
+    left: 100%;
+    text-decoration: none;
+    /* color: rgb(114, 107, 117); */
   }
 
   header ul li a 
@@ -433,7 +473,8 @@ text-align: center;
 
   #buttons 
   {
-    margin-left: 11px;
+    margin-left: 0px;
+    padding-left: 115px;
   }
 
   button#prev 
@@ -446,7 +487,7 @@ text-align: center;
 
   button#next 
   {
-    width: 55px;
+    width: 129px;
     height: 70px;
     margin-top: 15px;
     background: url(../images/next.png) no-repeat;
@@ -483,6 +524,7 @@ text-align: center;
   {
     height: 100px;
     margin-bottom: 10px;
+    margin-left: 110px;
   }
 
   .cover 
@@ -498,7 +540,9 @@ text-align: center;
   {
     font-size: 21px;
   }
-
+  #duration {
+    right: 13px;
+}
   footer 
   {
     font-size: 24px;
@@ -558,7 +602,14 @@ text-align: center;
   }
 }
 
-
+@media (min-width: 970px){
+  .main {
+    height: 244px;
+}
+header {
+    height: 245px;
+}
+}
 
 @media (min-width: 1024px)
 {
@@ -613,19 +664,19 @@ text-align: center;
 {
     @media (min-width: 320px) 
     {
-      header 
-      {
-        height: 160px;
-      }
+      header {
+        height: 100px;
+        padding: 0px 0px;
+    }
 
       #font 
       {
-        padding-top: 0px;
+        padding-top: 55px;
       }
 
       .socials 
       {
-        font-size: 7px;
+        font-size: 5px;
         text-align: end;
         padding-right: 5px;
         padding-left: 0px;
@@ -647,18 +698,20 @@ text-align: center;
       {
         height: 50px;
         width: 150px;
-        margin-right: 10px;
+        margin-right: auto;
+        margin-left: auto;
       }
 
       header ul li a {
-        font-size: 24px;
+        font-size: 17px;
         padding-left: 0px;
         padding-right: 0px;
+        margin: 0 1px;
     }
 
     #container 
     {
-      margin: 10px 47px;
+      margin: 60px 47px;
       width: 230px;
     }
 
@@ -670,8 +723,8 @@ text-align: center;
 
     .cover 
     {
-      padding-top: 15px;
-      padding-bottom: 65px;
+      padding-top: 10px;
+      padding-bottom: 50px;
       padding-left: 65px;
       padding-right: 65px;
       height: 150px;
@@ -679,12 +732,12 @@ text-align: center;
 
     #audio-info 
     {
-      font-size: 21px;
+      font-size: 14px;
     }
 
     #playlist 
     {
-      font-size: 21px;
+      font-size: 14px;
     }
 
     #buttons
@@ -729,7 +782,7 @@ text-align: center;
   
     footer
     {
-      font-size: 13px;
+      font-size: 7px;
       height: 30px;
       padding-top: 0px;
       position: unset;
@@ -738,15 +791,14 @@ text-align: center;
 
     @media (min-width: 360px)
     {
-      #container 
-      {
-        margin: 10px 70px;
-      }
+      #container {
+        margin: 60px 70px;
+    }
 
       .cover 
       {
         padding-top: 15px;
-        padding-bottom: 50px;
+        padding-bottom: 58px;
         padding-left: 60px;
         padding-right: 75px;
         height: 160px;
@@ -755,20 +807,48 @@ text-align: center;
 
     @media (min-width: 375px)
     {
-      #container 
-      {
-        margin: 10px 75px;
-      }
+      #container {
+        margin: 60px 75px;
+    }
     }
   
     @media (min-width: 410px)
     {
-      #container 
-      {
-        margin: 10px 92px;
-      }   
+      #container {
+        margin: 60px 92px;
+        margin-left: auto;
+        margin-right: auto;
+    }  
     }
+    @media (min-width: 530px)
+    {
+      .main {
+        height: 110px;
+    }
+    #font {
+      padding-top: 65px;
+  }header {
+    height: 110px;
+}
   
+    }
+    @media (min-width: 700px)
+    {
+      #container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 306px;
+    }
+    #buttons {
+      padding-left: 37px;
+  }
+  button#next {
+    width: 88px;
+}
+#audio-image {
+  margin-left: 45px;
+}
+    }
     @media (min-width: 768px)
     {
       .logo1 
@@ -781,8 +861,8 @@ text-align: center;
 
       .logo2 
       {
-        height: 70px;
-        width: 250px;
+        height: 130px;
+        width: 400px;
       }
 
       .socials
@@ -792,8 +872,8 @@ text-align: center;
 
       header ul li a 
       {
-        font-size: 48px;
-        margin: 0 10px
+        font-size: 36px;
+        margin: 0 2px
       }
 
       header 
@@ -803,8 +883,27 @@ text-align: center;
 
       #container 
       {
-        margin: 20px 280px;
+        margin-left: auto;
+        margin-right: auto;
+          width: 312px;
+      
       }
+      #buttons {
+        margin-left: 12px;
+        width: auto;
+    }
+    button#next {
+      width: 110px;
+  }
+  #audio-image {
+    margin-left: 45px;
+}
+.main {
+  height: 189px;
+}
+#font {
+  padding-top: 155px;
+}
     }
 
     @media (min-width: 960px) 
@@ -817,10 +916,15 @@ text-align: center;
       
       .logo2 
       {
-        height: 70px;
-        width: 230px;
+        height: 150px;
+        width: 450px;
       }
-
+      #font {
+        padding-top: 215px;
+    }
+    .main {
+      height: 244px;
+  }
       .socials 
       {
         font-size: 9px;
@@ -828,7 +932,7 @@ text-align: center;
 
       header ul li a 
       {
-        font-size: 48px;
+        font-size: 40px;
       }
 
       header 
@@ -838,17 +942,19 @@ text-align: center;
 
       #container 
       {
-        margin: 20px 20px;
+        margin: 70px 20px;
       }
       .cover {
         padding-top: 15px;
-        padding-bottom: 50px;
+        padding-bottom: 60px;
         padding-left: 60px;
         padding-right: 75px;
         height: 160px;
     }
     #container {
       width: 230px;
+      margin-left: auto;
+      margin-right: auto;
   }
     }
 
@@ -862,8 +968,11 @@ text-align: center;
 
       #container 
       {
-        margin: 20px 30px;
+        margin: 122px 30px;
+        margin-left: auto;
+        margin-right: auto;
         height: auto;
+        width: 313px;
       }
 
       .logo1 
@@ -876,8 +985,8 @@ text-align: center;
       
       .logo2 
       {
-        height: 100px;
-        width: 250px;
+        height: 150px;
+        width: 450px;
       }
 
       .socials 
@@ -894,15 +1003,18 @@ text-align: center;
 
       header ul li a 
       {
-        font-size: 50px;
+        font-size: 40px;
       }
+      #font {
+        padding-top: 210px;
+    }
       
       footer 
       {
         font-size: 20px;
-        height: 30px;
+        height: 40px;
         padding-top: 0px;
-        position: absolute;
+        position: sticky;
       }
     }
 } 
@@ -1014,7 +1126,12 @@ text-align: center;
     {
       height: auto;
     }
-
+    #progressBar {
+      width: 85%;
+  }
+  #duration {
+    right: 8px;
+}
     .socials 
     {
       padding-top: 0px;
@@ -1082,18 +1199,19 @@ text-align: center;
       margin: 0 10px;
     }
 
-    header 
-    {
-      height: auto;
-    }
-
+    header {
+      height: 245px;
+  }
+  #font {
+    padding-top: 222px;
+}
     #container 
     {
-      margin: 20px 20px;
+      margin: 90px 20px;
     }
     .cover {
       padding-top: 15px;
-      padding-bottom: 50px;
+      padding-bottom: 57px;
       padding-left: 60px;
       padding-right: 75px;
       height: 160px;
@@ -1102,7 +1220,9 @@ text-align: center;
     position: unset;
   }
   #container {
-    width: 230px;
+    width: 440px;
+    margin-right: auto;
+    margin-left: auto;
 }
   }
 
@@ -1111,13 +1231,20 @@ text-align: center;
   {
     header 
     {
-      height: auto;
+      height: 222px;
     }
-
+    #progressBar {
+      width: 84%;
+  }
+  #duration {
+    right: 10px;
+}
     #container 
     {
-      margin: 20px 30px;
+      margin: 70px 30px;
       height: auto;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .logo1 
@@ -1128,15 +1255,19 @@ text-align: center;
       margin-left: 30px;
     }
     
-    .logo2 
-    {
-      height: 115px;
-      width: 400px;
-    }
+    .logo2 {
+      height: 134px;
+      width: 351px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  #font {
+    padding-top: 198px;
+}
 
     .socials 
     {
-      font-size: 9px;
+      font-size: 8px;
       padding-right: 5px;
       padding-left: 0px;
     }
@@ -1148,10 +1279,12 @@ text-align: center;
 
     header ul li a 
     {
-      font-size: 45px;
+      font-size: 35px;
       margin: 0 10px;
     }
-    
+    .main {
+      height: 219px;
+  }
     footer 
     {
       font-size: 20px;
@@ -1161,18 +1294,37 @@ text-align: center;
     }
   }
 
+  @media (min-width: 1200px){
+    .main {
+      height: 221px;
+  }
+  #font {
+    padding-top: 194px;
+}
+#progressBar {
+  width: 85%;
+}
+#duration {
+  right: 8px;
+}
+header {
+  height: 221px;
+}
+  }
   @media (min-width: 1366px)
   {
     header 
     {
-      height: auto;
+      /* height: auto; */
       padding: 5px 0;
     }
 
     #container 
     {
-      margin: 20px 30px;
+      margin: 80px 30px;
       height: auto;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .logo1 
@@ -1183,12 +1335,18 @@ text-align: center;
       margin-left: 30px;
     }
     
-    .logo2 
-    {
-      height: 115px;
-      width: 400px;
-    }
-
+    .logo2 {
+      height: 220px;
+      width: 610px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  #progressBar {
+    width: 85%;
+}
+#duration {
+  right: 8px;
+}
     .socials 
     {
       font-size: 10px;
@@ -1203,24 +1361,47 @@ text-align: center;
 
     header ul li a 
     {
-      font-size: 50px;
+      font-size: 40px;
       margin: 0 10px;
-    }
-    #container{
-      /* background: none ; */
     }
 
     body{
       font-size: 19.8px;
     }
-    
+    .main {
+      height: 224px;
+  }
+  header {
+    height: 224px;
+}
+#font {
+  padding-top: 196px;
+}
     footer 
     {
-      font-size: 20px;
+      font-size: 18px;
       height: 30px;
       padding-top: 0px;
       position: unset;
     }
+  }
+  
+  @media (min-width: 1550px){
+    .main {
+      height: 224px;
+  }
+  header {
+    height: 225px;
+}
+#font {
+  padding-top: 197px;
+}
+#progressBar {
+  width: 88%;
+}
+#duration {
+  right: 4px;
+}
   }
 
 }

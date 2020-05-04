@@ -4,14 +4,20 @@
     border: none;
       outline: none;
       box-sizing: border-box;
-      font-family: Legendaria;
+      font-family: '8-bit_operatorregular';
   }
   
-  @font-face
-  {
-      font-family: Legendaria;
-      src: url(fonts/Legendaria.ttf);
+
+  @font-face {
+    font-family: '8-bit_operatorregular';
+    src: url('fonts/8bitoperatorplus-regular-webfont.woff2') format('woff2'),
+         url('fonts/8bitoperatorplus-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
   }
+
+  
   .klawisz{
       text-align: center;
   }
@@ -125,7 +131,7 @@ div.follow .follow1:hover
 {
     background-color: black;
     height: 450px;
-    border-bottom: 1.5px solid rgb(189, 12, 12);
+    border-bottom: 1.5px solid gold;
 }
   
 header {
@@ -138,9 +144,9 @@ header {
   height: auto;
   width: 100%;
   text-align: center;
-  padding: 15px 0;
+  padding: 0px 0;
   height: 350px;
-  border-bottom: 1.5px solid rgb(189, 12, 12);
+  border-bottom: 1.5px solid gold;
 }
   
   header ul li a
@@ -151,7 +157,7 @@ header {
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: Legendaria;
+    font-family: '8-bit_operatorregular';
     padding-left: 50px;
     padding-right: 50px;
   }
@@ -427,13 +433,13 @@ header {
     color: white;
     background-color: black;
     text-align: center;
-    border-top: 1.5px solid rgb(189, 12, 12);
+    border-top: 1.5px solid gold;
   }
   
   .about{
     margin-right: auto;
     margin-left: auto;
-    font-size: 29px;
+    font-size: 14px;
   }
   .about.igm{
     height: auto;
@@ -699,6 +705,12 @@ header {
       padding-top: 0px;
     }
   }
+
+  @media(min-width: 768px){
+    #font {
+      padding-top: 155px;
+  }
+  }
   
   @media (orientation: portrait) 
   {
@@ -706,17 +718,18 @@ header {
       {
         header 
         {
-          height: 160px;
+          height: 100px;
+          padding: 0px 0px
         }
   
         #font 
         {
-          padding-top: 0px;
+          padding-top: 60px;
         }
   
         .socials 
         {
-          font-size: 7px;
+          font-size: 5px;
           text-align: end;
           padding-right: 5px;
           padding-left: 0px;
@@ -743,10 +756,12 @@ header {
         }
   
         header ul li a {
-          font-size: 24px;
+          font-size: 17px;
           padding-left: 0px;
           padding-right: 0px;
+          margin: 0 1px;
       }
+      
   
       #container 
       {
@@ -839,33 +854,60 @@ header {
 }
       .about.igm{
         width: auto;
-        text-align: center;
+        text-align: justify;
       }
-      .gameplay.igm {
-        width: auto;
-        text-align: center;
-     }
-     .story.igm {
+      .about {
+        margin-right: 15px;
+        margin-left: 15px;
+        font-size: 10px;
+    }
+    .gameplay.igm {
       width: auto;
       text-align: center;
+      font-size: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+      text-align: justify;
   }
+  .story.igm {
+    width: auto;
+    text-align: justify;
+    font-size: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
-  .imgLast{
-    width: 80%;
-  }
+.imgLast {
+  width: 30%;
+  height: auto;
+}
+.igmnow{
+  width: 30%;
+  height: auto;
+}
   .abouth3 {
-    margin-left: 44px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 17px;
+      padding-top: 20px;
+  }
+  .gameplayh3 {
+    text-align: center;
+    font-size: 17px;
+    padding-bottom: 20px;
 }
 .storyh3 {
-  margin-right: 64px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 17px;
+    padding-bottom: 20px;
 }
-      footer
-      {
-        font-size: 13px;
-        height: 30px;
-        padding-top: 0px;
-        position: unset;
-      }
+footer {
+  font-size: 7px;
+  height: 25px;
+  padding-top: 0px;
+  position: unset;
+}
     }
   
       @media (min-width: 360px)
@@ -884,7 +926,8 @@ header {
           height: 160px;
         }
         .abouth3 {
-          margin-left: 30px;
+          margin-left: auto;
+          margin-right: auto;
       }
       }
   
@@ -894,7 +937,11 @@ header {
         {
           margin: 10px 75px;
         }
+        .socials {
+          font-size: 6px;
       }
+      }
+      
     
       @media (min-width: 410px)
       {
@@ -902,6 +949,31 @@ header {
         {
           margin: 10px 92px;
         }   
+        .about.igm {
+          width: auto;
+          text-align: justify;
+          padding-left: 30px;
+          padding-right: 30px;
+          font-size: 12px;
+      }
+      .gameplay.igm {
+        width: auto;
+        text-align: center;
+        font-size: 12px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: justify;
+    }
+    .story.igm {
+      width: auto;
+      text-align: justify;
+      font-size: 12px;
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+  .socials {
+    font-size: 7px;
+}
       }
     
       @media (min-width: 768px)
@@ -916,10 +988,47 @@ header {
   
         .logo2 
         {
-          height: 70px;
-          width: 250px;
+          height: 130px;
+          width: 400px;
         }
-  
+        #font {
+          padding-top: 155px;
+      }
+      .abouth3 {
+        font-size: 24px;
+        padding-top: 40px;
+    }
+    .about.igm {
+      width: auto;
+      text-align: justify;
+      padding-left: 80px;
+      padding-right: 80px;
+      font-size: 16px;
+  }
+  .gameplayh3 {
+    text-align: center;
+    font-size: 24px;
+}
+.gameplay.igm {
+  width: auto;
+  text-align: center;
+  font-size: 16px;
+  padding-left: 80px;
+  padding-right: 80px;
+  text-align: justify;
+}
+.storyh3 {
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 24px;
+}
+.story.igm {
+  width: auto;
+  text-align: justify;
+  font-size: 16px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
         .socials
         {
           font-size: 9px;
@@ -927,8 +1036,8 @@ header {
   
         header ul li a 
         {
-          font-size: 48px;
-          margin: 0 10px
+          font-size: 36px;
+          margin: 0 2px
         }
   
         header 
@@ -1011,9 +1120,12 @@ header {
         
         .logo2 
         {
-          height: 100px;
-          width: 250px;
+          height: 150px;
+          width: 450px;
         }
+        #font {
+          padding-top: 210px;
+      }
   
         .socials 
         {
@@ -1029,15 +1141,41 @@ header {
   
         header ul li a 
         {
-          font-size: 50px;
+          font-size: 40px;
         }
+        .abouth3 {
+          font-size: 24px;
+          padding-top: 70px;
+      }
+      .about.igm {
+        width: auto;
+        text-align: justify;
+        padding-left: 100px;
+        padding-right: 100px;
+        font-size: 20px;
+    }
+    .gameplay.igm {
+      width: auto;
+      text-align: center;
+      font-size: 20px;
+      padding-left: 100px;
+      padding-right: 100px;
+      text-align: justify;
+  }
+  .story.igm {
+    width: auto;
+    text-align: justify;
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
         
         footer 
         {
           font-size: 20px;
           height: 30px;
           padding-top: 0px;
-          position: absolute;
+          position: unset;
         }
       }
   } 
@@ -1046,12 +1184,11 @@ header {
   {
     @media (min-width: 320px)
     {
-      
       header 
       {
         height: 145px;
       }
-  
+
       .socials 
       {
         padding-top: 0px;
@@ -1070,9 +1207,11 @@ header {
       {
         padding-top: 0px;
      }
-     #container {
+
+     #container 
+     {
       margin: auto;
-  }
+     }
   
       .logo1 
       {
@@ -1107,16 +1246,17 @@ header {
       text-align: center;
   }
 
-  .imgLast{
-    width: 80%;
-  }
-  /* .abouth3 {
+    .imgLast
+    {
+      width: 80%;
+    }
+  .abouth3 {
     margin-left: 44px;
-} */
-/* .storyh3 {
+}
+.storyh3 {
   margin-right: 64px;
 }
-.mainContact { */
+.mainContact {
   height: 100%;
 }
 div.follows {
@@ -1136,7 +1276,7 @@ text-align: center;
 padding-bottom: 100px;
 }
 .press p {
-font-size: 29px;
+font-size: 24px;
 text-align: center;
 }
   
@@ -1187,7 +1327,9 @@ text-align: center;
       }
       .imgLast {
         width: 30%;
+        height: auto;
     }
+    
     }
   
     @media (min-width: 800px)
@@ -1238,6 +1380,7 @@ text-align: center;
         font-size: 14px;
         position: unset;
       }
+      
     }
   
     @media (min-width: 960px) 
@@ -1273,15 +1416,15 @@ text-align: center;
       .about.igm {
         height: auto;
         width: 600px;
-    }
-    .gameplay.igm {
-      height: auto;
-      width: 600px;
-  }
-  .story.igm {
-    height: auto;
-    width: 600px;
-}
+      }
+      .gameplay.igm {
+        height: auto;
+        width: 600px;
+      }
+      .story.igm {
+        height: auto;
+        width: 600px;
+     }
   
       #container 
       {
@@ -1293,14 +1436,18 @@ text-align: center;
         padding-left: 60px;
         padding-right: 75px;
         height: 160px;
+      }
+      footer{
+        position: unset;
+      }
+      #container {
+        width: 230px;
     }
-    footer{
-      position: unset;
-    }
-    #container {
-      width: 230px;
+
+    #font {
+      padding-top: 220px;
   }
-    }
+  }
   
   
     @media (min-width: 1024px)
@@ -1326,7 +1473,7 @@ text-align: center;
       
       .logo2 
       {
-        height: 115px;
+        height: 179px;
         width: 400px;
       }
   
@@ -1344,10 +1491,57 @@ text-align: center;
   
       header ul li a 
       {
-        font-size: 45px;
+        font-size: 40px;
         margin: 0 10px;
       }
-      
+      .about.igm {
+        width: 150px 150px;
+        text-align: justify;
+    }
+
+      .abouth3 {
+        font-size: 36px;
+        padding-top: 50px;
+        margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    }
+    .about {
+      margin-right: auto;
+      margin-left: auto;
+      font-size: 22px;
+  }
+  .gameplayh3 {
+    text-align: center;
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+.gameplay.igm {
+  height: auto;
+  width: 600px;
+  text-align: justify;
+}
+.storyh3 {
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+.story.igm {
+  height: auto;
+  width: 600px;
+  text-align: justify;
+  font-size: 22px;
+}
+  .gameplay {
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 22px;
+}
+img {
+  padding-bottom: 30px;
+  margin: 0 15px;
+}
       footer 
       {
         font-size: 20px;
@@ -1357,11 +1551,12 @@ text-align: center;
       }
     }
   
+    }
     @media (min-width: 1366px)
     {
       header 
       {
-        height: auto;
+        height: 247px;
         padding: 5px 0;
       }
   
@@ -1369,7 +1564,11 @@ text-align: center;
       {
         margin: 20px 30px;
         height: auto;
+        
       }
+      #font {
+        padding-top: 224px;
+    }
   
       .logo1 
       {
@@ -1381,13 +1580,13 @@ text-align: center;
       
       .logo2 
       {
-        height: 120px;
-        width: 405px;
+        height: 200px;
+        width: 550px;
       }
   
       .socials 
       {
-        font-size: 10px;
+        font-size: 11px;
         padding-right: 5px;
         padding-left: 0px;
       }
@@ -1399,51 +1598,81 @@ text-align: center;
   
       header ul li a 
       {
-        font-size: 50px;
+        font-size: 45px;
         margin: 0 10px;
       }
-      #container{
-        /* background: none ; */
-      }
   
-      body{
+      body
+      {
         font-size: 19.8px;
       }
 
        
-      div.follows {
+      div.follows 
+      {
         margin-left: 0px;
         font-size: 65px;
         padding-top: 90px;
         text-align: center;
         width: 100%;
-    }
+      }
 
-    div.follow {
+      div.follow 
+      {
+        text-align: center;
+      }
+
+      .press 
+      {
+      padding-top: 90px;
+      font-size: 65px;
       text-align: center;
-  }
-  .press {
-    padding-top: 90px;
-    font-size: 65px;
-    text-align: center;
-    padding-bottom: 100px;
-}
-.press p {
-  font-size: 45px;
-  text-align: center;
-}
-      .about.igm {
-        font-size: 35px;
+      padding-bottom: 100px;
+      }
+
+      .press p 
+      {
+        font-size: 45px;
+        text-align: center;
+      }
+
+      .about.igm 
+        {
+          font-size: 22px;
+      }
+      
+      .gameplay.igm 
+      {
+        font-size: 22px;
+      }
+
+      .story.igm 
+      {
+        font-size: 22px;
+      }
+
+      .abouth3 {
+        font-size: 40px;
+        
+    padding-bottom: 30px;
     }
-    .gameplay.igm {
-      font-size: 35px;
+    .gameplayh3 {
+      font-size: 40px;
+      
+    padding-bottom: 30px;
   }
-  .story.igm {
-    font-size: 35px;
+  .storyh3 {
+    font-size: 40px;
+    
+    padding-bottom: 30px;
+}
+img {
+  padding-bottom: 30px;
+  margin: 0 20px;
 }
       footer 
-      {
-        font-size: 20px;
+        {
+        font-size: 18px;
         height: 30px;
         padding-top: 0px;
         position: unset;

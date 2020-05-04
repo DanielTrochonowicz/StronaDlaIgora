@@ -1,18 +1,59 @@
-header
-{
-    background-image: url(../img/charlie.jpg);
-    /* background-color: black; */
-    height: 450px;
-    border-bottom: 1.5px solid rgb(189, 12, 12);
-}
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+      outline: none;
+      box-sizing: border-box;
+      font-family: '8-bit_operatorregular';
+  }
+  
 
-.mainContact
+  @font-face {
+    font-family: '8-bit_operatorregular';
+    src: url('fonts/8bitoperatorplus-regular-webfont.woff2') format('woff2'),
+         url('fonts/8bitoperatorplus-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+
+  
+  .klawisz{
+      text-align: center;
+  }
+  #font
+  {
+      font-size: 24px;
+      padding-top: 40px;
+  }
+  /* html body 
+  {
+    margin:0;
+    padding:0;
+    height:100%;
+  } */
+  
+  body
+  {
+    background-color:black;
+    margin:0;
+    padding:0;
+    height:100%;
+      font-size: 28px;
+      line-height:1.2em;
+      color:#fff;
+    /* background-image: url(../img/recyc.jpg); */
+    background-size: 1400px 1600px;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  .mainContact
 {
   width: 100%;
-  background-image: url(img/recyc.jpg);
+  background-color: black;
   height: 66.8vh;
 }
-
 header p
 {
     color: white;
@@ -25,367 +66,918 @@ div.follows
     margin-left: 35%;
     font-size: 70px;
     text-align: left;
-    color: white;
-    padding-top: 10px;
+    /* color: white; */
+    color: rgb(95, 105, 238);
+    padding-top: 20px;
     height: 50vh;
     width: 60%;
 }
 
 div.follow
 {
-    padding-left: 20px;
+    padding-left: 0px;
+    padding-top: 25px;
     size: 30px;
     text-decoration: none;
     color: rgb(114, 107, 117);
     text-align: left;
 }
-div.follow .follow1
+/* div.follow .follow1
 {
-   font-size: 20px;
-   color: black;
+   font-size: 15px;
+   color: rgba(165, 155, 155, 0.644);
+} */
+
+div.follow .follow1:nth-child(odd)
+{
+   font-size: 15px;
+   color: #f1d45f;
+}
+div.follow .follow1:nth-child(even)
+{
+   font-size: 15px;
+   color: #8467e4;
+}
+div.follow .follow1:nth-child(odd):hover
+{
+  color: rgb(131, 61, 61);
+}
+div.follow .follow1:nth-child(even):hover
+{
+  color: rgb(131, 61, 61);
 }
 
 div.follow .follow1:hover
 {
-  color: red;
+  color: rgba(195, 164, 164, 0.589);
 }
 
 .press
 {
     font-size: 80px;
+    padding-top: 20px;
     text-align: left;
-    color: white;
+    color: #f1d45f;
 }
 
 .press p
 {
-    font-size: 60px;
+    font-size: 40px;
     text-align: left;
     font-weight: 800;
-    color: black;
-}
-
-/* footer
+    padding-top: 20px;
+    color: #8467e4;
+}header
 {
     background-color: black;
-    height: 400px;
-    color: white;
-    padding-top: 300px;
-    border-top: 1.5px solid rgb(189, 12, 12);
-} */
-
-footer
-{
-  font-size: 40px;
+    height: 450px;
+    border-bottom: 1.5px solid gold;
+}
+  
+header {
   width: 100%;
-  height: 482px;
-  padding-top: 420px;
-  color: white;
-  background-color: black;
+  background-image: url(img/charlie.jpg);
+  /* background-color: black; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
   text-align: center;
-  border-top: 1.5px solid rgb(189, 12, 12);
+  padding: 0px 0;
+  height: 350px;
+  border-bottom: 1.5px solid gold;
 }
-
-@media (orientation: portrait) 
-{
-    @media (min-width: 320px) 
-    {
-        header 
-        {
-            height: 160px;
-        }
-
-        .mainContact 
-        {
-            height: auto;
-        }
-
-        div.follows 
-        {
-            font-size: 24px;
-            margin-left: 20%;
-            padding-top: 35px;
-        }
-
-        div.follow .follow1 
-        {
-            font-size: 8px;
-            margin-right: 10px;
-        }
-
-        .press {
-            font-size: 24px;
-        }
-
-        .press p 
-        {
-            font-size: 20px;
-        }
-
-        footer {
-            font-size: 12px;
-            height: 124px;
-            padding-top: 95px;
-        }
-    }
-
-    @media (min-width: 360px)
-    {
-        footer {
-            font-size: 14px;
-            height: 160px;
-            padding-top: 130px;
-        }
-    }
-
-    @media (min-width: 375px)
-    {
-        footer 
-        {
-            font-size: 14px;
-            height: 246px;
-            padding-top: 215px;
-        }
-    }
   
-    @media (min-width: 410px)
-    {
-        div.follow .follow1 
-        {
-            font-size: 10px;
-            margin-right: 19px;
-        }
-
-        .press p 
-        {
-            font-size: 22px;
-        }
-
-        footer 
-        {
-            font-size: 14px;
-            height: 250px;
-            padding-top: 225px;
-        }
-    }
+  header ul li a
+  {
+    margin: 0 5px;
+    color: rgb(95, 105, 238);
+    font-size: 70px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: '8-bit_operatorregular';
+    padding-left: 50px;
+    padding-right: 50px;
+  }
   
-    @media (min-width: 768px)
-    {
-        header 
-        {
-            height: 245px;
-        }
-        .socials 
-        {
-            font-size: 9px;
-        }
-
-        .logo1 
-        {
-            height: 70px;
-            width: 70px;
-        }
-
-        .logo2 
-        {
-            height: 70px;
-            width: 250px;
-        }
-
-        header ul li a 
-        {
-            font-size: 48px;
-            margin: 0 10px;
-        }
-
-        div.follows 
-        {
-            font-size: 35px;
-            margin-left: 20%;
-            padding-top: 64px;
-        }
-
-        div.follow .follow1 
-        {
-            font-size: 16px;
-            margin-right: 34px;
-        }
-
-        .press 
-        {
-            font-size: 35px;
-        }
-
-        .press p 
-        {
-            font-size: 35px;
-        }
-
-        footer 
-        {
-            font-size: 20px;
-            height: 265px;
-            padding-top: 235px;
-        }
-    }
-
-    @media (min-width: 1024px)
-    {
-        div.follows 
-        {
-            padding-top: 150px;
-        }
-        
-        .socials 
-        {
-          font-size: 12px;
-          padding-right: 5px;
-          padding-left: 0px;
-        }
-        
-        .logo1 
-        {
-          height: 100px;
-          width: 100px;
-          margin-right: 5px;
-          margin-left: 30px;
-        }
+  header ul li a:nth-child(odd)
+  {
+    color: #f1d45f;
+  }
+  
+  header ul li a:nth-child(even){
+    color: #8467e4;
+  }
+  
+  header ul li a:nth-child(odd):hover
+  {
+    color: rgb(131, 61, 61);
+  }
+  
+  header ul li a:nth-child(even):hover
+  {
+    color: rgb(131, 61, 61);
+  }
+  
+  /* header p
+  {
+      color: white;
+      font-size: 80px;
+      height: 200px;
+  } */
+  
+  .clearfix
+  {
+      clear: both;
+  }
+  
+  #container
+  {
+    /* min-height:100%; */
+          /* position:relative; */
+      width: 330px;
+      /* min-height: 300px; */
+      background:rgba(41, 39, 39, 0.6);
+      overflow: auto;
+      margin: 48px;
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-radius: 40px;
+    border: rgb(14, 13, 13)solid 3px;
+    box-shadow: 0px 0px 18px 7px rgb(14, 13, 13);
+  }
+  
+  #audio-image
+  {
+      position: relative;
+      overflow: hidden;
+      height: 200px;
+      margin-bottom: 15px;
+  }
+  
+  #audio-info
+  {
+      text-align: center;
+  }
+  
+  /* #audio-info .artist
+  {
+      font-weight:bold;
+  } */
+  
+  .cover
+  {
+    padding-top: 40px;
+    padding-left: 90px;
+    width: 230px;
+    height: 180px;
+      z-index: 1;
+  }
+  
+  input#volume 
+  {
+      width: 95%;
+      margin-left: 2%;
+    -webkit-appearance: none !important;
+    background: #ccc;
+    height: 1px;
+      margin-bottom: 20px;
+  }
+  
+  input#volume::-webkit-slider-thumb 
+  {
+      -webkit-appearance: none !important;
+      background: url(../images/knob.png) no-repeat;
+      height: 12px;
+      width: 12px;
+  }
+  
+  #buttons
+  {
+      width: 90%;
+      display: block;
+    margin: 15px auto;
+      margin-left: 23px;
+      overflow: auto;
+  }
+  
+  
+  button#play
+  {
+      width: 70px;
+      height: 70px;
+      background: url(../images/play.png) no-repeat;
+      float:left;
+  }
+  
+  button#pause
+  {
+      width: 70px;
+      height: 70px;
+      background: url(../images/pause.png) no-repeat;
+      float:left;
+  }
+  
+  button#stop
+  {
+      width: 70px;
+      height: 70px;
+      background: url(../images/stop.png) no-repeat;
+      float:left;
+  }
+  
+  button#prev
+  {
+      width: 70px;
+      height: 70px;
+      background: url(../images/prev.png) no-repeat;
+      float: left;
+      margin-top: 15px;
+  }
+  
+  button#next
+  {
+      width: 70px;
+      height: 70px;
+      background: url(../images/next.png) no-repeat;
+      float: right;
+      margin-top: 15px;
+  }
+  
+  #playlist 
+  {
+      text-align: center;
+      list-style-type: none;
+      padding: 10px;
+  }
+  
+  #playlist li 
+  {
+      cursor: pointer;
+      margin: 5px;
+  }
+  
+  #tracker
+  {
+      position: relative;
+      width: 100%;
+  }
+  
+  #playlist li.active 
+  {
+      /* font-weight: bold; */
+      padding: 3px;
+      background: #666;
+  }
+  
+  #progressBar 
+  { 
+     width: 80%;
+     margin-left: 2%;
+     margin-bottom: 20px;
+     margin-top: 9px;
+     height: 10px;
+     background: url(../images/progress_bg.png) no-repeat;
+     float: left;
+  }
+  
+  #progress 
+  {
+     background: url(../images/progress.png) no-repeat;
+     height: 10px;
+     display: inline-block;
+  
+  }
+  
+  #duration
+  {
+      position: absolute;
+      top: 0;
+      right: 4px;
+      padding: 4px 8px;
+      background: rgba(116, 109, 109, 0.6);
+      border-radius: 5px;
+  }
+  
+  .socials
+  {
+    padding-left: 75%;
+    padding-top: 30px;
+    font-size: 14px;
     
-        .logo2 
+  }
+  
+  .social
+  {
+    padding-left: 20px;
+    left: 100%;
+    text-decoration: none;
+    /* color: rgb(114, 107, 117); */
+  }
+
+.social:nth-child(odd)
+{
+   color: #f1d45f;
+}
+.social:nth-child(even)
+{
+   color: #8467e4;
+}
+.social:nth-child(odd):hover
+{
+  color: rgb(131, 61, 61);
+}
+.social:nth-child(even):hover
+{
+  color: rgb(131, 61, 61);
+}
+  .social:hover
+  {
+    color: rgb(131, 61, 61);
+  }
+  
+  .main
+  {
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+  }
+  
+  .logo1
+  {
+    height: 150px;
+    width: 150px;
+    margin-right: 450px;
+  }
+  
+  .logo2
+  {
+    height: 150px;
+    width: 650px;
+    margin-right: 600px;
+  }
+  
+  footer
+  {
+    position:absolute;
+      bottom:0;
+    font-size: 40px;
+    width: 100%;
+    height: 90px;
+    padding-top: 20px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-top: 1.5px solid gold;
+  }
+  
+  .about{
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 14px;
+  }
+  .about.igm{
+    height: auto;
+    width: 600px;
+  }
+  .abouth3{
+      width: auto;
+    text-align: center;
+  }
+  .abouth3 .img{
+      margin-left: 90%;
+  }
+  
+  .gameplay{
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 29px;
+  }
+  .gameplayh3{
+  text-align: center;
+  }
+  .gameplay.igm{
+    height: auto;
+    width: 600px;
+  }
+
+  .story{
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 29px;
+  }
+  .story.igm{
+    height: auto;
+    width: 600px;
+  }
+  .storyh3{
+    text-align: center;
+  }
+  
+  @media(min-width: 698px)
+  {
+    .logo1 
+    {
+      height: 70px;
+      width: 70px;
+      margin-right: 0px;
+    }
+  
+    .logo2 
+    {
+      height: 70px;
+      width: 350px;
+      margin-right: 0px;
+    }
+  
+    .socials 
+    {
+      padding-top: 10px;
+      font-size: 7px;
+    }
+  
+    .social
+    {
+      padding-left: 2px;
+    }
+  
+    header ul li a 
+    {
+      font-size: 45px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  
+    header 
+    {
+      height: 165px;
+    }
+  
+    #font 
+    {
+      padding-top: 0px;
+    }
+  
+    #container 
+    {
+      width: 230px;
+    }
+  
+    #buttons 
+    {
+      margin-left: 11px;
+    }
+  
+    button#prev 
+    {
+      width: 63px;
+      height: 70px;
+      margin-top: 15px;
+      background: url(../images/prev.png) no-repeat;
+    }
+  
+    button#next 
+    {
+      width: 55px;
+      height: 70px;
+      margin-top: 15px;
+      background: url(../images/next.png) no-repeat;
+    }
+  
+    button#play 
+    {
+      background: url(../images/play1.png) no-repeat;
+      width: 40px;
+      margin-top: 15px;
+    }
+  
+    button#pause 
+    {
+      outline: 0;
+      width: 40px;
+      margin-top: 15px;
+      background: url(../images/pause1.png) no-repeat;
+    }
+  
+    button#stop 
+    {
+      width: 40px;
+      margin-top: 15px;
+      background: url(../images/stop1.png) no-repeat;
+    }
+  
+    #audio-info 
+    {
+      font-size: 21px;
+    }
+  
+    #audio-image 
+    {
+      height: 100px;
+      margin-bottom: 10px;
+    }
+  
+    .cover 
+    {
+      padding-top: 15px;
+      padding-bottom: 50px;
+      padding-left: 60px;
+      padding-right: 75px;
+      height: 160px;
+    }
+  
+    #playlist 
+    {
+      font-size: 21px;
+    }
+  
+    footer 
+    {
+      font-size: 24px;
+      height: 30px;
+      padding-top: 0px;
+      position: unset;
+    }
+  }
+  
+  @media (min-width: 960px)
+  {
+    .logo1 
+    {
+      height: 100px;
+      width: 100px;
+      margin-right: 0px;
+    }
+    
+    .logo2 
+    {
+      height: 100px;
+      width: 250px;
+      margin-right: 0px;
+    }
+  
+    .socials 
+    {
+      font-size: 9px;
+      padding-left: 0px;
+      padding-right: 5px;
+      padding-top: 5px;
+      text-align: end;
+    }
+    .social
+    {
+      padding-left: 5px;
+    }
+  
+    header ul li a 
+    {
+      font-size: 45px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    #font {
+      padding-top: 0px;
+  }
+  
+    header 
+    {
+      height: 245px;
+    }
+  
+    #container 
+    {
+      margin: 20px 20px;
+    }
+  }
+  
+  
+  
+  @media (min-width: 1024px)
+  {
+    header 
+    {
+      height: 245px;
+    }
+  
+    #container 
+    {
+      margin: 20px 30px;
+      height: auto;
+    }
+  
+    .logo1 
+    {
+      height: 100px;
+      width: 100px;
+    }
+    
+    .logo2 
+    {
+      height: 100px;
+      width: 250px;
+    }
+  
+    .socials 
+    {
+      font-size: 9px;
+      /* padding-right: 170px; */
+    }
+  
+    .social
+    {
+      padding-left: 5px;
+    }
+  
+    header ul li a 
+    {
+      font-size: 45px;
+    }
+    
+    footer 
+    {
+      font-size: 20px;
+      height: 30px;
+      padding-top: 0px;
+    }
+  }
+
+  @media(min-width: 768px){
+    #font {
+      padding-top: 155px;
+  }
+  }
+  
+  @media (orientation: portrait) 
+  {
+      @media (min-width: 320px) 
+      {
+        header 
         {
           height: 100px;
-          width: 250px;
+          padding: 0px 0px
         }
-
-        header 
+  
+        #font 
         {
-            height: 245px;
+          padding-top: 60px;
         }
-
-        header ul li a 
-        {
-          font-size: 50px;
-          margin: 0 10px;
-        }
-
-        footer 
-        {
-            font-size: 28px;
-            height: 450px;
-            padding-top: 400px;
-        }
-    }
-}
-
-
-
-@media (orientation: landscape)
-{
-    @media(min-width: 320px)
-    {
-        header 
-        {
-            height: 145px;
-        }
-
-        .mainContact 
-        {
-            height: 355px;
-        }
-
-        div.follows 
-        {
-            font-size: 24px;
-        }
-
-        div.follow .follow1 
-        {
-            font-size: 9px;
-        }
-
-        .press 
-        {
-            font-size: 24px;
-        }
-
-        .press p 
-        {
-            font-size: 25px;
-        }
-
-
-        footer
-        {
-            font-size: 14px;
-            padding-top: 0px;
-            height: 25px;   
-        }
-    }
-
-    @media (min-width: 731px)
-    {
-        footer
-        {
-            height: 60px; 
-            padding-top: 30px;  
-        }
-    }
-
-    @media (min-width: 823px)
-    {
-        .logo1 
-        {
-            height: 50px;
-            width: 50px;
-        }
-
-        .logo2 
-        {
-            height: 50px;
-            width: 170px;
-        }
-
-        header ul li a 
-        {
-            font-size: 28px;
-            margin: 0 10px;
-        }
-
-        header 
-        {
-            height: 145px;
-        }
-
-        div.follow .follow1 
-        {
-            padding-right: 14px;
-        }
-
+  
         .socials 
         {
-            font-size: 7px;
-        }
-    }
-
-    @media (min-width: 1024px)
-    {
-        .mainContact 
-        {
-            height: 85vh;
-        }
-
-        header 
-        {
-            height: 245px;
-        }
-
-        .socials 
-        {
-          font-size: 12px;
+          font-size: 5px;
+          text-align: end;
           padding-right: 5px;
           padding-left: 0px;
+          padding-top: 5px;
         }
-        
+  
+        .social
+        {
+          padding-left: 0px;
+        }
+  
+        .logo1 
+        {
+          height: 50px;
+          width: 50px;
+          margin-right: 10px;
+        }
+        .logo2 
+        {
+          height: 50px;
+          width: 150px;
+          margin-right: auto;
+          margin-left: auto;
+        }
+  
+        header ul li a {
+          font-size: 17px;
+          padding-left: 0px;
+          padding-right: 0px;
+          margin: 0 1px;
+      }
+      
+  
+      #container 
+      {
+        margin: 10px 47px;
+        width: 230px;
+      }
+  
+      #audio-image 
+      {
+        height: 100px;
+        margin-bottom: 10px;
+      }
+  
+      .cover 
+      {
+        padding-top: 15px;
+        padding-bottom: 65px;
+        padding-left: 65px;
+        padding-right: 65px;
+        height: 150px;
+      }
+  
+      #audio-info 
+      {
+        font-size: 21px;
+      }
+  
+      #playlist 
+      {
+        font-size: 21px;
+      }
+  
+      #buttons
+      {
+          margin-left: 11px;
+      }
+  
+      button#play 
+      {
+        background: url(../images/play1.png) no-repeat;
+        width: 40px;
+        margin-top: 15px;
+        outline: 0;
+      }
+  
+      button#pause 
+      {
+        outline: 0;
+        width: 40px;
+        margin-top: 15px;
+        background: url(../images/pause1.png) no-repeat;
+      }
+  
+      button#stop 
+      {
+        outline: 0;
+        width: 40px;
+        margin-top: 15px;
+        background: url(../images/stop1.png) no-repeat;
+      }
+  
+      button#prev 
+      {
+        width: 63px;
+        background: url(../images/prev.png) no-repeat;
+      }
+      button#next 
+      {
+        width: 55px;
+        background: url(../images/next.png) no-repeat;
+      } 
+      
+      div.follows {
+        margin-left: 0px;
+        font-size: 37px;
+        text-align: center;
+        width: 100%;
+    }
+
+    div.follow {
+      text-align: center;
+  }
+  .press {
+    font-size: 42px;
+    text-align: center;
+}
+.press p {
+  font-size: 24px;
+  text-align: center;
+}
+      .about.igm{
+        width: auto;
+        text-align: justify;
+      }
+      .about {
+        margin-right: 15px;
+        margin-left: 15px;
+        font-size: 10px;
+    }
+    .gameplay.igm {
+      width: auto;
+      text-align: center;
+      font-size: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+      text-align: justify;
+  }
+  .story.igm {
+    width: auto;
+    text-align: justify;
+    font-size: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.imgLast {
+  width: 30%;
+  height: auto;
+}
+.igmnow{
+  width: 30%;
+  height: auto;
+}
+  .abouth3 {
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 17px;
+      padding-top: 20px;
+  }
+  .gameplayh3 {
+    text-align: center;
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+.storyh3 {
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+footer {
+  font-size: 7px;
+  height: 25px;
+  padding-top: 0px;
+  position: unset;
+}
+    }
+  
+      @media (min-width: 360px)
+      {
+        #container 
+        {
+          margin: 10px 70px;
+        }
+  
+        .cover 
+        {
+          padding-top: 15px;
+          padding-bottom: 50px;
+          padding-left: 60px;
+          padding-right: 75px;
+          height: 160px;
+        }
+        .abouth3 {
+          margin-left: auto;
+          margin-right: auto;
+      }
+      }
+  
+      @media (min-width: 375px)
+      {
+        #container 
+        {
+          margin: 10px 75px;
+        }
+        .socials {
+          font-size: 6px;
+      }
+      }
+      
+    
+      @media (min-width: 410px)
+      {
+        #container 
+        {
+          margin: 10px 92px;
+        }   
+        .about.igm {
+          width: auto;
+          text-align: justify;
+          padding-left: 30px;
+          padding-right: 30px;
+          font-size: 12px;
+      }
+      .gameplay.igm {
+        width: auto;
+        text-align: center;
+        font-size: 12px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: justify;
+    }
+    .story.igm {
+      width: auto;
+      text-align: justify;
+      font-size: 12px;
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+  .socials {
+    font-size: 7px;
+}
+      }
+    
+      @media (min-width: 768px)
+      {
         .logo1 
         {
           height: 70px;
@@ -393,107 +985,697 @@ footer
           margin-right: 5px;
           margin-left: 30px;
         }
-    
+  
+        .logo2 
+        {
+          height: 130px;
+          width: 400px;
+        }
+        #font {
+          padding-top: 155px;
+      }
+      .abouth3 {
+        font-size: 24px;
+        padding-top: 40px;
+    }
+    .about.igm {
+      width: auto;
+      text-align: justify;
+      padding-left: 80px;
+      padding-right: 80px;
+      font-size: 16px;
+  }
+  .gameplayh3 {
+    text-align: center;
+    font-size: 24px;
+}
+.gameplay.igm {
+  width: auto;
+  text-align: center;
+  font-size: 16px;
+  padding-left: 80px;
+  padding-right: 80px;
+  text-align: justify;
+}
+.storyh3 {
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 24px;
+}
+.story.igm {
+  width: auto;
+  text-align: justify;
+  font-size: 16px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+        .socials
+        {
+          font-size: 9px;
+        }
+  
+        header ul li a 
+        {
+          font-size: 36px;
+          margin: 0 2px
+        }
+  
+        header 
+        {
+          height: 190px;
+        }
+  
+        #container 
+        {
+          margin: 20px 280px;
+        }
+      }
+  
+      @media (min-width: 960px) 
+      {
+        .logo1 
+        {
+          height: 70px;
+          width: 70px;
+        }
+        
         .logo2 
         {
           height: 70px;
-          width: 250px;
+          width: 230px;
         }
-
-        header ul li a 
-        {
-          font-size: 45px;
-          margin: 0 10px;
-        }
-
-        div.follows 
-        {
-            font-size: 35px;
-            padding-top: 60px;
-        }
-
-        div.follow .follow1 
-        {
-            font-size: 10px;
-        }
-
-        .press 
-        {
-            font-size: 35px;
-        }
-
-        .press p 
-        {
-            font-size: 30px;
-        }
-
+  
         .socials 
         {
-            font-size: 9px;
+          font-size: 9px;
         }
-
-        footer 
-        {
-            font-size: 20px;
-            height: 176px;
-            padding-top: 139px;
-        }
-    }
   
-    @media (min-width: 1366px)
-    {
-        header 
-        {
-            height: 280px;
-        }
-
-        div.follows 
-        {
-            font-size: 40px;
-        }
-
-        div.follow .follow1 
-        {
-            font-size: 15px;
-        }
-
-        .press 
-        {
-            font-size: 40px;
-        }
-
-        .press p 
-        {
-            font-size: 40px;
-        }
-        
-        .logo1 
-        {
-            height: 100px;
-            width: 100px;
-        }
-
-        .logo2 
-        {
-            height: 100px;
-            width: 270px;
-        }
-
         header ul li a 
         {
-            font-size: 45px;
-            margin: 0 10px;
+          font-size: 48px;
         }
-
-        .socials
+  
+        header 
         {
-            font-size: 12px;
+          height: 245px;
         }
-
-        footer
+  
+        #container 
         {
-            padding-top: 285px;
-            height: 340px
+          margin: 20px 20px;
         }
+        .cover {
+          padding-top: 15px;
+          padding-bottom: 50px;
+          padding-left: 60px;
+          padding-right: 75px;
+          height: 160px;
+      }
+      #container {
+        width: 230px;
     }
+      }
+  
+  
+      @media (min-width: 1024px)
+      {
+        header 
+        {
+          height: 245px;
+        }
+  
+        #container 
+        {
+          margin: 20px 30px;
+          height: auto;
+        }
+  
+        .logo1 
+        {
+          height: 100px;
+          width: 100px;
+          margin-right: 5px;
+          margin-left: 30px;
+        }
+        
+        .logo2 
+        {
+          height: 150px;
+          width: 450px;
+        }
+        #font {
+          padding-top: 210px;
+      }
+  
+        .socials 
+        {
+          font-size: 12px;
+          padding-right: 5px;
+          padding-left: 0px;
+        }
+  
+        .social
+        {
+          padding-left: 5px;
+        }
+  
+        header ul li a 
+        {
+          font-size: 40px;
+        }
+        .abouth3 {
+          font-size: 24px;
+          padding-top: 70px;
+      }
+      .about.igm {
+        width: auto;
+        text-align: justify;
+        padding-left: 100px;
+        padding-right: 100px;
+        font-size: 20px;
+    }
+    .gameplay.igm {
+      width: auto;
+      text-align: center;
+      font-size: 20px;
+      padding-left: 100px;
+      padding-right: 100px;
+      text-align: justify;
+  }
+  .story.igm {
+    width: auto;
+    text-align: justify;
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
+        
+        footer 
+        {
+          font-size: 20px;
+          height: 30px;
+          padding-top: 0px;
+          position: unset;
+        }
+      }
+  } 
+  
+  @media (orientation: landscape) 
+  {
+    @media (min-width: 320px)
+    {
+      header 
+      {
+        height: 145px;
+      }
+
+      .socials 
+      {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-size: 6px;
+        text-align: end;
+        padding-right: 5px;
+      }
+  
+      .social 
+      {
+        padding-left: 0px;
+      }
+  
+      #font 
+      {
+        padding-top: 0px;
+     }
+
+     #container 
+     {
+      margin: auto;
+     }
+  
+      .logo1 
+      {
+        height: 50px;
+        width: 50px;
+        margin-right: 10px;
+      }
+  
+      .logo2 
+      {
+        height: 50px;
+        width: 150px;
+        margin-right: 10px;
+      }
+  
+      header ul li a 
+      {
+        font-size: 28px;
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+      .about.igm{
+        width: auto;
+        text-align: center;
+      }
+      .gameplay.igm {
+        width: auto;
+        text-align: center;
+     }
+     .story.igm {
+      width: auto;
+      text-align: center;
+  }
+
+    .imgLast
+    {
+      width: 80%;
+    }
+  .abouth3 {
+    margin-left: 44px;
+}
+.storyh3 {
+  margin-right: 64px;
+}
+.mainContact {
+  height: 100%;
+}
+div.follows {
+  margin-left: 0px;
+  font-size: 37px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+div.follow {
+text-align: center;
+}
+.press {
+font-size: 42px;
+text-align: center;
+padding-bottom: 100px;
+}
+.press p {
+font-size: 24px;
+text-align: center;
+}
+  
+      footer 
+      {
+        height: 20px;
+        font-size: 14px;
+        position: unset;
+        padding-top: 0px;
+      }
+    }
+  
+    @media (min-width: 768px)
+    {
+      .logo1 
+      {
+        height: 70px;
+        width: 70px;
+        margin-right: 5px;
+        margin-left: 30px;
+      }
+  
+      .logo2 
+      {
+        height: 70px;
+        width: 230px;
+      }
+  
+      .socials
+      {
+        font-size: 9px;
+      }
+  
+      header ul li a 
+      {
+        font-size: 48px;
+        margin: 0 10px;
+      }
+  
+      header 
+      {
+        height: 190px;
+      }
+  
+      #container 
+      {
+        margin: 20px 280px;
+      }
+      .imgLast {
+        width: 30%;
+        height: auto;
+    }
+    
+    }
+  
+    @media (min-width: 800px)
+    {
+      
+      header 
+      {
+        height: 145px;
+      }
+  
+      .socials 
+      {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-size: 7px;
+        text-align: end;
+        padding-right: 5px;
+      }
+  
+      .social 
+      {
+        padding-left: 0px;
+      }
+  
+      .logo1 
+      {
+        height: 50px;
+        width: 50px;
+        margin-right: 5px;
+          margin-left: 30px;
+      }
+  
+      .logo2 
+      {
+        height: 50px;
+        width: 170px;
+        margin-right: 10px;
+      }
+  
+      header ul li a 
+      {
+        font-size: 28px;
+        margin: 0 10px;
+      }
+  
+      footer 
+      {
+        font-size: 14px;
+        position: unset;
+      }
+      
+    }
+  
+    @media (min-width: 960px) 
+    {
+      .logo1 
+      {
+        height: 70px;
+        width: 70px;
+      }
+      
+      .logo2 
+      {
+        height: 140px;
+        width: 400px;
+      }
+  
+      .socials 
+      {
+        font-size: 9px;
+      }
+  
+      header ul li a 
+      {
+        font-size: 48px;
+        margin: 0 10px;
+      }
+  
+      header 
+      {
+        height: auto;
+      }
+
+      .about.igm {
+        height: auto;
+        width: 600px;
+      }
+      .gameplay.igm {
+        height: auto;
+        width: 600px;
+      }
+      .story.igm {
+        height: auto;
+        width: 600px;
+     }
+  
+      #container 
+      {
+        margin: 20px 20px;
+      }
+      .cover {
+        padding-top: 15px;
+        padding-bottom: 50px;
+        padding-left: 60px;
+        padding-right: 75px;
+        height: 160px;
+      }
+      footer{
+        position: unset;
+      }
+      #container {
+        width: 230px;
+    }
+
+    #font {
+      padding-top: 192px;
+  }
+  }
+  
+  
+    @media (min-width: 1024px)
+    {
+     header {
+    height: 220px;
+}
+  
+      #container 
+      {
+        margin: 20px 30px;
+        height: auto;
+      }
+  
+      .logo1 
+      {
+        height: 70px;
+        width: 70px;
+        margin-right: 5px;
+        margin-left: 30px;
+      }
+      
+      .logo2 
+      {
+        height: 179px;
+        width: 400px;
+      }
+  
+      .socials 
+      {
+        font-size: 9px;
+        padding-right: 5px;
+        padding-left: 0px;
+      }
+  
+      .social
+      {
+        padding-left: 5px;
+      }
+  
+      header ul li a 
+      {
+        font-size: 35px;
+        margin: 0 10px;
+      }
+      .about.igm {
+        width: 150px 150px;
+        text-align: justify;
+    }
+
+      .abouth3 {
+        font-size: 36px;
+        padding-top: 50px;
+        margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    }
+    .about {
+      margin-right: auto;
+      margin-left: auto;
+      font-size: 22px;
+  }
+  .gameplayh3 {
+    text-align: center;
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+.gameplay.igm {
+  height: auto;
+  width: 600px;
+  text-align: justify;
+}
+.storyh3 {
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+.story.igm {
+  height: auto;
+  width: 600px;
+  text-align: justify;
+  font-size: 22px;
+}
+  .gameplay {
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 22px;
+}
+img {
+  padding-bottom: 30px;
+  margin: 0 15px;
+}
+      footer 
+      {
+        font-size: 20px;
+        height: 30px;
+        padding-top: 0px;
+        position: unset;
+      }
+    }
+  
+    }
+    @media (min-width: 1366px)
+    {
+      header 
+      {
+        height: 222px;
+        padding: 5px 0;
+      }
+  
+      #container 
+      {
+        margin: 20px 30px;
+        height: auto;
+        
+      }
+      #font {
+        padding-top: 198px;
+    }
+  
+      .logo1 
+      {
+        height: 100px;
+        width: 100px;
+        margin-right: 5px;
+        margin-left: 30px;
+      }
+      
+      .logo2 
+      {
+        height: 200px;
+        width: 550px;
+      }
+  
+      .socials 
+      {
+        font-size: 10px;
+        padding-right: 5px;
+        padding-left: 0px;
+      }
+  
+      .social
+      {
+        padding-left: 0px;
+      }
+  
+      header ul li a 
+      {
+        font-size: 40px;
+        margin: 0 10px;
+      }
+  
+      body
+      {
+        font-size: 19.8px;
+      }
+
+       
+      div.follows 
+      {
+        margin-left: 0px;
+        font-size: 65px;
+        padding-top: 90px;
+        text-align: center;
+        width: 100%;
+      }
+
+      div.follow 
+      {
+        text-align: center;
+      }
+
+      .press 
+      {
+      padding-top: 90px;
+      font-size: 65px;
+      text-align: center;
+      padding-bottom: 100px;
+      }
+
+      .press p 
+      {
+        font-size: 45px;
+        text-align: center;
+      }
+
+      .about.igm 
+        {
+          font-size: 22px;
+      }
+      
+      .gameplay.igm 
+      {
+        font-size: 22px;
+      }
+
+      .story.igm 
+      {
+        font-size: 22px;
+      }
+
+      .abouth3 {
+        font-size: 40px;
+        
+    padding-bottom: 30px;
+    }
+    .gameplayh3 {
+      font-size: 40px;
+      
+    padding-bottom: 30px;
+  }
+  .storyh3 {
+    font-size: 40px;
+    
+    padding-bottom: 30px;
+}
+img {
+  padding-bottom: 30px;
+  margin: 0 20px;
+}
+      footer 
+        {
+        font-size: 18px;
+        height: 30px;
+        padding-top: 0px;
+        position: unset;
+      }
+    }
+  
+  }
