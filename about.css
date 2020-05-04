@@ -1445,7 +1445,7 @@ text-align: center;
     }
 
     #font {
-      padding-top: 220px;
+      padding-top: 250px;
   }
   }
   
@@ -1454,7 +1454,7 @@ text-align: center;
     {
       header 
       {
-        height: 245px;
+        height: 280px;
       }
   
       #container 
@@ -1491,7 +1491,7 @@ text-align: center;
   
       header ul li a 
       {
-        font-size: 40px;
+        font-size: 35px;
         margin: 0 10px;
       }
       .about.igm {
@@ -1551,12 +1551,12 @@ img {
       }
     }
   
-    }
+    
     @media (min-width: 1366px)
     {
       header 
       {
-        height: 247px;
+        height: 288px;
         padding: 5px 0;
       }
   
@@ -1567,7 +1567,7 @@ img {
         
       }
       #font {
-        padding-top: 224px;
+        padding-top: 262px;
     }
   
       .logo1 
@@ -1677,6 +1677,54 @@ img {
         padding-top: 0px;
         position: unset;
       }
+    }
+    @media (min-width: 1500px)
+    {
+      header {
+        height: 285px;
+    }
+    #font {
+      padding-top: 260px;
+  }
+  header ul li a {
+    font-size: 40px;
+}
+    }
+    @media (min-width: 1600px)
+    {
+      header {
+        height: 384px;
+    }
+    #font {
+      padding-top: 360px;
+  }
+  header ul li a {
+    font-size: 40px;
+}
+    }
+    @media (min-width: 1700px)
+    {
+      header {
+        height: 384px;
+    }
+    #font {
+      padding-top: 360px;
+  }
+  header ul li a {
+    font-size: 40px;
+}
+    }
+    @media (min-width: 1920px)
+    {
+      header {
+        height: 384px;
+    }
+    #font {
+      padding-top: 360px;
+  }
+  header ul li a {
+    font-size: 40px;
+}
     }
   
   }

@@ -536,7 +536,7 @@ img.imgcarusel
 
 .carousel .carousel-item h2
 {
-  background-color: rgba(194, 204, 219, 0.6);
+  background-color: rgba(199, 196, 31, 0.726);
   color: white;
   padding: 10px 5px;
   font-weight: bold;
@@ -557,7 +557,8 @@ img.imgcarusel
   width: 300px;
   height: 200px;
   text-align: center;
-  background-color: rgba(194, 204, 219, 0.6);
+  background-color: rgba(63, 109, 177, 0.883);
+  height: auto;
 }
 
 @media (min-width: 320px) 
@@ -961,7 +962,7 @@ div.carousel {
     .carousel .carousel-item p 
     {
       width: 250px;
-      height: 150px;
+      height: 165px;
     }
 
   }
@@ -1670,6 +1671,7 @@ footer {
       font-size: 12px;
       padding-left: 15px;
       padding-right: 15px;
+      height: auto;
     }
     .textInfoGame1 {
       padding-left: 70px;

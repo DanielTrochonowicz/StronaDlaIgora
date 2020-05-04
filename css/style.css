@@ -1296,10 +1296,10 @@ header {
 
   @media (min-width: 1200px){
     .main {
-      height: 221px;
+      height: 281px;
   }
   #font {
-    padding-top: 194px;
+    padding-top: 250px;
 }
 #progressBar {
   width: 85%;
@@ -1308,7 +1308,7 @@ header {
   right: 8px;
 }
 header {
-  height: 221px;
+  height: 282px;
 }
   }
   @media (min-width: 1366px)
@@ -1369,13 +1369,13 @@ header {
       font-size: 19.8px;
     }
     .main {
-      height: 224px;
+      height: 288px;
   }
   header {
-    height: 224px;
+    height: 288px;
 }
 #font {
-  padding-top: 196px;
+  padding-top: 262px;
 }
     footer 
     {
@@ -1385,23 +1385,72 @@ header {
       position: unset;
     }
   }
-  
+/*   
   @media (min-width: 1550px){
-    .main {
-      height: 224px;
+    header {
+      height: 384px;
   }
-  header {
-    height: 225px;
+  #font {
+    padding-top: 360px;
 }
-#font {
-  padding-top: 197px;
+header ul li a {
+  font-size: 40px;
 }
+.main {
+  height: 384px;}
+
 #progressBar {
   width: 88%;
 }
 #duration {
   right: 4px;
+} */
+  }
+  @media (min-width: 1600px)
+  {
+    header {
+      height: 384px;
+  }
+  #font {
+    padding-top: 360px;
+}
+header ul li a {
+  font-size: 40px;
+}
+.main {
+  height: 384px;
 }
   }
+  @media (min-width: 1700px)
+  {
+    header {
+      height: 384px;
+  }
+  #font {
+    padding-top: 360px;
+}
+header ul li a {
+  font-size: 40px;
+}
+.main {
+  height: 384px;
+}
+  }
+  @media (min-width: 1920px)
+  {
+    header {
+      height: 384px;
+  }
+  #font {
+    padding-top: 360px;
+}
+header ul li a {
+  font-size: 40px;
+}
+.main {
+  height: 384px;
+}
+  }
+  
 
 }
