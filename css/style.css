@@ -474,12 +474,12 @@ text-align: center;
   #buttons 
   {
     margin-left: 0px;
-    padding-left: 115px;
+    padding-left: 105px;
   }
 
   button#prev 
   {
-    width: 63px;
+    width: 73px;
     height: 70px;
     margin-top: 15px;
     background: url(../images/prev.png) no-repeat;
@@ -487,7 +487,7 @@ text-align: center;
 
   button#next 
   {
-    width: 129px;
+    width: 131px;
     height: 70px;
     margin-top: 15px;
     background: url(../images/next.png) no-repeat;
@@ -697,7 +697,7 @@ header {
       .logo2 
       {
         height: 50px;
-        width: 150px;
+        width: 132px;
         margin-right: auto;
         margin-left: auto;
       }

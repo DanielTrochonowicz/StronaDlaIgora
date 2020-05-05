@@ -59,6 +59,83 @@
 }
 
 
+.myButton {
+	background-color:#b23665;
+	border-radius:28px;
+	border:1px solid #b23665;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:8-bit_operatorregular;
+	font-size:40px;
+	padding:5px 17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+  background-color:#5d0e2d;
+  /* border:1px solid #5d0e2d; */
+	color:#f1d45f;
+}
+.myButton1 {
+	background-color:#05ce78;
+	border-radius:28px;
+	border:1px solid #05ce78;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:8-bit_operatorregular;
+	font-size:40px;
+	padding:5px 17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton1:hover {
+  background-color:#1a724c;
+  color:#f1d45f;
+}
+.myButton2 {
+	background-color:#8467e4;
+	border-radius:28px;
+	border:1px solid #8467e4;
+	display:inline-block;
+	cursor:pointer;
+	color:#f1d45f;
+	font-family:8-bit_operatorregular;
+	font-size:40px;
+	padding:5px 17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton2:hover {
+  background-color:#563da5;
+  
+  color:white;
+}
+.myButton3 {
+	background-color:#f1d45f;
+	border-radius:28px;
+	border:1px solid #f1d45f;
+	display:inline-block;
+	cursor:pointer;
+	color:#8467e4;
+	font-family:8-bit_operatorregular;
+	font-size:40px;
+	padding:5px 17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton3:hover {
+  background-color:#c2a947;
+  
+  color:white;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
 body 
 {
   font-size: 14px;
@@ -89,24 +166,24 @@ header ul li a
 
 header ul li a:nth-child(odd)
 {
-  color: #f1d45f;
+  /* color: #f1d45f; */
   /* color: #8467e4; */
 }
 
 header ul li a:nth-child(even)
 {
   /* color: #f1d45f; */
-  color: #8467e4;
+  /* color: #8467e4; */
 }
 
 header ul li a:nth-child(odd):hover
 {
-  color: rgb(131, 61, 61);
+  /* color: rgb(131, 61, 61); */
 }
 
 header ul li a:nth-child(even):hover
 {
-  color:rgb(131, 61, 61);
+ s /* color:rgb(131, 61, 61); */
 }
 
 footer
