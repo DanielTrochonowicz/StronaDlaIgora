@@ -966,6 +966,44 @@ div.carousel {
   padding-top: 5px;
 }
 
+.w3-col.s3 {
+  width: 80px;
+}
+.w3-section, .w3-code {
+  margin-top: 0px!important;
+  margin-bottom: 0px!important;
+}
+
+img.mySlides {
+  height: 131px!important;
+  width: 70%!important;
+}
+
+.w3-col.s3 {
+  width: 0%!important;
+  margin-left: auto!important;
+  margin-right: auto!important;
+}
+.w3-section, .w3-code {
+  margin-top: 0px!important;
+  margin-bottom: 0px!important;
+  margin-left: 0px!important;
+}
+/* 
+.w3-col.s3 {
+  width: 377px!important;
+  margin-left: -203px!important;
+  margin-right: 0px!important;
+}
+img.mySlides {
+  height: 231px!important;
+  width: 50%!important;
+}
+.w3-section, .w3-code {
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+    margin-left: 470px!important;
+} */
     .social
     {
       padding-left: 0px;
@@ -994,7 +1032,7 @@ div.carousel {
 
     .main 
     {
-      height: 130px;
+      height: 102px;
     }
     #font {
       padding-top: 0px;
@@ -1094,7 +1132,9 @@ p.screanshots {
       padding-top: -150px;
       padding-bottom: 0px;
     }
-
+.center.img{
+  height: 50px;
+}
     .carousel .carousel-item p {
       width: 150px;
       height: auto;
@@ -1201,7 +1241,16 @@ header {
   font-size: 12px;
   text-indent: 1em;
 }
-
+/* .w3-col.s3 {
+  width: 355px;
+  margin-left: -221px;
+  margin-right: 0px;
+}
+.w3-section, .w3-code {
+margin-top: 16px!important;
+margin-bottom: 16px!important;
+margin-left: 540px;
+} */
 .textInfoGame2 {
   padding-left: 15px;
   padding-right: 15px;
@@ -1302,6 +1351,11 @@ footer {
       margin-top: -5px;
     }
 
+    img.mySlides {
+      height: 231px!important;
+      width: 70%!important;
+  }
+
     .logo1 
     {
       height: 70px;
@@ -1368,8 +1422,32 @@ footer {
       padding-left: 40px;
     padding-right: 40px;
     }
-
-
+    .myButton1 {
+      background-color: #05ce78;
+      border-radius: 28px;
+      border: 1px solid #05ce78;
+      display: inline-block;
+      cursor: pointer;
+      color: #ffffff;
+      font-family: 8-bit_operatorregular;
+      font-size: 40px;
+      padding: 5px 17px;
+      text-decoration: none;
+      text-shadow: 0px 1px 0px #2f6627;
+  }
+  .myButton {
+    background-color: #b23665;
+    border-radius: 28px;
+    border: 1px solid #b23665;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 8-bit_operatorregular;
+    font-size: 40px;
+    padding: 5px 17px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+}
     .infoGame .text 
     {
       height: 200px;
@@ -1407,7 +1485,32 @@ footer {
       padding-left: 0px;
       margin-top: 0px;
     }
-    
+    .myButton1 {
+      background-color: #05ce78;
+      border-radius: 28px;
+      border: 1px solid #05ce78;
+      display: inline-block;
+      cursor: pointer;
+      color: #ffffff;
+      font-family: 8-bit_operatorregular;
+      font-size: 40px;
+      padding: 5px 17px;
+      text-decoration: none;
+      text-shadow: 0px 1px 0px #2f6627;
+  }
+  .myButton {
+    background-color: #b23665;
+    border-radius: 28px;
+    border: 1px solid #b23665;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 8-bit_operatorregular;
+    font-size: 40px;
+    padding: 5px 17px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+}
     .logo1 
     {
       height: 100px;
@@ -1510,6 +1613,21 @@ footer {
       padding-top: 0px;
       font-size: 10px;
   }
+  .w3-col.s3 {
+    width: 0%!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+  }
+  .w3-section, .w3-code {
+    margin-top: 0px!important;
+    margin-bottom: 0px!important;
+    margin-left: 0px!important;
+  }
+
+  img.mySlides {
+    height: 231px!important;
+    width: 70%!important;
+}
   #font {
     margin-top: -13px;
     background: black;
@@ -1586,7 +1704,32 @@ footer {
       {
           font-size: 38px;
       }
-
+      .myButton1 {
+        background-color: #05ce78;
+        border-radius: 28px;
+        border: 1px solid #05ce78;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: 8-bit_operatorregular;
+        font-size: 40px;
+        padding: 5px 17px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #2f6627;
+    }
+    .myButton {
+      background-color: #b23665;
+      border-radius: 28px;
+      border: 1px solid #b23665;
+      display: inline-block;
+      cursor: pointer;
+      color: #ffffff;
+      font-family: 8-bit_operatorregular;
+      font-size: 40px;
+      padding: 5px 17px;
+      text-decoration: none;
+      text-shadow: 0px 1px 0px #2f6627;
+  }
       .main{
         height: 300px;
       }
@@ -1683,7 +1826,10 @@ p.screanshots {
           width: 470px;
       }
 
-
+      img.mySlides {
+        height: 231px!important;
+        width: 45%!important;
+    }
       header ul li a 
       {
           font-size: 45px;
@@ -1737,7 +1883,7 @@ p.screanshots {
         /* margin-bottom: 10px; */
       }
       #font {
-        margin-top: 1px;
+        margin-top: 0px;
         border-bottom: 1.5px solid gold;
         padding-top: 4px;
         border-top: 0px solid gold;
@@ -1767,6 +1913,24 @@ p.screanshots {
     {
       margin-left: -25px;
     }
+    .w3-col.s3 {
+      width: 355px!important;
+      margin-left: -221px!important;
+      margin-right: 0px!important;
+  }
+  .w3-section, .w3-code {
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+    margin-left: 540px!important;
+}
+ 
+    @media (min-width: 1400px)
+  {
+    #dem {
+      text-align: end;
+      padding-top: 20px;
+      padding-bottom: 30px;
+  }
   }
   @media (min-width: 1500px){
     header ul li a {

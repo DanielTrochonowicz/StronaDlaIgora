@@ -22,7 +22,37 @@
 	font-size: 24px;
 	padding-top: 40px;
 }
-
+.myButton1 {
+  background-color: #32a171;
+  border-radius: 28px;
+  border: 1px solid #05ce78;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 8-bit_operatorregular;
+  font-size: 20px;
+  padding: 2px 17px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
+.myButton {
+  background-color: #b23665;
+  border-radius: 28px;
+  border: 1px solid #b23665;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 8-bit_operatorregular;
+  font-size: 20px;
+  padding: 2px 17px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
+#dem {
+  text-align: center;
+  padding-top: 67px;
+  padding-bottom: 15px;
+}
 body
 {
   margin:0;
@@ -864,6 +894,32 @@ header {
           width: 312px;
       
       }
+      .myButton1 {
+        background-color: #05ce78;
+        border-radius: 28px;
+        border: 1px solid #05ce78;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: 8-bit_operatorregular;
+        font-size: 40px;
+        padding: 5px 17px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #2f6627;
+    }
+    .myButton {
+      background-color: #b23665;
+      border-radius: 28px;
+      border: 1px solid #b23665;
+      display: inline-block;
+      cursor: pointer;
+      color: #ffffff;
+      font-family: 8-bit_operatorregular;
+      font-size: 40px;
+      padding: 5px 17px;
+      text-decoration: none;
+      text-shadow: 0px 1px 0px #2f6627;
+  }
       #buttons {
         margin-left: 5px;
         width: auto;
@@ -954,7 +1010,32 @@ ul {
         height: auto;
         width: 313px;
       }
-
+      .myButton1 {
+        background-color: #05ce78;
+        border-radius: 28px;
+        border: 1px solid #05ce78;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: 8-bit_operatorregular;
+        font-size: 40px;
+        padding: 5px 17px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #2f6627;
+    }
+    .myButton {
+      background-color: #b23665;
+      border-radius: 28px;
+      border: 1px solid #b23665;
+      display: inline-block;
+      cursor: pointer;
+      color: #ffffff;
+      font-family: 8-bit_operatorregular;
+      font-size: 40px;
+      padding: 5px 17px;
+      text-decoration: none;
+      text-shadow: 0px 1px 0px #2f6627;
+  }
       .logo1 
       {
         height: 100px;
@@ -1097,7 +1178,11 @@ button#play
   float:left;
   margin-top: 15px;
 }
-
+#dem {
+  text-align: center;
+  padding-top: 36px;
+  padding-bottom: 15px;
+}
 button#pause
 {
 	width: 42px;
@@ -1238,7 +1323,11 @@ ul {
     .social 
     {
       padding-left: 0px;
-    }
+    }#dem {
+      text-align: center;
+      padding-top: 28px;
+      padding-bottom: 15px;
+  }
 
     .logo1 
     {
@@ -1365,7 +1454,38 @@ ul {
   #font {
     padding-top: 198px;
 }
+.myButton1 {
+  background-color: #05ce78;
+  border-radius: 28px;
+  border: 1px solid #05ce78;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 8-bit_operatorregular;
+  font-size: 40px;
+  padding: 5px 17px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
 
+.myButton {
+  background-color: #b23665;
+  border-radius: 28px;
+  border: 1px solid #b23665;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 8-bit_operatorregular;
+  font-size: 40px;
+  padding: 5px 17px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
+#dem {
+  text-align: center;
+  padding-top: 67px;
+  padding-bottom: 15px;
+}
     .socials 
     {
       font-size: 14px;
@@ -1453,7 +1573,38 @@ header {
       margin-right: 5px;
       margin-left: 30px;
     }
+    .myButton1 {
+      background-color: #05ce78;
+      border-radius: 28px;
+      border: 1px solid #05ce78;
+      display: inline-block;
+      cursor: pointer;
+      color: #ffffff;
+      font-family: 8-bit_operatorregular;
+      font-size: 40px;
+      padding: 10px 17px;
+      text-decoration: none;
+      text-shadow: 0px 1px 0px #2f6627;
+    }
     
+    .myButton {
+      background-color: #b23665;
+      border-radius: 28px;
+      border: 1px solid #b23665;
+      display: inline-block;
+      cursor: pointer;
+      color: #ffffff;
+      font-family: 8-bit_operatorregular;
+      font-size: 40px;
+      padding: 10px 17px;
+      text-decoration: none;
+      text-shadow: 0px 1px 0px #2f6627;
+    }
+    #dem {
+      text-align: center;
+      padding-top: 67px;
+      padding-bottom: 15px;
+    }
     .logo2 {
       height: 220px;
       width: 610px;
@@ -1555,7 +1706,7 @@ footer {
   position: fixed;
 }
 #container {
-  margin: 220px 30px;
+  margin: 42px 30px;
   height: auto;
   margin-left: auto;
   margin-right: auto;

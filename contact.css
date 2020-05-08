@@ -26,6 +26,39 @@
       font-size: 24px;
       padding-top: 40px;
   }
+
+  a.myButton2 {
+    background-color: #32a171;
+    border-radius: 28px;
+    border: 1px solid #05ce78;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 8-bit_operatorregular;
+    font-size: 20px;
+    padding: 2px 17px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+}
+a.myButton3 {
+  background-color: #b23665;
+  border-radius: 28px;
+  border: 1px solid #b23665;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 8-bit_operatorregular;
+  font-size: 20px;
+  padding: 2px 17px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
+section#dem {
+  text-align: center;
+  padding-top: 28px;
+  padding-bottom: 15px;
+  background-image: url(img/at.jpg);
+}
   body
   {
     background-color:black;
@@ -1051,6 +1084,32 @@ footer {
         font-size: 24px;
         padding-top: 40px;
     }
+    a.myButton2 {
+      background-color: #05ce78;
+      border-radius: 28px;
+      border: 1px solid #05ce78;
+      display: inline-block;
+      cursor: pointer;
+      color: #ffffff;
+      font-family: 8-bit_operatorregular;
+      font-size: 40px;
+      padding: 5px 17px;
+      text-decoration: none;
+      text-shadow: 0px 1px 0px #2f6627;
+  }
+  a.myButton3 {
+    background-color: #b23665;
+    border-radius: 28px;
+    border: 1px solid #b23665;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 8-bit_operatorregular;
+    font-size: 40px;
+    padding: 5px 17px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+}
     .about.igm {
       width: auto;
       text-align: justify;
@@ -1175,7 +1234,11 @@ footer {
           margin-right: 5px;
           margin-left: 30px;
         }
-        
+        section#dem {
+          text-align: center;
+          padding-top: 21px;
+          padding-bottom: 15px;
+      }
         .logo2 
         {
           height: 150px;
@@ -1539,9 +1602,40 @@ text-align: center;
     @media (min-width: 1024px)
     {
      header {
-    height: 280px;
+    height: 222px;
 }
-  
+section
+#dem {
+  text-align: center;
+  padding-top: 21px;
+  padding-bottom: 15px;
+}
+a.myButton2 {
+  background-color: #05ce78;
+  border-radius: 28px;
+  border: 1px solid #05ce78;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 8-bit_operatorregular;
+  font-size: 40px;
+  padding: 5px 17px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
+a.myButton3 {
+  background-color: #b23665;
+  border-radius: 28px;
+  border: 1px solid #b23665;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 8-bit_operatorregular;
+  font-size: 40px;
+  padding: 5px 17px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
       #container 
       {
         margin: 20px 30px;
@@ -1644,10 +1738,35 @@ img {
     {
       header 
       {
-        height: 380px;
+        height: 286px;
         padding: 5px 0;
       }
-  
+  a.myButton2 {
+    background-color: #05ce78;
+    border-radius: 28px;
+    border: 1px solid #05ce78;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 8-bit_operatorregular;
+    font-size: 40px;
+    padding: 10px 17px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+}
+a.myButton3 {
+  background-color: #b23665;
+  border-radius: 28px;
+  border: 1px solid #b23665;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 8-bit_operatorregular;
+  font-size: 40px;
+  padding: 10px 17px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
       #container 
       {
         margin: 20px 30px;
@@ -1770,19 +1889,24 @@ img {
     @media (min-width: 1600px)
     {
       header {
-        height: 384px;
+        height: 374px;
     }
     #font {
-      padding-top: 360px;
+      padding-top: 8px;
   }
   #font a {
     font-size: 40px;
+}
+section #dem {
+  text-align: center;
+  padding-top: 31px;
+  padding-bottom: 15px;
 }
     }
     @media (min-width: 1700px)
     {
       header {
-        height: 384px;
+        height: 378px;
     }
     #font {
       padding-top: 7px;
@@ -1800,8 +1924,13 @@ footer {
     @media (min-width: 1920px)
     {
       header {
-        height: 384px;
+        height: 378px;
     }
+    section #dem {
+      text-align: center;
+      padding-top: 23px;
+      padding-bottom: 15px;
+  }
     #font {
       padding-top: 15px;
   }

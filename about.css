@@ -195,6 +195,55 @@ header {
   {
       clear: both;
   }
+  #dem{
+    text-align: end;
+  }
+  
+  .myButton {
+    background-color: #b23665;
+    border-radius: 28px;
+    border: 1px solid #b23665;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 8-bit_operatorregular;
+    font-size: 20px;
+    padding: 2px 17px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+}
+  .myButton:hover {
+    background-color:#5d0e2d;
+   
+    color:#f1d45f;
+  }
+  .myButton1 {
+    background-color: #32a171;
+    border-radius: 28px;
+    border: 1px solid #05ce78;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 8-bit_operatorregular;
+    font-size: 20px;
+    padding: 2px 17px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+}
+  .myButton1:hover {
+    background-color:#1a724c;
+    color:#f1d45f;
+  }
+  #dem {
+    text-align: center;
+    padding-top: 67px;
+    padding-bottom: 15px;
+}
+  
+  .myButton:active {
+    position:relative;
+    top:1px;
+  } 
   
   #container
   {
@@ -895,7 +944,7 @@ header {
       margin-left: auto;
       margin-right: auto;
       font-size: 17px;
-      padding-top: 20px;
+      padding-top: 0px;
   }
   .gameplayh3 {
     text-align: center;
@@ -1059,6 +1108,32 @@ footer {
         {
           margin: 20px 280px;
         }
+        .myButton1 {
+          background-color: #05ce78;
+          border-radius: 28px;
+          border: 1px solid #05ce78;
+          display: inline-block;
+          cursor: pointer;
+          color: #ffffff;
+          font-family: 8-bit_operatorregular;
+          font-size: 40px;
+          padding: 5px 17px;
+          text-decoration: none;
+          text-shadow: 0px 1px 0px #2f6627;
+      }
+      .myButton {
+        background-color: #b23665;
+        border-radius: 28px;
+        border: 1px solid #b23665;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: 8-bit_operatorregular;
+        font-size: 40px;
+        padding: 5px 17px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #2f6627;
+    }
       }
   
       @media (min-width: 960px) 
@@ -1169,7 +1244,32 @@ footer {
         margin-left: 15%;
       margin-right: 15%;
     }
-    
+    .myButton1 {
+      background-color: #05ce78;
+      border-radius: 28px;
+      border: 1px solid #05ce78;
+      display: inline-block;
+      cursor: pointer;
+      color: #ffffff;
+      font-family: 8-bit_operatorregular;
+      font-size: 40px;
+      padding: 5px 17px;
+      text-decoration: none;
+      text-shadow: 0px 1px 0px #2f6627;
+  }
+  .myButton {
+    background-color: #b23665;
+    border-radius: 28px;
+    border: 1px solid #b23665;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 8-bit_operatorregular;
+    font-size: 40px;
+    padding: 5px 17px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+}
     .gameplay.igm 
     {
       font-size: 22px;
@@ -1551,7 +1651,32 @@ text-align: center;
         padding-right: 5px;
         padding-left: 0px;
       }
-  
+      .myButton1 {
+        background-color: #05ce78;
+        border-radius: 28px;
+        border: 1px solid #05ce78;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: 8-bit_operatorregular;
+        font-size: 40px;
+        padding: 5px 17px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #2f6627;
+    }
+    .myButton {
+      background-color: #b23665;
+      border-radius: 28px;
+      border: 1px solid #b23665;
+      display: inline-block;
+      cursor: pointer;
+      color: #ffffff;
+      font-family: 8-bit_operatorregular;
+      font-size: 40px;
+      padding: 5px 17px;
+      text-decoration: none;
+      text-shadow: 0px 1px 0px #2f6627;
+  }
       .social
       {
         padding-left: 5px;
@@ -1662,7 +1787,32 @@ img {
       padding-top: 232px;
   
     }
-  
+    .myButton1 {
+      background-color: #05ce78;
+      border-radius: 28px;
+      border: 1px solid #05ce78;
+      display: inline-block;
+      cursor: pointer;
+      color: #ffffff;
+      font-family: 8-bit_operatorregular;
+      font-size: 40px;
+      padding: 10px 17px;
+      text-decoration: none;
+      text-shadow: 0px 1px 0px #2f6627;
+  }
+  .myButton {
+    background-color: #b23665;
+    border-radius: 28px;
+    border: 1px solid #b23665;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 8-bit_operatorregular;
+    font-size: 40px;
+    padding: 10px 17px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+}
       .logo1 
       {
         height: 100px;
@@ -1777,6 +1927,35 @@ img {
         position: unset;
       }
     }
+    @media (min-width: 1400px){
+      .myButton1 {
+        background-color: #05ce78;
+        border-radius: 28px;
+        border: 1px solid #05ce78;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: 8-bit_operatorregular;
+        font-size: 40px;
+        padding: 9px 17px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #2f6627;
+    }
+    .myButton {
+      background-color: #b23665;
+      border-radius: 28px;
+      border: 1px solid #b23665;
+      display: inline-block;
+      cursor: pointer;
+      color: #ffffff;
+      font-family: 8-bit_operatorregular;
+      font-size: 40px;
+      padding: 9px 17px;
+      text-decoration: none;
+      text-shadow: 0px 1px 0px #2f6627;
+  }
+    }
+    
     @media (min-width: 1500px)
     {
       header {
@@ -1785,13 +1964,64 @@ img {
     #font {
       padding-top: 12px;
   }
+  .myButton1 {
+    background-color: #05ce78;
+    border-radius: 28px;
+    border: 1px solid #05ce78;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 8-bit_operatorregular;
+    font-size: 40px;
+    padding: 5px 17px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+}
+.myButton {
+  background-color: #b23665;
+  border-radius: 28px;
+  border: 1px solid #b23665;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 8-bit_operatorregular;
+  font-size: 40px;
+  padding: 5px 17px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
   .about.igm 
   {
     font-size: 22px;
     margin-left: 30%;
   margin-right: 30%;
 }
-
+.myButton1 {
+  background-color: #05ce78;
+  border-radius: 28px;
+  border: 1px solid #05ce78;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 8-bit_operatorregular;
+  font-size: 40px;
+  padding: 9px 17px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
+.myButton {
+background-color: #b23665;
+border-radius: 28px;
+border: 1px solid #b23665;
+display: inline-block;
+cursor: pointer;
+color: #ffffff;
+font-family: 8-bit_operatorregular;
+font-size: 40px;
+padding: 9px 17px;
+text-decoration: none;
+text-shadow: 0px 1px 0px #2f6627;
+}
 .gameplay.igm 
 {
   font-size: 22px;
