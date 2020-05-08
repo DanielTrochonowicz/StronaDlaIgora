@@ -25,6 +25,7 @@
   {
       font-size: 24px;
       padding-top: 40px;
+      border-bottom: 1.5px solid gold;
   }
   /* html body 
   {
@@ -35,7 +36,9 @@
   
   body
   {
-    background-color:black;
+    background-image: url(img/at.jpg);
+    /* background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ),url(img/at.jpg) no-repeat; */
+    /* background-color:black; */
     margin:0;
     padding:0;
     height:100%;
@@ -722,14 +725,17 @@ header {
           padding: 0px 0px
         }
   
-        #font 
-        {
-          padding-top: 60px;
-        }
-  
+        #font {
+          padding-top: 0px;
+          border-bottom: 1.5px solid gold;
+          background-color: black;
+      }
+  ul{
+    padding-top: 62px;
+  }
         .socials 
         {
-          font-size: 5px;
+          font-size: 7px;
           text-align: end;
           padding-right: 5px;
           padding-left: 0px;
@@ -938,7 +944,7 @@ footer {
           margin: 10px 75px;
         }
         .socials {
-          font-size: 6px;
+          font-size: 8px;
       }
       }
       
@@ -972,7 +978,7 @@ footer {
       padding-right: 30px;
   }
   .socials {
-    font-size: 7px;
+    font-size: 8px;
 }
       }
     
@@ -992,7 +998,11 @@ footer {
           width: 400px;
         }
         #font {
-          padding-top: 155px;
+          padding-top: 2px;
+      }
+      ul{
+        padding-top: 143px;
+
       }
       .abouth3 {
         font-size: 24px;
@@ -1031,7 +1041,7 @@ footer {
 }
         .socials
         {
-          font-size: 9px;
+          font-size: 12px;
         }
   
         header ul li a 
@@ -1067,7 +1077,7 @@ footer {
   
         .socials 
         {
-          font-size: 9px;
+          font-size: 13px;
         }
   
         header ul li a 
@@ -1079,7 +1089,9 @@ footer {
         {
           height: 245px;
         }
-  
+        ul {
+          padding-top: 197px;
+      }
         #container 
         {
           margin: 20px 20px;
@@ -1124,12 +1136,16 @@ footer {
           width: 450px;
         }
         #font {
-          padding-top: 210px;
+          padding-top: 4px;
+          
+      }
+      ul{
+        padding-top: 188px;
       }
   
         .socials 
         {
-          font-size: 12px;
+          font-size: 16px;
           padding-right: 5px;
           padding-left: 0px;
         }
@@ -1147,28 +1163,26 @@ footer {
           font-size: 24px;
           padding-top: 70px;
       }
-      .about.igm {
-        width: auto;
-        text-align: justify;
-        padding-left: 100px;
-        padding-right: 100px;
-        font-size: 20px;
+      .about.igm 
+      {
+        font-size: 22px;
+        margin-left: 15%;
+      margin-right: 15%;
     }
-    .gameplay.igm {
-      width: auto;
-      text-align: center;
-      font-size: 20px;
-      padding-left: 100px;
-      padding-right: 100px;
-      text-align: justify;
-  }
-  .story.igm {
-    width: auto;
-    text-align: justify;
-    font-size: 20px;
-    padding-left: 100px;
-    padding-right: 100px;
-}
+    
+    .gameplay.igm 
+    {
+      font-size: 22px;
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+
+    .story.igm 
+    {
+      font-size: 22px;
+      margin-left: 15%;
+      margin-right: 15%;
+    }
         
         footer 
         {
@@ -1193,7 +1207,8 @@ footer {
       {
         padding-top: 0px;
         padding-bottom: 0px;
-        font-size: 6px;
+        font-size: 10px;
+        padding-left: 50%;
         text-align: end;
         padding-right: 5px;
       }
@@ -1206,6 +1221,10 @@ footer {
       #font 
       {
         padding-top: 0px;
+        background-color: black;
+     }
+     ul{
+       padding-top: 106px;
      }
 
      #container 
@@ -1235,16 +1254,42 @@ footer {
       }
       .about.igm{
         width: auto;
-        text-align: center;
+        text-align: justify;
+        margin-left: 15%;
+      margin-right: 15%;
       }
       .gameplay.igm {
         width: auto;
-        text-align: center;
+        text-align: justify;
+        margin-left: 15%;
+      margin-right: 15%;
      }
      .story.igm {
       width: auto;
-      text-align: center;
+      text-align: justify;
+      margin-left: 15%;
+      margin-right: 15%;
   }
+  .story {
+    font-size: 14px;
+}
+.gameplay {
+  font-size: 14px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+}
+.about {
+  margin-right: 50px;
+  margin-left: 20px;
+  text-align: justify;
+  font-size: 14px;
+}
+.igmnow {
+  width: 30%;
+  height: auto;
+  padding-bottom: 30px;
+}
 
     .imgLast
     {
@@ -1254,7 +1299,8 @@ footer {
     margin-left: 44px;
 }
 .storyh3 {
-  margin-right: 64px;
+      margin-left: auto;
+    margin-right: auto;
 }
 .mainContact {
   height: 100%;
@@ -1283,12 +1329,24 @@ text-align: center;
       footer 
       {
         height: 20px;
-        font-size: 14px;
+        font-size: 13px;
         position: unset;
         padding-top: 0px;
       }
     }
   
+    @media (min-width: 768px){
+
+      #font {
+        padding-top: 2px;
+        border-bottom: 1.5px solid gold;
+        background-color: black;
+    }
+    ul{
+      padding-top: 104px;
+  
+    }
+    }
     @media (min-width: 768px)
     {
       .logo1 
@@ -1344,7 +1402,7 @@ text-align: center;
       {
         padding-top: 0px;
         padding-bottom: 0px;
-        font-size: 7px;
+        font-size: 11px;
         text-align: end;
         padding-right: 5px;
       }
@@ -1415,15 +1473,19 @@ text-align: center;
 
       .about.igm {
         height: auto;
-        width: 600px;
+        /* width: 600px; */
+        margin-left: 20%;
+      margin-right: 20%;
       }
       .gameplay.igm {
         height: auto;
-        width: 600px;
+        margin-left: 20%;
+      margin-right: 20%;
       }
       .story.igm {
         height: auto;
-        width: 600px;
+        margin-left: 20%;
+        margin-right: 20%;
      }
   
       #container 
@@ -1445,7 +1507,13 @@ text-align: center;
     }
 
     #font {
-      padding-top: 250px;
+      padding-top: 5px;
+      border-top: 3.5px solid gold;
+      background-color: black;
+  }
+  ul{
+    padding-top: 130px;
+
   }
   }
   
@@ -1479,7 +1547,7 @@ text-align: center;
   
       .socials 
       {
-        font-size: 9px;
+        font-size: 14px;
         padding-right: 5px;
         padding-left: 0px;
       }
@@ -1496,9 +1564,19 @@ text-align: center;
       }
       .about.igm {
         width: 150px 150px;
+        margin-left: 20%;
+        margin-right: 20%;
         text-align: justify;
     }
+    #font {
+      padding-top: 5px;
+      border-top: 0px solid gold;
+      background-color: black;
+  }
+  ul{
+    padding-top: 232px;
 
+  }
       .abouth3 {
         font-size: 36px;
         padding-top: 50px;
@@ -1518,7 +1596,8 @@ text-align: center;
 }
 .gameplay.igm {
   height: auto;
-  width: 600px;
+  margin-left: 20%;
+        margin-right: 20%;
   text-align: justify;
 }
 .storyh3 {
@@ -1529,9 +1608,11 @@ text-align: center;
 }
 .story.igm {
   height: auto;
-  width: 600px;
+  /* width: 600px; */
   text-align: justify;
   font-size: 22px;
+  margin-left: 20%;
+        margin-right: 20%;
 }
   .gameplay {
     margin-right: auto;
@@ -1541,6 +1622,11 @@ text-align: center;
 img {
   padding-bottom: 30px;
   margin: 0 15px;
+  
+}
+.igmnow {
+  width: 30%;
+  height: auto;
 }
       footer 
       {
@@ -1567,7 +1653,14 @@ img {
         
       }
       #font {
-        padding-top: 262px;
+        padding-top: 14px;
+        padding-bottom: 9px;
+        border-top: 1.5px solid gold;
+        background-color: black;
+    }
+    ul{
+      padding-top: 232px;
+  
     }
   
       .logo1 
@@ -1586,7 +1679,7 @@ img {
   
       .socials 
       {
-        font-size: 11px;
+        font-size: 15px;
         padding-right: 5px;
         padding-left: 0px;
       }
@@ -1639,16 +1732,22 @@ img {
       .about.igm 
         {
           font-size: 22px;
+          margin-left: 20%;
+        margin-right: 20%;
       }
       
       .gameplay.igm 
       {
         font-size: 22px;
+        margin-left: 20%;
+        margin-right: 20%;
       }
 
       .story.igm 
       {
         font-size: 22px;
+        margin-left: 20%;
+        margin-right: 20%;
       }
 
       .abouth3 {
@@ -1684,8 +1783,28 @@ img {
         height: 285px;
     }
     #font {
-      padding-top: 260px;
+      padding-top: 12px;
   }
+  .about.igm 
+  {
+    font-size: 22px;
+    margin-left: 30%;
+  margin-right: 30%;
+}
+
+.gameplay.igm 
+{
+  font-size: 22px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.story.igm 
+{
+  font-size: 22px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
   header ul li a {
     font-size: 40px;
 }
@@ -1695,9 +1814,35 @@ img {
       header {
         height: 384px;
     }
-    #font {
-      padding-top: 360px;
+    .socials {
+      font-size: 15px;
   }
+  #font {
+    padding-top: 12px;
+}
+ul {
+  padding-top: 323px;
+}
+  .about.igm 
+  {
+    font-size: 22px;
+    margin-left: 30%;
+  margin-right: 30%;
+}
+
+.gameplay.igm 
+{
+  font-size: 22px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.story.igm 
+{
+  font-size: 22px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
   header ul li a {
     font-size: 40px;
 }
@@ -1707,9 +1852,15 @@ img {
       header {
         height: 384px;
     }
-    #font {
-      padding-top: 360px;
+    .socials {
+      font-size: 15px;
   }
+  #font {
+    padding-top: 15px;
+}
+ul {
+  padding-top: 323px;
+}
   header ul li a {
     font-size: 40px;
 }
@@ -1720,8 +1871,14 @@ img {
         height: 384px;
     }
     #font {
-      padding-top: 360px;
+      padding-top: 15px;
   }
+  ul {
+    padding-top: 323px;
+  }
+  .socials {
+    font-size: 15px;
+}
   header ul li a {
     font-size: 40px;
 }

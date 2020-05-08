@@ -23,30 +23,26 @@
 	padding-top: 40px;
 }
 
-
-/* html body 
-{
-  margin:0;
-  padding:0;
-  height:100%;
-} */
-
 body
 {
-  /* background-color: black; */
   margin:0;
   padding:0;
   height:100%;
 	font-size: 28px;
 	line-height:1.2em;
-	color:#fff;
-  background-image: url(../img/mc.jpg);
+  color:#fff;
+  background-image: url(../img/at.jpg);
   background-size: 1400px 1600px;
 	background-position: top;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-
+a{
+  cursor: pointer;
+}
+a:hover{
+  color: #f1d45f;
+}
 header
 {
   width: 100%;
@@ -88,12 +84,6 @@ header ul li a:nth-child(even):hover
   color: rgb(131, 61, 61);
 }
 
-/* header p
-{
-    color: white;
-    font-size: 80px;
-    height: 200px;
-} */
 
 .clearfix
 {
@@ -102,10 +92,7 @@ header ul li a:nth-child(even):hover
 
 #container
 {
-  /* min-height:100%; */
-		/* position:relative; */
 	width: 330px;
-	/* min-height: 300px; */
 	background:rgba(41, 39, 39, 0.6);
 	overflow: auto;
   margin: 48px;
@@ -131,11 +118,6 @@ header ul li a:nth-child(even):hover
 {
 	text-align: center;
 }
-
-/* #audio-info .artist
-{
-	font-weight:bold;
-} */
 
 .cover
 {
@@ -166,7 +148,8 @@ input#volume::-webkit-slider-thumb
 
 #buttons
 {
-	width: 90%;
+  
+	width: 100%;
 	display: block;
   margin: -13px auto;
 	margin-left: 23px;
@@ -178,7 +161,7 @@ button#play
 {
 	width: 70px;
 	height: 70px;
-	background: url(../images/play.png) no-repeat;
+	background: url(../images/play1.png) no-repeat;
 	float:left;
 }
 
@@ -186,7 +169,7 @@ button#pause
 {
 	width: 70px;
 	height: 70px;
-	background: url(../images/pause.png) no-repeat;
+	background: url(../images/pause1.png) no-repeat;
 	float:left;
 }
 
@@ -194,7 +177,7 @@ button#stop
 {
 	width: 70px;
 	height: 70px;
-	background: url(../images/stop.png) no-repeat;
+	background: url(../images/stop1.png) no-repeat;
 	float:left;
 }
 
@@ -237,7 +220,6 @@ button#next
 
 #playlist li.active 
 {
-    /* font-weight: bold; */
 	padding: 3px;
 	background: #666;
 }
@@ -273,7 +255,7 @@ button#next
 
 .socials
 {
-  padding-left: 75%;
+  padding-left: 50%;
   padding-top: 30px;
   font-size: 14px;
   
@@ -312,7 +294,6 @@ button#next
 {
   width: 100%;
   background-image: url(../img/charlie.jpg);
-  /* background-color: black; */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -352,7 +333,6 @@ footer
 
 .about{
   margin-top: 20px;
-  /* background-image: url(../img/about.jpg); */
   background-size: cover;
   height: 80px;
   z-index: 1;
@@ -364,9 +344,6 @@ footer
 .about.igm{
   height: 80px;
   width: 600px;
-  /* background-size: contain;
-  
-  background-repeat: no-repeat; */
 }
 .abouth3{
   text-align: center;
@@ -374,10 +351,7 @@ footer
 
 .gameplay{
   margin-top: 20px;
-  /* background-image: url(../img/gameplay.jpg); */
   background-size: cover;
-  /* height: 250px;
-  width: 500px; */
   z-index: 1;
   margin-right: auto;
   margin-left: auto;
@@ -404,9 +378,10 @@ text-align: center;
 #progressBar {
   width: 77%;
 }
+
 }
 
-@media(min-width: 698px)
+@media(min-width: 700px)
 {
   .logo1 
   {
@@ -422,17 +397,6 @@ text-align: center;
     margin-right: 0px;
   }
 
-  /* .socials 
-  {
-    padding-top: 10px;
-    font-size: 7px;
-  }
-
-  .social
-  {
-    padding-left: 2px;
-  } */
-
   .socials
   {
     padding-left: 75%;
@@ -446,7 +410,6 @@ text-align: center;
     padding-left: 20px;
     left: 100%;
     text-decoration: none;
-    /* color: rgb(114, 107, 117); */
   }
 
   header ul li a 
@@ -480,6 +443,7 @@ text-align: center;
   button#prev 
   {
     width: 73px;
+    cursor: pointer;
     height: 70px;
     margin-top: 15px;
     background: url(../images/prev.png) no-repeat;
@@ -487,7 +451,8 @@ text-align: center;
 
   button#next 
   {
-    width: 131px;
+    width: 175px;
+    cursor: pointer;
     height: 70px;
     margin-top: 15px;
     background: url(../images/next.png) no-repeat;
@@ -498,12 +463,14 @@ text-align: center;
     background: url(../images/play1.png) no-repeat;
     width: 40px;
     margin-top: 15px;
+    cursor: pointer;
   }
 
   button#pause 
   {
     outline: 0;
     width: 40px;
+    cursor: pointer;
     margin-top: 15px;
     background: url(../images/pause1.png) no-repeat;
   }
@@ -512,6 +479,7 @@ text-align: center;
   {
     width: 40px;
     margin-top: 15px;
+    cursor: pointer;
     background: url(../images/stop1.png) no-repeat;
   }
 
@@ -639,7 +607,6 @@ header {
   .socials 
   {
     font-size: 9px;
-    /* padding-right: 170px; */
   }
 
   .social
@@ -669,14 +636,18 @@ header {
         padding: 0px 0px;
     }
 
-      #font 
-      {
-        padding-top: 55px;
-      }
+    #font {
+      padding-top: 0px;
+      border-bottom: 1.5px solid gold;
+      background-color: black;
+  }
+      ul {
+    padding-top: 62px;
+}
 
       .socials 
       {
-        font-size: 5px;
+        font-size: 7px;
         text-align: end;
         padding-right: 5px;
         padding-left: 0px;
@@ -742,7 +713,7 @@ header {
 
     #buttons
     {
-        margin-left: 11px;
+        margin-left: 0px;
     }
 
     button#play 
@@ -771,12 +742,12 @@ header {
 
     button#prev 
     {
-      width: 63px;
+      width: 71px;
       background: url(../images/prev.png) no-repeat;
     }
     button#next 
     {
-      width: 55px;
+      width: 73px;
       background: url(../images/next.png) no-repeat;
     }  
   
@@ -810,6 +781,9 @@ header {
       #container {
         margin: 60px 75px;
     }
+    .socials {
+      font-size: 8px;
+  }
     }
   
     @media (min-width: 410px)
@@ -818,7 +792,9 @@ header {
         margin: 60px 92px;
         margin-left: auto;
         margin-right: auto;
-    }  
+    }  .socials {
+      font-size: 8px;
+  }
     }
     @media (min-width: 530px)
     {
@@ -843,7 +819,7 @@ header {
       padding-left: 37px;
   }
   button#next {
-    width: 88px;
+    width: 112px;
 }
 #audio-image {
   margin-left: 45px;
@@ -867,7 +843,7 @@ header {
 
       .socials
       {
-        font-size: 9px;
+        font-size: 12px;
       }
 
       header ul li a 
@@ -889,11 +865,11 @@ header {
       
       }
       #buttons {
-        margin-left: 12px;
+        margin-left: 5px;
         width: auto;
     }
     button#next {
-      width: 110px;
+      width: 113px;
   }
   #audio-image {
     margin-left: 45px;
@@ -902,11 +878,15 @@ header {
   height: 189px;
 }
 #font {
-  padding-top: 155px;
+  padding-top: 2px;
 }
+ul {
+  padding-top: 143px;
+}
+
     }
 
-    @media (min-width: 960px) 
+    @media (min-width: 975px) 
     {
       .logo1 
       {
@@ -991,7 +971,7 @@ header {
 
       .socials 
       {
-        font-size: 12px;
+        font-size: 16px;
         padding-right: 5px;
         padding-left: 0px;
       }
@@ -1006,8 +986,11 @@ header {
         font-size: 40px;
       }
       #font {
-        padding-top: 210px;
+        padding-top: 4px;
     }
+    ul {
+      padding-top: 188px;
+  }
       
       footer 
       {
@@ -1033,22 +1016,24 @@ header {
     {
       padding-top: 0px;
       padding-bottom: 0px;
-      font-size: 6px;
+      font-size: 10px;
       text-align: end;
       padding-right: 5px;
     }
 
     .social 
     {
-      padding-left: 0px;
+      padding-left: 5px;
     }
 
     #font 
     {
-      padding-top: 0px;
+      padding-top: 150px;
    }
    #container {
-    margin: auto;
+      margin-bottom: 50px;
+      margin-top: 70px;
+  
 }
 
     .logo1 
@@ -1074,13 +1059,111 @@ header {
 
     footer 
     {
-      height: 20px;
-      font-size: 14px;
+      height: auto;
+      font-size: 12px;
       position: unset;
       padding-top: 0px;
     }
   }
 
+  footer 
+  {
+    height: auto;
+    font-size: 12px;
+    position: unset;
+    padding-top: 0px;
+  }
+  @media (min-width: 533px){
+   
+  header {
+    height: 176px;
+} 
+
+#buttons
+{
+	width: 100%;
+	display: block;
+  margin: -13px auto;
+	margin-left: 46px;
+	overflow: auto;
+}
+
+
+button#play
+{
+	width: 44px;
+	height: 70px;
+	background: url(../images/play1.png) no-repeat;
+  float:left;
+  margin-top: 15px;
+}
+
+button#pause
+{
+	width: 42px;
+	height: 70px;
+	background: url(../images/pause1.png) no-repeat;
+  float:left;
+  margin-top: 15px;
+}
+
+button#stop
+{
+	width: 34px;
+	height: 70px;
+	background: url(../images/stop1.png) no-repeat;
+  float:left;
+  margin-top: 15px;
+}
+
+button#prev
+{
+	width: 73px;
+	height: 70px;
+	background: url(../images/prev.png) no-repeat;
+	float: left;
+	margin-top: 15px;
+}
+
+button#next
+{
+	width: 165px;
+	height: 70px;
+	background: url(../images/next.png) no-repeat;
+	float: right;
+	margin-top: 15px;
+}
+#font {border-top: 1.5px solid gold;
+  border-bottom: 1.5px solid gold;
+  padding-top: 0px;
+  background-color: black;
+}
+ul {
+  padding-top: 106px;
+}
+
+  }
+  @media (min-width: 700px)
+  {
+    #container {
+      width: 439px;
+      
+  }
+  #buttons {
+    width: 100%;
+    display: block;
+    margin: -13px auto;
+    margin-left: -6px;
+    overflow: auto;
+}
+  .socials {
+    padding-left: 50%;
+}
+  .socials {
+    font-size: 10px;
+}
+
+  }
   @media (min-width: 768px)
   {
     .logo1 
@@ -1116,6 +1199,11 @@ header {
     #container 
     {
       margin: 20px 280px;
+        margin: 20px 280px;
+        width: 439px;
+        margin-left: auto;
+        margin-right: auto;
+    
     }
   }
 
@@ -1131,12 +1219,18 @@ header {
   }
   #duration {
     right: 8px;
+}#buttons {
+  width: 100%;
+  display: block;
+  margin: -13px auto;
+  margin-left: -6px;
+  overflow: auto;
 }
     .socials 
     {
       padding-top: 0px;
       padding-bottom: 0px;
-      font-size: 7px;
+      font-size: 11px;
       text-align: end;
       padding-right: 5px;
     }
@@ -1152,8 +1246,12 @@ header {
       width: 50px;
       margin-right: 5px;
         margin-left: 30px;
-    }
-
+    }header {
+      border-bottom: 0px solid gold;
+  }
+  button#next {
+    width: 169px;
+}
     .logo2 
     {
       height: 110px;
@@ -1203,7 +1301,10 @@ header {
       height: 245px;
   }
   #font {
-    padding-top: 222px;
+    padding-top: 2px;
+}
+ul {
+  padding-top: 203px;
 }
     #container 
     {
@@ -1267,11 +1368,18 @@ header {
 
     .socials 
     {
-      font-size: 8px;
+      font-size: 14px;
       padding-right: 5px;
       padding-left: 0px;
     }
-
+    ul {
+      padding-top: 171px;
+      border-bottom: 0px solid gold;
+  }
+  #font {
+    padding-top: 5px;
+    background-color: black;
+}
     .social
     {
       padding-left: 5px;
@@ -1292,14 +1400,26 @@ header {
       padding-top: 0px;
       position: unset;
     }
+    #buttons {
+      width: 100%;
+      display: block;
+      margin: -13px auto;
+      margin-left: -3px;
+      overflow: auto;
+  }
   }
 
   @media (min-width: 1200px){
     .main {
       height: 281px;
   }
-  #font {
-    padding-top: 250px;
+  ul {
+    padding-top: 235px;
+    
+}
+#font {
+  padding-top: 5px;
+  background-color: black;
 }
 #progressBar {
   width: 85%;
@@ -1315,7 +1435,6 @@ header {
   {
     header 
     {
-      /* height: auto; */
       padding: 5px 0;
     }
 
@@ -1349,7 +1468,7 @@ header {
 }
     .socials 
     {
-      font-size: 10px;
+      font-size: 15px;
       padding-right: 5px;
       padding-left: 0px;
     }
@@ -1375,7 +1494,13 @@ header {
     height: 288px;
 }
 #font {
-  padding-top: 262px;
+  padding-top: 14px;
+  padding-bottom: 9px;
+  border-top: 1.5px solid gold;
+  background-color: black;
+}
+ul {
+  padding-top: 232px;
 }
     footer 
     {
@@ -1384,27 +1509,14 @@ header {
       padding-top: 0px;
       position: unset;
     }
+    #buttons {
+      width: 100%;
+      display: block;
+      margin: -13px auto;
+      margin-left: -4px;
+      overflow: auto;
   }
-/*   
-  @media (min-width: 1550px){
-    header {
-      height: 384px;
   }
-  #font {
-    padding-top: 360px;
-}
-header ul li a {
-  font-size: 40px;
-}
-.main {
-  height: 384px;}
-
-#progressBar {
-  width: 88%;
-}
-#duration {
-  right: 4px;
-} */
   }
   @media (min-width: 1600px)
   {
@@ -1412,10 +1524,14 @@ header ul li a {
       height: 384px;
   }
   #font {
-    padding-top: 360px;
+    border-top: 1.5px solid gold;
+    padding-top: 12px;
 }
 header ul li a {
   font-size: 40px;
+}
+ul {
+  padding-top: 323px;
 }
 .main {
   height: 384px;
@@ -1427,11 +1543,24 @@ header ul li a {
       height: 384px;
   }
   #font {
-    padding-top: 360px;
+    padding-top: 15px;
+}
+ul {
+  padding-top: 323px;
 }
 header ul li a {
   font-size: 40px;
 }
+footer {
+  position: fixed;
+}
+#container {
+  margin: 220px 30px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .main {
   height: 384px;
 }
@@ -1442,7 +1571,7 @@ header ul li a {
       height: 384px;
   }
   #font {
-    padding-top: 360px;
+    padding-top: 15px;
 }
 header ul li a {
   font-size: 40px;
@@ -1451,6 +1580,4 @@ header ul li a {
   height: 384px;
 }
   }
-  
-
 }
