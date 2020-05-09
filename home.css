@@ -1709,6 +1709,7 @@ footer {
         border-radius: 28px;
         border: 1px solid #05ce78;
         display: inline-block;
+        margin-right: -3px;
         cursor: pointer;
         color: #ffffff;
         font-family: 8-bit_operatorregular;
@@ -1827,7 +1828,7 @@ p.screanshots {
       }
 
       img.mySlides {
-        height: 231px!important;
+        height: 300px!important;
         width: 45%!important;
     }
       header ul li a 
@@ -1872,6 +1873,7 @@ p.screanshots {
       {
           font-size: 15px;
           margin-top: 0px;
+          padding-top: 5px;
       }
       
       header ul li a {
@@ -1885,13 +1887,15 @@ p.screanshots {
       #font {
         margin-top: 0px;
         border-bottom: 1.5px solid gold;
-        padding-top: 4px;
+        padding-top: 10px;
+        padding-bottom: 4px;
         border-top: 0px solid gold;
     }
 
     img.imgcarusel 
     {
       margin-left: -25px;
+      margin-top: -130px;
     }
     p.screanshots {
       font-size: 35px;
@@ -1902,7 +1906,7 @@ p.screanshots {
 }
 
   div.carousel {
-    height: 1132px;
+    height: 1050px;
 }
     .carousel .carousel-item h2 
     {
@@ -1927,7 +1931,7 @@ p.screanshots {
     @media (min-width: 1400px)
   {
     #dem {
-      text-align: end;
+      text-align: center;
       padding-top: 20px;
       padding-bottom: 30px;
   }
@@ -1971,7 +1975,7 @@ p.screanshots {
   @media (min-width: 1600px)
   {
     .main{
-      height: 379px;
+      height: 375px;
     }
 
     .wideo {

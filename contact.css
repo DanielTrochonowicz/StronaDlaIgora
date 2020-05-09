@@ -84,7 +84,7 @@ section#dem {
 }
 img#dis {
   height: 150px;
-  width: 250px;
+  width: 320px;
 
 }
 header p
@@ -1650,8 +1650,8 @@ a.myButton3 {
         margin-left: 30px;
       }
       img#dis {
-        height: 190px;
-        width: 470px;
+        height: 170px;
+        width: 590px;
     }
       .logo2 
       {
@@ -1889,7 +1889,7 @@ img {
     @media (min-width: 1600px)
     {
       header {
-        height: 374px;
+        height: 375px;
     }
     #font {
       padding-top: 8px;
@@ -1924,15 +1924,16 @@ footer {
     @media (min-width: 1920px)
     {
       header {
-        height: 378px;
+        height: 375px;
     }
     section #dem {
       text-align: center;
-      padding-top: 23px;
+      padding-top: 21px;
       padding-bottom: 15px;
   }
     #font {
       padding-top: 15px;
+      padding-bottom: 8px;
   }
   #font a {
     font-size: 40px;
