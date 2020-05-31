@@ -233,7 +233,8 @@ button#next
 {
 	text-align: justify;
     list-style-type: none;
-	padding: 10px;
+  padding: 10px;
+  margin-top: 20px;
 }
 
 #playlist li 

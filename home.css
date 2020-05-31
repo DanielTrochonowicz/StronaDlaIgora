@@ -24,7 +24,7 @@
     margin-top: 0px;
 }
 #dem{
-  text-align: end;
+  text-align: center;
 }
 
 .myButton {
@@ -1635,7 +1635,7 @@ footer {
     border-top: 1.5px solid gold;
 }
 #dem {
-  text-align: end;
+  text-align: center;
   padding-top: 10px;
   padding-bottom: 30px;
 }
